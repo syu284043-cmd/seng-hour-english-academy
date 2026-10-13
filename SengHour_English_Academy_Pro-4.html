@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101a35">
+<title>Seng Hour English Academy</title>
+<style>
+:root{--bg:#f4f7ff;--navy:#101a35;--blue:#4263eb;--sky:#eaf0ff;--text:#1c2541;--muted:#68738d;--white:#fff;--green:#18a874;--border:#e5eaf5;--shadow:0 12px 35px #233b7510}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Noto Sans Khmer",sans-serif}button,input{font:inherit}button{cursor:pointer}.app{max-width:1120px;margin:auto;padding:18px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:22px}.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px}.logo{width:43px;height:43px;display:grid;place-items:center;background:var(--blue);color:white;border-radius:14px;font-size:22px}.pill{border:1px solid var(--border);background:white;border-radius:999px;padding:9px 13px;color:var(--text)}.hero{background:linear-gradient(120deg,#142044,#304fc5);color:white;border-radius:25px;padding:28px;position:relative;overflow:hidden;box-shadow:var(--shadow)}.hero:after{content:"A B C";position:absolute;right:18px;bottom:-12px;font-weight:900;font-size:76px;letter-spacing:-7px;color:#ffffff12}.eyebrow{font-size:12px;letter-spacing:1.4px;color:#c8d5ff;font-weight:800}.hero h1{font-size:clamp(27px,5vw,43px);line-height:1.25;margin:12px 0}.hero p{color:#e0e7ff;max-width:580px;line-height:1.8;margin-bottom:20px}.primary,.secondary{border:0;border-radius:12px;padding:12px 16px;font-weight:750}.primary{background:#fff;color:#253eac}.secondary{background:var(--blue);color:white}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:17px 0 26px}.stat,.panel,.lesson{background:white;border:1px solid var(--border);border-radius:18px;padding:16px;box-shadow:var(--shadow)}.stat .num{font-size:25px;font-weight:850}.stat .label{font-size:12px;color:var(--muted);margin-top:3px}.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:10px;margin:26px 0 13px}.sectionhead h2{font-size:21px;margin:0}.sectionhead p{font-size:13px;color:var(--muted);margin:5px 0 0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.lesson{display:flex;gap:13px;align-items:flex-start}.lesson-icon{width:47px;height:47px;border-radius:15px;background:var(--sky);display:grid;place-items:center;font-size:24px;flex-shrink:0}.lesson h3{font-size:16px;margin:1px 0 5px}.lesson p{font-size:12px;color:var(--muted);margin:0 0 12px;line-height:1.6}.lesson button{padding:8px 11px;border:0;border-radius:9px;background:var(--sky);color:#2948c4;font-weight:750;font-size:13px}.progress-wrap{height:8px;background:#e9edf7;border-radius:20px;overflow:hidden;margin-top:9px}.progress-bar{height:100%;width:0;background:var(--green);transition:width .25s}.tabs{display:flex;gap:8px;overflow:auto;padding:3px 0 9px}.tab{white-space:nowrap;border:1px solid var(--border);background:white;border-radius:999px;padding:9px 14px;color:var(--muted)}.tab.active{background:var(--blue);color:white;border-color:var(--blue)}.view{display:none}.view.active{display:block}.lesson-view,.quiz-view{background:white;border:1px solid var(--border);border-radius:22px;padding:22px;box-shadow:var(--shadow)}.back{background:transparent;border:0;color:var(--blue);font-weight:750;padding:0;margin-bottom:15px}.lesson-view h2,.quiz-view h2{margin:0 0 8px}.muted{color:var(--muted);line-height:1.7}.wordcard{background:#f4f7ff;border-radius:16px;padding:20px;margin:18px 0;text-align:center}.wordcard .big{font-size:38px;font-weight:850;color:var(--blue)}.wordcard .pron{color:var(--muted)}.wordcard .meaning{font-size:20px;font-weight:750;margin-top:7px}.example{padding:13px;border-left:4px solid var(--blue);background:#f7f9ff;border-radius:8px;margin:10px 0}.actionrow{display:flex;flex-wrap:wrap;gap:9px;margin-top:17px}.choice{display:block;width:100%;text-align:left;border:1px solid var(--border);background:#fff;border-radius:12px;padding:13px;margin:9px 0;color:var(--text)}.choice:hover,.choice.selected{border-color:var(--blue);background:var(--sky)}.choice.correct{border-color:var(--green);background:#e9fbf3}.choice.wrong{border-color:#e05252;background:#fff0f0}.feedback{padding:12px;border-radius:11px;margin:12px 0;font-weight:700}.feedback.good{background:#e8fbf2;color:#08764d}.feedback.bad{background:#fff0f0;color:#b83232}.hidden{display:none!important}.field{width:100%;border:1px solid var(--border);padding:12px;border-radius:12px;background:white;margin:8px 0 13px}.foot{text-align:center;color:var(--muted);font-size:12px;padding:30px 8px}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--navy);color:white;padding:12px 18px;border-radius:12px;box-shadow:var(--shadow);z-index:5;max-width:90%;text-align:center}.small{font-size:12px;color:var(--muted)}@media(max-width:620px){.app{padding:13px}.hero{padding:22px}.hero:after{font-size:55px}.stats{gap:8px}.stat{padding:12px}.stat .num{font-size:21px}.grid{grid-template-columns:1fr}.lesson-view,.quiz-view{padding:17px}.brand{font-size:16px}.topbar .pill{font-size:12px;padding:8px 10px}} 
+
+/* Pro upgrade: responsive cards, motion, and optional dark theme */
+:root{color-scheme:light}body,button,.panel,.stat,.lesson,.tab,.field{transition:background-color .22s,color .22s,border-color .22s}button{transition:transform .15s,box-shadow .15s}button:active{transform:scale(.98)}.hero,.panel,.stat,.lesson{animation:proRise .38s ease both}@keyframes proRise{from{opacity:.65;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}.pro-hero{margin-top:8px}.pro-xp{display:flex;align-items:center;gap:10px;margin-top:16px;font-size:16px}.pro-xp strong{font-size:25px}.badge-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.pro-badge{background:var(--white);border:1px solid var(--border);border-radius:15px;padding:14px;box-shadow:var(--shadow);min-width:0}.pro-badge .badge-icon{font-size:27px}.pro-badge strong{display:block;margin:5px 0}.pro-badge small{color:var(--muted);line-height:1.5}.pro-badge.locked{opacity:.55;filter:grayscale(.7)}.game-panel h2{font-size:clamp(26px,5vw,38px);margin:10px 0 18px}.game-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.game-choice{padding:13px;border:1px solid var(--border);border-radius:12px;background:var(--bg);color:var(--text);font-weight:700;text-align:left}.game-choice:disabled{cursor:default}.game-choice.good{background:#e5fbf1;border-color:#18a874;color:#086b49}.game-choice.bad{background:#fff0f0;border-color:#e05252;color:#a52323}.dark-mode{--bg:#0c1222;--navy:#060a14;--sky:#1a2850;--text:#edf1ff;--muted:#aab5d1;--white:#131c31;--border:#2a3652;--shadow:0 12px 35px #00000025;color-scheme:dark}.dark-mode .pill,.dark-mode .tab,.dark-mode .field,.dark-mode .choice,.dark-mode .game-choice{background:#131c31;color:var(--text);border-color:var(--border)}.dark-mode .example,.dark-mode .wordcard{background:#17223b;color:var(--text)}.dark-mode .feedback.good,.dark-mode .game-choice.good{background:#103b30;color:#b8ffe1}.dark-mode .feedback.bad,.dark-mode .game-choice.bad{background:#431f2b;color:#ffd4d4}.dark-mode .hero{color:white}.dark-mode .hero p{color:#e0e7ff}
+@media(max-width:620px){.badge-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.game-choices{grid-template-columns:1fr}.pro-badge{padding:11px}.pro-hero h1{font-size:27px}}
+
+</style>
+</head>
+<body>
+<div class="app">
+<header class="topbar">
+  <div class="brand"><div class="logo">📘</div><div>Seng Hour English Academy<div class="small">រៀនអង់គ្លេសជារៀងរាល់ថ្ងៃ</div></div></div>
+  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end"><button class="pill" id="themeBtn" type="button" onclick="toggleProTheme()">🌙 Dark Mode</button><button class="pill" id="resetBtn">↻ ចាប់ផ្ដើមថ្មី</button></div>
+</header>
+
+<section class="hero">
+  <div class="eyebrow">YOUR ENGLISH JOURNEY</div>
+  <h1>រៀនអង់គ្លេស<br>មួយថ្ងៃបន្តិចៗ ✨</h1>
+  <p>រៀនពាក្យថ្មីៗ ហាត់វេយ្យាករណ៍ និងសាកល្បងចំណេះដឹងរបស់អ្នក។ ចាប់ផ្ដើមពីមូលដ្ឋាន ហើយរីកចម្រើនរៀងរាល់ថ្ងៃ!</p>
+  <button class="primary" onclick="showView('lessons')">ចាប់ផ្ដើមរៀន →</button>
+</section>
+
+<section class="stats">
+  <div class="stat"><div class="num" id="completedCount">0</div><div class="label">មេរៀនបានបញ្ចប់</div></div>
+  <div class="stat"><div class="num" id="bestScore">0%</div><div class="label">ពិន្ទុល្អបំផុត</div></div>
+  <div class="stat"><div class="num" id="wordCount">0</div><div class="label">ពាក្យដែលបានរៀន</div></div>
+</section>
+
+<nav class="tabs">
+  <button class="tab active" data-view="home">🏠 ទំព័រដើម</button>
+  <button class="tab" data-view="lessons">📚 មេរៀន</button>
+  <button class="tab" data-view="grammar">🧩 វេយ្យាករណ៍</button>
+  <button class="tab" data-view="quiz">🧠 សំណួរ</button>
+  <button class="tab" data-view="words">🔤 ពាក្យថ្មី</button>
+  <button class="tab" data-view="collections">🗂️ បណ្ណាល័យពាក្យ</button>
+  <button class="tab" data-view="sentences">💬 ប្រយោគប្រចាំថ្ងៃ</button>
+  <button class="tab" data-view="reading">📖 អត្ថបទអានវែងៗ</button>
+  <button class="tab" data-view="progress">📈 វឌ្ឍនភាព</button>
+  <button class="tab" data-view="learninghub">🎯 ផែនការរៀន ៦ មុខងារ</button>
+  <button class="tab" data-view="prolab">🚀 Pro Lab</button>
+</nav>
+
+<main>
+<section class="view active" id="home">
+  <div class="panel" id="quickBackupPanel" style="margin-bottom:18px;border:1px solid var(--border, #dbe4f0);background:linear-gradient(135deg,rgba(79,70,229,.08),rgba(14,165,233,.08))">
+    <h3 style="margin-top:0">💾 ការពារវឌ្ឍនភាពរបស់អ្នក</h3>
+    <p class="muted">ទាញយកឯកសារ Backup ឬស្ដារវឌ្ឍនភាពពីឯកសារ Backup ដែលបានរក្សាទុកពីមុន។</p>
+    <div class="actionrow">
+      <button class="secondary" type="button" onclick="exportAcademyBackup()">⬇️ ទាញយក Backup</button>
+      <button class="pill" type="button" onclick="document.getElementById('backupFile').click()">📥 ស្ដារ Backup</button>
+      <button class="secondary" type="button" onclick="showView('prolab')">🚀 មើល Pro Lab</button>
+    </div>
+  </div>
+  <div class="sectionhead"><div><h2>ផ្លូវរៀនរបស់អ្នក</h2><p>ជ្រើសរើសមេរៀនដែលអ្នកចង់រៀនថ្ងៃនេះ</p></div></div>
+  <div class="grid" id="homeLessons"></div>
+  <div class="sectionhead"><div><h2>💡 ពាក្យប្រចាំថ្ងៃ</h2><p>ពាក្យតូចមួយ អាចជួយការសន្ទនាបានច្រើន</p></div></div>
+  <div class="panel" id="dailyWord"></div>
+  <div class="sectionhead"><div><h2>🎙️ សំឡេងគ្រូអង់គ្លេស</h2><p>ជ្រើសសំឡេង American English ដែលមានក្នុង Android របស់អ្នក</p></div></div>
+  <div class="panel" id="voiceSettings">
+    <label for="voiceSelect"><b>សំឡេង English (United States)</b></label>
+    <select class="field" id="voiceSelect" aria-label="ជ្រើសសំឡេងអង់គ្លេស"><option value="">កំពុងរកសំឡេង...</option></select>
+    <div class="small" id="voiceStatus">ប្រើសំឡេងដែលមានក្នុងទូរស័ព្ទ ឬ browser។</div>
+    <div class="actionrow"><button class="secondary" onclick="testEnglishVoice()">▶ សាកស្ដាប់សំឡេង</button><button class="pill" onclick="refreshEnglishVoices()">↻ រកសំឡេងម្ដងទៀត</button></div>
+  </div>
+</section>
+
+<section class="view" id="lessons">
+  <div class="sectionhead"><div><h2>📚 បណ្ណាល័យមេរៀន</h2><p>មេរៀនខ្លីៗ សម្រាប់អ្នកចាប់ផ្ដើម</p></div></div>
+  <div class="grid" id="allLessons"></div>
+</section>
+
+<section class="view" id="grammar">
+  <div class="sectionhead"><div><h2>🧩 Grammar Academy · មេរៀនវេយ្យាករណ៍</h2><p>រៀនពីមូលដ្ឋាន ជាមួយការពន្យល់ជាភាសាខ្មែរ និងឧទាហរណ៍</p></div></div>
+  <div class="panel">
+    <label for="grammarSearch"><b>ស្វែងរកមេរៀន</b></label>
+    <input class="field" id="grammarSearch" placeholder="ឧ. Verb, Present Simple, សំណួរ..." aria-label="ស្វែងរកមេរៀនវេយ្យាករណ៍">
+    <div class="small">ជ្រើសរើសមេរៀនមួយ ដើម្បីអានការពន្យល់ និងឧទាហរណ៍។</div>
+  </div>
+  <div class="grid" id="grammarList" style="margin-top:14px"></div>
+  <div id="grammarDetail" class="lesson-view hidden" style="margin-top:18px">
+    <button class="back" onclick="closeGrammarLesson()">← ត្រឡប់ទៅបញ្ជីមេរៀន</button>
+    <div class="eyebrow" style="color:#4263eb">GRAMMAR LESSON</div>
+    <h2 id="grammarTitle"></h2>
+    <p id="grammarIntro" class="muted"></p>
+    <div id="grammarContent"></div>
+    <div class="actionrow"><button class="secondary" id="grammarSpeak">🔊 ស្ដាប់ឧទាហរណ៍</button><button class="pill" id="grammarDone">✓ បានរៀនហើយ</button></div>
+  </div>
+  <div class="sectionhead"><div><h2>🎯 ហាត់សំណួរវេយ្យាករណ៍</h2><p>ឆ្លើយសំណួរ រួចពិនិត្យចម្លើយភ្លាមៗ</p></div></div>
+  <div class="quiz-view" id="grammarQuizBox"></div>
+</section>
+
+<section class="view" id="lessonDetail">
+  <div class="lesson-view">
+    <button class="back" onclick="showView('lessons')">← ត្រឡប់ទៅមេរៀន</button>
+    <div class="eyebrow" id="detailTag" style="color:#4263eb">LESSON</div>
+    <h2 id="detailTitle"></h2>
+    <p class="muted" id="detailIntro"></p>
+    <div id="detailContent"></div>
+    <div class="actionrow"><button class="secondary" id="completeLesson">✓ សម្គាល់ថាបានរៀន</button><button class="pill" onclick="speakCurrent()">🔊 ស្ដាប់ការបញ្ចេញសំឡេង</button></div>
+  </div>
+</section>
+
+<section class="view" id="quiz">
+  <div class="sectionhead"><div><h2>🧠 សាកល្បងចំណេះដឹង</h2><p>ជ្រើសរើសចម្លើយត្រឹមត្រូវ</p></div></div>
+  <div class="quiz-view" id="quizBox"></div>
+</section>
+
+<section class="view" id="words">
+  <div class="sectionhead"><div><h2>🔤 ពាក្យអង់គ្លេស</h2><p>ពាក្យអង់គ្លេសជាច្រើនប្រភេទ · ចុចប៊ូតុងសំឡេងដើម្បីហាត់ស្ដាប់</p></div></div>
+  <p class="muted">បណ្ណាល័យបច្ចុប្បន្នមាន <b id="dictionaryCount">0</b> ពាក្យ/ឃ្លា។</p><input class="field" id="wordSearch" placeholder="ស្វែងរកពាក្យ ឬអត្ថន័យខ្មែរ ឧ. hello / សួស្តី..." aria-label="ស្វែងរកពាក្យ">
+  <div class="grid" id="wordList"></div>
+</section>
+
+
+
+<section class="view" id="collections">
+  <div class="sectionhead"><div><h2>🗂️ បណ្ណាល័យពាក្យតាមប្រភេទ</h2><p>ជ្រើសប្រភេទ ស្វែងរកពាក្យ ហាត់ស្ដាប់ និងរៀនតាមទំព័រ</p></div></div>
+  <div class="grid" id="collectionCards">
+    <article class="lesson"><div class="lesson-icon">🥦</div><div style="flex:1"><h3>បន្លែ និងផ្លែឈើ</h3><p>200 មុខ</p><button onclick="openCollection('produce')">បើកបណ្ណាល័យ →</button></div></article>
+    <article class="lesson"><div class="lesson-icon">🐟</div><div style="flex:1"><h3>ត្រី និងសាច់</h3><p>100 មុខ</p><button onclick="openCollection('protein')">បើកបណ្ណាល័យ →</button></div></article>
+    <article class="lesson"><div class="lesson-icon">🧰</div><div style="flex:1"><h3>វត្ថុ និងរបស់ប្រើប្រាស់</h3><p>2,500 ពាក្យ/ឃ្លា</p><button onclick="openCollection('objects')">បើកបណ្ណាល័យ →</button></div></article>
+    <article class="lesson"><div class="lesson-icon">📚</div><div style="flex:1"><h3>បណ្ណាល័យពាក្យទូទៅ</h3><p>2,500 ពាក្យ/ឃ្លា</p><button onclick="openCollection('library')">បើកបណ្ណាល័យ →</button></div></article>
+  </div>
+  <div id="collectionBrowser" class="panel hidden" style="margin-top:16px">
+    <button class="back" onclick="closeCollection()">← ត្រឡប់ទៅប្រភេទពាក្យ</button>
+    <h2 id="collectionTitle"></h2><p id="collectionDescription" class="muted"></p>
+    <input class="field" id="collectionSearch" placeholder="ស្វែងរកពាក្យអង់គ្លេស ឬអត្ថន័យខ្មែរ..." aria-label="ស្វែងរកក្នុងបណ្ណាល័យ">
+    <div class="small" id="collectionCount"></div><div class="grid" id="collectionList" style="margin-top:12px"></div>
+    <div class="actionrow" style="justify-content:center"><button class="pill" id="collectionPrev">← មុន</button><span class="pill" id="collectionPage">ទំព័រ 1</span><button class="pill" id="collectionNext">បន្ទាប់ →</button></div>
+  </div>
+</section>
+
+<section class="view" id="sentences">
+  <div class="sectionhead"><div><h2>💬 ប្រយោគអង់គ្លេសប្រចាំថ្ងៃ</h2><p>បណ្ណាល័យប្រយោគ 10,000 សម្រាប់អាន ស្វែងរក និងហាត់ស្តាប់</p></div></div>
+  <div class="panel">
+    <div style="font-size:25px;font-weight:850;color:var(--blue)" id="sentenceCount">10,000 ប្រយោគ</div>
+    <p class="muted">ប្រយោគត្រូវបានបង្កើតពីឃ្លាគោល និងពាក្យបន្ថែមតាមស្ថានការណ៍ ដើម្បីឱ្យអ្នកហាត់អានរៀងរាល់ថ្ងៃ។ សូមពិនិត្យអត្ថន័យតាមបរិបទផងដែរ។</p>
+    <input class="field" id="sentenceSearch" placeholder="ស្វែងរកប្រយោគអង់គ្លេស ឬអត្ថន័យខ្មែរ..." aria-label="ស្វែងរកប្រយោគ">
+    <div class="actionrow" style="margin-top:0">
+      <button class="secondary" onclick="showDailySentence()">🌟 ប្រយោគថ្ងៃនេះ</button>
+      <button class="pill" onclick="randomSentence()">🎲 ចៃដន្យ</button>
+    </div>
+    <div id="dailySentenceCard" class="example" style="margin-top:15px">ចុច “ប្រយោគថ្ងៃនេះ” ដើម្បីចាប់ផ្ដើម។</div>
+  </div>
+  <div class="sectionhead"><div><h2>បណ្ណាល័យប្រយោគ</h2><p id="sentenceResultsLabel">បង្ហាញ 20 ប្រយោគក្នុងមួយទំព័រ</p></div></div>
+  <div id="sentenceList" class="grid"></div>
+  <div class="actionrow" style="justify-content:center">
+    <button class="pill" id="sentencePrev">← មុន</button>
+    <span class="pill" id="sentencePageLabel">ទំព័រ 1</span>
+    <button class="pill" id="sentenceNext">បន្ទាប់ →</button>
+  </div>
+</section>
+
+
+<section class="view" id="reading">
+  <div class="sectionhead"><div><h2>📖 English Reading Room · បន្ទប់អានអត្ថបទ</h2><p>ជ្រើសរើសប្រធានបទ អានអង់គ្លេស ហើយចុចស្ដាប់ដើម្បីអានតាម។</p></div></div>
+  <div class="panel">
+    <label for="readingCategory"><b>ជ្រើសប្រភេទអត្ថបទ</b></label>
+    <select class="field" id="readingCategory" onchange="renderReadingList()">
+      <option value="all">អត្ថបទទាំងអស់</option><option value="travel">🧳 ទៅដើរលេង</option><option value="school">🏫 ទៅសាលា</option><option value="family">👨‍👩‍👧‍👦 ដើរលេងជាមួយគ្រួសារ</option><option value="myself">🙋 ពណ៌នាអំពីខ្លួនឯង</option><option value="chant">🎤 អត្ថបទចង្វាក់អានតាម</option>
+    </select>
+    <p class="small">គន្លឹះ៖ អានមួយប្រយោគម្ដងៗ។ បើមិនទាន់ចេះ សូមស្ដាប់សំឡេង រួចនិយាយតាមយឺតៗ។</p>
+  </div>
+  <div id="readingList" class="grid" style="margin-top:14px"></div>
+  <div id="readingDetail" class="lesson-view hidden" style="margin-top:16px">
+    <button class="back" onclick="closeReadingArticle()">← ត្រឡប់ទៅបញ្ជីអត្ថបទ</button>
+    <div class="eyebrow" style="color:#4263eb">ENGLISH READING PRACTICE</div>
+    <h2 id="readingTitle"></h2><p id="readingLevel" class="muted"></p>
+    <div class="actionrow"><button class="secondary" onclick="speakReadingArticle()">🔊 ស្ដាប់អត្ថបទទាំងមូល</button><button class="pill" onclick="stopReadingSpeech()">⏹ បញ្ឈប់</button><button class="pill" onclick="speakReadingArticle(true)">🐢 អានយឺតៗ</button></div>
+    <div id="readingEnglish" style="font-size:17px;line-height:2;margin-top:18px"></div>
+    <div class="sectionhead"><div><h3>🇰🇭 អត្ថន័យជាភាសាខ្មែរ</h3><p>អានអត្ថន័យដើម្បីជួយយល់អត្ថបទ</p></div></div>
+    <div id="readingKhmer" class="muted" style="line-height:2"></div>
+    <div class="actionrow"><button class="secondary" onclick="markReadingDone()">✓ ខ្ញុំបានអានហើយ (+10 XP)</button></div>
+    <div id="readingDoneMsg" class="small" style="margin-top:10px"></div>
+  </div>
+</section>
+
+
+<section class="view" id="learninghub">
+  <div class="hero pro-hero"><div class="eyebrow">SENG HOUR · DAILY ENGLISH PLAN</div><h1>🎯 រៀនអង់គ្លេស ៦ ជំហាន</h1><p>ហាត់រាល់ថ្ងៃបន្តិចៗ៖ និយាយ ស្តាប់ អាន ចាំពាក្យ បង្កើតប្រយោគ និងបំពេញបេសកកម្មប្រចាំថ្ងៃ។</p></div>
+  <div class="grid" style="margin-top:16px">
+    <article class="lesson"><div class="lesson-icon">🎤</div><div><h3>១. Speaking Coach</h3><p>ស្តាប់ប្រយោគ រួចនិយាយតាមឱ្យច្បាស់។</p><select class="field" id="hubSpeak" style="margin:0 0 8px"><option>Hello, how are you today?</option><option>My name is Seng Hour.</option><option>I am learning English every day.</option><option>Could you please help me?</option><option>Thank you very much.</option></select><button onclick="hubSpeakNow()">🔊 ស្តាប់ប្រយោគ</button></div></article>
+    <article class="lesson"><div class="lesson-icon">🎧</div><div><h3>២. Listening Lab</h3><p>ស្តាប់សន្ទនាខ្លីៗ រួចឆ្លើយសំណួរ។</p><div class="example" id="hubListenText">A: Good morning! How are you? B: I am fine, thank you.</div><button onclick="hubListenNow()">▶ ស្តាប់សន្ទនា</button><button style="margin-left:5px" onclick="document.getElementById('hubListenQuestion').classList.toggle('hidden')">❓ សំណួរ</button><p id="hubListenQuestion" class="hidden">What does “How are you?” mean? — «អ្នកសុខសប្បាយទេ?»</p></div></article>
+    <article class="lesson"><div class="lesson-icon">📖</div><div><h3>៣. Reading Stories</h3><p>អានអត្ថបទវែងៗអំពីដើរលេង សាលា គ្រួសារ និងខ្លួនឯង។</p><button onclick="showView('reading')">បើកបន្ទប់អាន →</button></div></article>
+    <article class="lesson"><div class="lesson-icon">🧠</div><div><h3>៤. Smart Vocabulary</h3><p>រៀនពាក្យថ្មី និងលេង Quiz ដើម្បីពិនិត្យការចងចាំ។</p><button onclick="showView('words')">រៀនពាក្យថ្មី →</button><button style="margin-left:5px" onclick="showView('prolab')">លេង Quiz →</button></div></article>
+    <article class="lesson"><div class="lesson-icon">🧩</div><div><h3>៥. Sentence Builder</h3><p>ហាត់អាន និងប្រើប្រយោគប្រចាំថ្ងៃ រួចបង្កើតប្រយោគដោយខ្លួនឯង។</p><button onclick="showView('sentences')">បើកប្រយោគ →</button><button style="margin-left:5px" onclick="showView('grammar')">រៀនវេយ្យាករណ៍ →</button></div></article>
+    <article class="lesson"><div class="lesson-icon">📅</div><div><h3>៦. Daily Mission</h3><p>ធីកកិច្ចការដែលបានហាត់រួច។ វឌ្ឍនភាពរក្សាទុកក្នុង browser នេះ។</p><div id="hubMissionList" class="example"><label><input type="checkbox" data-mission="words" onchange="saveHubMissions()"> រៀនពាក្យថ្មី ៥ ពាក្យ</label><br><label><input type="checkbox" data-mission="listen" onchange="saveHubMissions()"> ស្តាប់អង់គ្លេស ៥ នាទី</label><br><label><input type="checkbox" data-mission="read" onchange="saveHubMissions()"> អានអត្ថបទមួយផ្នែក</label><br><label><input type="checkbox" data-mission="speak" onchange="saveHubMissions()"> និយាយតាម ៥ ប្រយោគ</label></div><p id="hubMissionStatus" class="small">បំពេញបេសកកម្មថ្ងៃនេះ!</p><button onclick="resetHubMissions()">↻ ចាប់ផ្ដើមថ្ងៃថ្មី</button></div></article>
+  </div>
+  <p class="small muted" style="margin-top:14px">គន្លឹះ៖ ហាត់ ២០–៣០ នាទីក្នុងមួយថ្ងៃ។ មុខងារសំឡេងអាស្រ័យលើ Browser និងសំឡេងភាសាអង់គ្លេសក្នុងទូរស័ព្ទ។</p>
+</section>
+
+<section class="view" id="progress">
+  <div class="sectionhead"><div><h2>📈 វឌ្ឍនភាពរបស់អ្នក</h2><p>ទិន្នន័យរក្សាទុកនៅក្នុង browser របស់ឧបករណ៍នេះ</p></div></div>
+  <div class="panel">
+    <h3>មេរៀនបានបញ្ចប់</h3><div id="progressText">0 ក្នុង 6 មេរៀន</div><div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div>
+    <h3 style="margin-top:24px">ពិន្ទុសំណួរ</h3><div id="scoreHistory" class="muted">មិនទាន់មានពិន្ទុទេ។ សាកល្បងសំណួរមើល!</div>
+    <div class="actionrow"><button class="secondary" onclick="showView('quiz')">ទៅសំណួរ →</button></div>
+  </div>
+</section>
+<section class="view" id="prolab">
+  <div class="hero pro-hero"><div class="eyebrow">SENG HOUR · PRO LAB</div><h1>រៀន លេង ហើយឡើង Level 🚀</h1><p>មុខងារថ្មីឥតគិតថ្លៃ៖ XP, Level, badges, ហ្គេមពាក្យ និងហាត់និយាយ។ វឌ្ឍនភាព Pro រក្សាទុកក្នុង browser របស់អ្នក។</p><div class="pro-xp"><span>⭐ XP</span><strong id="proXP">0</strong><span>· Level <strong id="proLevel">1</strong></span></div><div class="progress-wrap"><div class="progress-bar" id="proXPBar" style="width:0%"></div></div></div>
+  <div class="sectionhead"><div><h2>🤖 គ្រូជំនួយអង់គ្លេស</h2><p>សួរអំពីពាក្យ ឃ្លា និងវេយ្យាករណ៍ — មុខងារនេះដំណើរការក្នុងឯកសារនេះ ដោយមិនចាំបាច់អ៊ីនធឺណិត</p></div></div>
+  <div class="panel">
+    <div id="tutorChat" class="example" style="min-height:76px">សួស្តី! 👋 ខ្ញុំជាគ្រូជំនួយរបស់អ្នក។ សាកសួរ “Hello មានន័យអ្វី?” ឬ “How are you?”</div>
+    <div class="actionrow"><input class="field" id="tutorQuestion" placeholder="សរសេរសំណួររបស់អ្នក..." aria-label="សំណួរទៅគ្រូជំនួយ" style="flex:1;min-width:180px;margin:0"><button type="button" onclick="askLocalTutor()">សួរ ➤</button></div>
+    <div class="actionrow" style="margin-top:8px"><button class="secondary" onclick="tutorQuick('Hello មានន័យអ្វី?')">Hello មានន័យអ្វី?</button><button class="secondary" onclick="tutorQuick('បង្រៀនប្រយោគ I am...')">រៀន I am...</button><button class="secondary" onclick="tutorQuick('របៀបសួរសុខទុក្ខ')">សួរសុខទុក្ខ</button></div>
+    <p class="small muted">ចំណាំ៖ នេះជាគ្រូជំនួយសាមញ្ញក្នុងគេហទំព័រ មិនមែន AI តភ្ជាប់អ៊ីនធឺណិតទេ។</p>
+  </div>
+  <div class="sectionhead"><div><h2>🧩 ហ្គេមរៀបអក្សរ</h2><p>រៀបអក្សរឱ្យក្លាយជាពាក្យអង់គ្លេសត្រឹមត្រូវ</p></div></div>
+  <div class="panel game-panel"><div class="small" id="scrambleRound">ពាក្យ 1 / 5</div><h2 id="scrambleLetters">KOOB</h2><p class="muted" id="scrambleHint">ជំនួយ៖ សៀវភៅ</p><div class="actionrow"><input class="field" id="scrambleAnswer" placeholder="វាយពាក្យអង់គ្លេស..." style="flex:1;min-width:150px;margin:0"><button onclick="checkScramble()">ពិនិត្យ</button><button class="secondary" onclick="nextScramble()">បន្ទាប់ →</button></div><div id="scrambleFeedback" class="example" style="margin-top:12px">សរសេរពាក្យ រួចចុច “ពិនិត្យ”។</div></div>
+  <div class="sectionhead"><div><h2>💾 ការរក្សាទុកដោយស្វ័យប្រវត្តិ</h2><p>ពិន្ទុ និងវឌ្ឍនភាពត្រូវបានរក្សាទុកក្នុង browser នៅលើឧបករណ៍នេះ</p></div></div>
+  <div class="panel"><p id="autosaveStatus">✅ ការរក្សាទុកដោយស្វ័យប្រវត្តិបានបើក។</p><p class="small muted">វាមិនផ្ទេរទិន្នន័យទៅទូរស័ព្ទផ្សេងទេ។ ចុច Backup ដើម្បីទាញយកច្បាប់ចម្លងសុវត្ថិភាព។</p><div class="actionrow"><button class="secondary" onclick="showView('prolab');exportAcademyBackup()">⬇️ រក្សាទុក Backup ឥឡូវនេះ</button></div></div>
+  <div class="sectionhead"><div><h2>🏅 សមិទ្ធផលរបស់អ្នក</h2><p>បំពេញសកម្មភាព ដើម្បីដោះសោស្លាកសញ្ញា</p></div></div><div id="proBadges" class="badge-grid"></div>
+  <div class="sectionhead"><div><h2>🎮 ហ្គេមពាក្យ</h2><p>ជ្រើសរើសអត្ថន័យខ្មែរដែលត្រូវនឹងពាក្យអង់គ្លេស</p></div></div>
+  <div class="panel game-panel"><div class="small" id="gameRound">សំណួរ 1 / 5</div><h2 id="gameWord">Apple</h2><div id="gameChoices" class="game-choices"></div><div id="gameFeedback" aria-live="polite"></div><div class="actionrow"><button class="secondary" onclick="nextProGame()" id="gameNext">បន្ទាប់ →</button><button class="pill" onclick="restartProGame()">↻ ចាប់ផ្ដើមហ្គេមម្ដងទៀត</button></div></div>
+  <div class="sectionhead"><div><h2>🎙️ ហាត់និយាយជាមួយខ្លួនឯង</h2><p>ស្ដាប់ឃ្លា រួចនិយាយតាម។ ការទទួលស្គាល់សំឡេងអាស្រ័យលើ browser និងការអនុញ្ញាតមីក្រូហ្វូន។</p></div></div>
+  <div class="panel"><label for="speakPrompt"><b>ជ្រើសរើសឃ្លាសម្រាប់ហាត់</b></label><select class="field" id="speakPrompt"><option value="Hello, how are you today?">Hello, how are you today?</option><option value="My name is Seng Hour.">My name is Seng Hour.</option><option value="I am learning English every day.">I am learning English every day.</option><option value="Could you please help me?">Could you please help me?</option><option value="Thank you very much.">Thank you very much.</option></select><div class="actionrow"><button class="secondary" onclick="speak(document.getElementById('speakPrompt').value)">🔊 ស្ដាប់ឃ្លា</button><button class="pill" onclick="startSpeakingPractice()">🎤 ចាប់ផ្ដើមនិយាយ</button><button class="pill" onclick="stopSpeakingPractice()">⏹ បញ្ឈប់</button></div><div id="speechResult" class="example" aria-live="polite">ចុច “ចាប់ផ្ដើមនិយាយ” ហើយអនុញ្ញាត microphone ប្រសិនបើ browser សួរ។</div></div>
+  <div class="sectionhead"><div><h2>🔥 ការបន្តរៀន</h2><p>រក្សាការហាត់រៀនជាប្រចាំ</p></div></div><div class="panel"><div class="grid"><div><div class="small">ថ្ងៃហាត់ជាប់គ្នា</div><h2>🔥 <span id="proStreak">0</span> ថ្ងៃ</h2></div><div><div class="small">សកម្មភាព Pro</div><h2>✨ <span id="proActions">0</span></h2></div></div><p class="muted">XP និង streak នេះជាកំណត់ត្រាក្នុងឧបករណ៍បច្ចុប្បន្ន។ បើលុប browser data វាអាចបាត់។</p></div>
+  <div class="sectionhead"><div><h2>💾 ការពារទិន្នន័យ</h2><p>រក្សាច្បាប់ចម្លងវឌ្ឍនភាព ដើម្បីយកមកវិញពេលចាំបាច់</p></div></div>
+  <div class="panel">
+    <p class="muted">ចុច “ទាញយក Backup” ដើម្បីរក្សាពិន្ទុ Quiz, មេរៀនដែលបានរៀន, XP, Level និងសមិទ្ធផលជាឯកសារ JSON។ រក្សាឯកសារនេះនៅកន្លែងសុវត្ថិភាព។</p>
+    <div class="actionrow"><button class="secondary" type="button" onclick="exportAcademyBackup()">⬇️ ទាញយក Backup</button><button class="pill" type="button" onclick="document.getElementById('backupFile').click()">📥 ស្ដារ Backup</button><input id="backupFile" type="file" accept=".json,application/json" class="hidden" onchange="importAcademyBackup(event)"></div>
+    <p class="small">ចំណាំ៖ Backup នេះមិនមែនជា Cloud Sync ទេ។ ការស្ដារឯកសារនឹងជំនួសទិន្នន័យដែលមានក្នុង browser នេះ។</p>
+  </div>
+</section>
+</main>
+<footer class="foot">Seng Hour English Academy · បង្កើតសម្រាប់ការរៀនផ្ទាល់ខ្លួន<br>មុខងាររក្សាទុកដំណើរការនៅលើ browser របស់អ្នក</footer>
+</div>
+<div id="toast" class="toast hidden" role="status"></div>
+
+<script>
+const lessons = [
+ {id:'alphabet',icon:'🔠',title:'អក្សរ A–Z',level:'មូលដ្ឋាន',desc:'ស្គាល់អក្សរធំ និងអក្សរតូច',intro:'អក្សរអង់គ្លេសមាន 26 តួ។ អក្សរមានទម្រង់ធំ (uppercase) និងតូច (lowercase)។',content:`<div class="wordcard"><div class="big">A a · B b · C c</div><div class="meaning">អេ · ប៊ី · ស៊ី</div></div><div class="example"><b>Uppercase:</b> A B C D E ...</div><div class="example"><b>Lowercase:</b> a b c d e ...</div><p class="muted">ហាត់អានតាម៖ A, B, C, D, E, F, G។</p>`},
+ {id:'vowels',icon:'🅰️',title:'ស្រៈអង់គ្លេស',level:'មូលដ្ឋាន',desc:'A, E, I, O, U និងឧទាហរណ៍',intro:'ស្រៈសំខាន់ៗមាន 5 តួ៖ A, E, I, O, U។ អក្សរ Y ក៏អាចដើរតួជាស្រៈនៅក្នុងពាក្យខ្លះៗ។',content:`<div class="wordcard"><div class="big">A E I O U</div><div class="meaning">ស្រៈអង់គ្លេស</div></div><div class="example"><b>A</b> — apple (ផ្លែប៉ោម)</div><div class="example"><b>E</b> — egg (ស៊ុត)</div><div class="example"><b>I</b> — ink (ទឹកខ្មៅ)</div><div class="example"><b>O</b> — orange (ក្រូច)</div><div class="example"><b>U</b> — umbrella (ឆ័ត្រ)</div>`},
+ {id:'greetings',icon:'👋',title:'ការសួរសុខទុក្ខ',level:'និយាយ',desc:'Hello, Good morning, How are you?',intro:'ការសួរសុខទុក្ខជួយឱ្យអ្នកចាប់ផ្ដើមការសន្ទនាបានយ៉ាងងាយ។',content:`<div class="example"><b>Hello!</b> — សួស្តី!</div><div class="example"><b>Good morning.</b> — អរុណសួស្តី។</div><div class="example"><b>How are you?</b> — អ្នកសុខសប្បាយទេ?</div><div class="example"><b>I am fine, thank you.</b> — ខ្ញុំសុខសប្បាយទេ អរគុណ។</div><div class="example"><b>Nice to meet you.</b> — រីករាយដែលបានជួបអ្នក។</div>`},
+ {id:'pronouns',icon:'👥',title:'សព្វនាម',level:'វេយ្យាករណ៍',desc:'I, You, He, She, It, We, They',intro:'សព្វនាមប្រើជំនួសឈ្មោះមនុស្ស ឬវត្ថុ។',content:`<div class="example"><b>I</b> — ខ្ញុំ</div><div class="example"><b>You</b> — អ្នក</div><div class="example"><b>He</b> — គាត់ (ប្រុស)</div><div class="example"><b>She</b> — គាត់ (ស្រី)</div><div class="example"><b>It</b> — វា</div><div class="example"><b>We</b> — ពួកយើង</div><div class="example"><b>They</b> — ពួកគេ</div>`},
+ {id:'tobe',icon:'🧩',title:'កិរិយាសព្ទ To Be',level:'វេយ្យាករណ៍',desc:'am, is, are ក្នុងប្រយោគ',intro:'ប្រើ am ជាមួយ I, is ជាមួយ he/she/it និង are ជាមួយ you/we/they។',content:`<div class="example"><b>I am</b> a student. — ខ្ញុំជាសិស្ស។</div><div class="example"><b>He is</b> happy. — គាត់សប្បាយចិត្ត។</div><div class="example"><b>She is</b> my friend. — នាងជាមិត្តរបស់ខ្ញុំ។</div><div class="example"><b>You are</b> kind. — អ្នកមានចិត្តល្អ។</div><div class="example"><b>They are</b> ready. — ពួកគេរួចរាល់ហើយ។</div>`},
+ {id:'sentences',icon:'✍️',title:'បង្កើតប្រយោគ',level:'វេយ្យាករណ៍',desc:'Subject + Verb + Object',intro:'ប្រយោគសាមញ្ញមួយអាចមាន ប្រធាន + កិរិយាសព្ទ + កម្មបទ។',content:`<div class="wordcard"><div class="big" style="font-size:20px">Subject + Verb + Object</div><div class="meaning">ប្រធាន + កិរិយាសព្ទ + កម្មបទ</div></div><div class="example"><b>I like music.</b> — ខ្ញុំចូលចិត្តតន្ត្រី។</div><div class="example"><b>We play games.</b> — ពួកយើងលេងហ្គេម។</div><div class="example"><b>She reads a book.</b> — នាងអានសៀវភៅមួយក្បាល។</div><p class="muted">ចំណាំ៖ ជាមួយ he/she/it ក្នុង Present Simple ជាទូទៅកិរិយាសព្ទបន្ថែម -s ឬ -es។</p>`}
+];
+const words = [
+ ['Hello','សួស្តី','heh-LOH'],
+ ['Thank you','អរគុណ','THANK yoo'],
+ ['Please','សូម','pleez'],
+ ['Sorry','សុំទោស','SOR-ee'],
+ ['Friend','មិត្តភក្តិ','frend'],
+ ['Book','សៀវភៅ','book'],
+ ['Water','ទឹក','WAW-ter'],
+ ['School','សាលារៀន','skool'],
+ ['Happy','សប្បាយចិត្ត','HAP-ee'],
+ ['Learn','រៀន','lern'],
+ ['Beautiful','ស្អាត','BYOO-ti-ful'],
+ ['Family','គ្រួសារ','FAM-uh-lee'],
+ ['Apple','ផ្លែប៉ោម','AP-ul'],
+ ['House','ផ្ទះ','hows'],
+ ['Today','ថ្ងៃនេះ','tuh-DAY'],
+ ['Good morning','អរុណសួស្តី','Good morning'],
+ ['Good afternoon','ទិវាសួស្តី','Good afternoon'],
+ ['Good evening','សាយណ្ហសួស្តី','Good evening'],
+ ['Good night','រាត្រីសួស្តី','Good night'],
+ ['Goodbye','លាហើយ','Goodbye'],
+ ['Welcome','សូមស្វាគមន៍','Welcome'],
+ ['Yes','បាទ/ចាស','Yes'],
+ ['No','ទេ','No'],
+ ['Maybe','ប្រហែលជា','Maybe'],
+ ['Okay','យល់ព្រម','Okay'],
+ ['Excuse me','សុំអភ័យទោស','Excuse me'],
+ ['You\'re welcome','មិនអីទេ','You\'re welcome'],
+ ['How','យ៉ាងដូចម្តេច','How'],
+ ['What','អ្វី','What'],
+ ['Where','នៅឯណា','Where'],
+ ['When','ពេលណា','When'],
+ ['Who','នរណា','Who'],
+ ['Why','ហេតុអ្វី','Why'],
+ ['Which','មួយណា','Which'],
+ ['Because','ពីព្រោះ','Because'],
+ ['I','ខ្ញុំ','I'],
+ ['You','អ្នក','You'],
+ ['He','គាត់ (ប្រុស)','He'],
+ ['She','គាត់ (ស្រី)','She'],
+ ['We','ពួកយើង','We'],
+ ['They','ពួកគេ','They'],
+ ['It','វា','It'],
+ ['My','របស់ខ្ញុំ','My'],
+ ['Your','របស់អ្នក','Your'],
+ ['Our','របស់ពួកយើង','Our'],
+ ['Name','ឈ្មោះ','Name'],
+ ['Age','អាយុ','Age'],
+ ['Country','ប្រទេស','Country'],
+ ['Language','ភាសា','Language'],
+ ['English','ភាសាអង់គ្លេស','English'],
+ ['Khmer','ភាសាខ្មែរ','Khmer'],
+ ['Teacher','គ្រូ','Teacher'],
+ ['Student','សិស្ស','Student'],
+ ['Class','ថ្នាក់','Class'],
+ ['Lesson','មេរៀន','Lesson'],
+ ['Question','សំណួរ','Question'],
+ ['Answer','ចម្លើយ','Answer'],
+ ['Study','សិក្សា','Study'],
+ ['Read','អាន','Read'],
+ ['Write','សរសេរ','Write'],
+ ['Speak','និយាយ','Speak'],
+ ['Listen','ស្ដាប់','Listen'],
+ ['Understand','យល់','Understand'],
+ ['Repeat','និយាយម្ដងទៀត','Repeat'],
+ ['Spell','ប្រកបពាក្យ','Spell'],
+ ['Meaning','អត្ថន័យ','Meaning'],
+ ['Word','ពាក្យ','Word'],
+ ['Sentence','ប្រយោគ','Sentence'],
+ ['Grammar','វេយ្យាករណ៍','Grammar'],
+ ['Pronunciation','ការបញ្ចេញសំឡេង','Pronunciation'],
+ ['Dictionary','វចនានុក្រម','Dictionary'],
+ ['Notebook','សៀវភៅកត់ត្រា','Notebook'],
+ ['Pencil','ខ្មៅដៃ','Pencil'],
+ ['Pen','ប៊ិច','Pen'],
+ ['Paper','ក្រដាស','Paper'],
+ ['Desk','តុសរសេរ','Desk'],
+ ['Chair','កៅអី','Chair'],
+ ['Computer','កុំព្យូទ័រ','Computer'],
+ ['Phone','ទូរស័ព្ទ','Phone'],
+ ['Tablet','ថេប្លេត','Tablet'],
+ ['Internet','អ៊ីនធឺណិត','Internet'],
+ ['Website','វេបសាយ','Website'],
+ ['Keyboard','ក្ដារចុច','Keyboard'],
+ ['Screen','អេក្រង់','Screen'],
+ ['Time','ពេលវេលា','Time'],
+ ['Day','ថ្ងៃ','Day'],
+ ['Week','សប្ដាហ៍','Week'],
+ ['Month','ខែ','Month'],
+ ['Year','ឆ្នាំ','Year'],
+ ['Tomorrow','ថ្ងៃស្អែក','Tomorrow'],
+ ['Yesterday','ម្សិលមិញ','Yesterday'],
+ ['Morning','ពេលព្រឹក','Morning'],
+ ['Afternoon','ពេលរសៀល','Afternoon'],
+ ['Evening','ពេលល្ងាច','Evening'],
+ ['Night','ពេលយប់','Night'],
+ ['Monday','ថ្ងៃចន្ទ','Monday'],
+ ['Tuesday','ថ្ងៃអង្គារ','Tuesday'],
+ ['Wednesday','ថ្ងៃពុធ','Wednesday'],
+ ['Thursday','ថ្ងៃព្រហស្បតិ៍','Thursday'],
+ ['Friday','ថ្ងៃសុក្រ','Friday'],
+ ['Saturday','ថ្ងៃសៅរ៍','Saturday'],
+ ['Sunday','ថ្ងៃអាទិត្យ','Sunday'],
+ ['Now','ឥឡូវនេះ','Now'],
+ ['Later','ពេលក្រោយ','Later'],
+ ['Early','ពីព្រលឹម','Early'],
+ ['Late','យឺត','Late'],
+ ['Always','ជានិច្ច','Always'],
+ ['Sometimes','ពេលខ្លះ','Sometimes'],
+ ['Never','មិនដែល','Never'],
+ ['Often','ញឹកញាប់','Often'],
+ ['First','ដំបូង','First'],
+ ['Last','ចុងក្រោយ','Last'],
+ ['Next','បន្ទាប់','Next'],
+ ['One','មួយ','One'],
+ ['Two','ពីរ','Two'],
+ ['Three','បី','Three'],
+ ['Four','បួន','Four'],
+ ['Five','ប្រាំ','Five'],
+ ['Six','ប្រាំមួយ','Six'],
+ ['Seven','ប្រាំពីរ','Seven'],
+ ['Eight','ប្រាំបី','Eight'],
+ ['Nine','ប្រាំបួន','Nine'],
+ ['Ten','ដប់','Ten'],
+ ['Twenty','ម្ភៃ','Twenty'],
+ ['Thirty','សាមសិប','Thirty'],
+ ['Hundred','មួយរយ','Hundred'],
+ ['Thousand','មួយពាន់','Thousand'],
+ ['Million','មួយលាន','Million'],
+ ['Big','ធំ','Big'],
+ ['Small','តូច','Small'],
+ ['Long','វែង','Long'],
+ ['Short','ខ្លី','Short'],
+ ['Tall','ខ្ពស់','Tall'],
+ ['Low','ទាប','Low'],
+ ['High','ខ្ពស់','High'],
+ ['New','ថ្មី','New'],
+ ['Old','ចាស់','Old'],
+ ['Young','ក្មេង','Young'],
+ ['Good','ល្អ','Good'],
+ ['Bad','អាក្រក់','Bad'],
+ ['Easy','ងាយស្រួល','Easy'],
+ ['Difficult','ពិបាក','Difficult'],
+ ['Important','សំខាន់','Important'],
+ ['Pretty','ស្អាត','Pretty'],
+ ['Handsome','សង្ហា','Handsome'],
+ ['Sad','សោកសៅ','Sad'],
+ ['Angry','ខឹង','Angry'],
+ ['Tired','ហត់នឿយ','Tired'],
+ ['Hungry','ឃ្លាន','Hungry'],
+ ['Thirsty','ស្រេកទឹក','Thirsty'],
+ ['Sleepy','ងងុយគេង','Sleepy'],
+ ['Busy','រវល់','Busy'],
+ ['Free','ឥតគិតថ្លៃ / ទំនេរ','Free'],
+ ['Ready','រួចរាល់','Ready'],
+ ['Right','ត្រឹមត្រូវ / ខាងស្ដាំ','Right'],
+ ['Wrong','ខុស','Wrong'],
+ ['Hot','ក្តៅ','Hot'],
+ ['Cold','ត្រជាក់','Cold'],
+ ['Warm','កក់ក្ដៅ','Warm'],
+ ['Cool','ត្រជាក់ស្រួល','Cool'],
+ ['Fast','លឿន','Fast'],
+ ['Slow','យឺត','Slow'],
+ ['Strong','ខ្លាំង','Strong'],
+ ['Weak','ខ្សោយ','Weak'],
+ ['Clean','ស្អាត','Clean'],
+ ['Dirty','កខ្វក់','Dirty'],
+ ['Open','បើក','Open'],
+ ['Close','បិទ','Close'],
+ ['Full','ពេញ','Full'],
+ ['Empty','ទទេ','Empty'],
+ ['Light','ពន្លឺ / ស្រាល','Light'],
+ ['Dark','ងងឹត','Dark'],
+ ['Quiet','ស្ងាត់','Quiet'],
+ ['Loud','ឮខ្លាំង','Loud'],
+ ['Kind','មានចិត្តល្អ','Kind'],
+ ['Friendly','រួសរាយរាក់ទាក់','Friendly'],
+ ['Honest','ស្មោះត្រង់','Honest'],
+ ['Careful','ប្រុងប្រយ័ត្ន','Careful'],
+ ['Safe','មានសុវត្ថិភាព','Safe'],
+ ['Dangerous','គ្រោះថ្នាក់','Dangerous'],
+ ['Different','ខុសគ្នា','Different'],
+ ['Same','ដូចគ្នា','Same'],
+ ['Possible','អាចទៅរួច','Possible'],
+ ['Sure','ប្រាកដ','Sure'],
+ ['Interesting','គួរឱ្យចាប់អារម្មណ៍','Interesting'],
+ ['Favorite','ដែលចូលចិត្តជាងគេ','Favorite'],
+ ['Father','ឪពុក','Father'],
+ ['Mother','ម្ដាយ','Mother'],
+ ['Parent','ឪពុកម្ដាយ','Parent'],
+ ['Brother','បងប្រុស / ប្អូនប្រុស','Brother'],
+ ['Sister','បងស្រី / ប្អូនស្រី','Sister'],
+ ['Son','កូនប្រុស','Son'],
+ ['Daughter','កូនស្រី','Daughter'],
+ ['Child','កុមារ','Child'],
+ ['Children','កុមារទាំងឡាយ','Children'],
+ ['Baby','ទារក','Baby'],
+ ['Grandfather','ជីតា','Grandfather'],
+ ['Grandmother','ជីដូន','Grandmother'],
+ ['Uncle','ពូ / មា','Uncle'],
+ ['Aunt','មីង / មា','Aunt'],
+ ['Cousin','បងប្អូនជីដូនមួយ','Cousin'],
+ ['Husband','ស្វាមី','Husband'],
+ ['Wife','ភរិយា','Wife'],
+ ['People','មនុស្ស','People'],
+ ['Person','មនុស្សម្នាក់','Person'],
+ ['Man','បុរស','Man'],
+ ['Woman','ស្ត្រី','Woman'],
+ ['Boy','ក្មេងប្រុស','Boy'],
+ ['Girl','ក្មេងស្រី','Girl'],
+ ['Neighbor','អ្នកជិតខាង','Neighbor'],
+ ['Doctor','វេជ្ជបណ្ឌិត','Doctor'],
+ ['Nurse','គិលានុបដ្ឋាយិកា','Nurse'],
+ ['Driver','អ្នកបើកបរ','Driver'],
+ ['Farmer','កសិករ','Farmer'],
+ ['Worker','កម្មករ','Worker'],
+ ['Police','ប៉ូលិស','Police'],
+ ['Friendship','មិត្តភាព','Friendship'],
+ ['Team','ក្រុម','Team'],
+ ['Group','ក្រុម','Group'],
+ ['Guest','ភ្ញៀវ','Guest'],
+ ['Home','ផ្ទះ','Home'],
+ ['Room','បន្ទប់','Room'],
+ ['Bedroom','បន្ទប់គេង','Bedroom'],
+ ['Bathroom','បន្ទប់ទឹក','Bathroom'],
+ ['Kitchen','ផ្ទះបាយ','Kitchen'],
+ ['Door','ទ្វារ','Door'],
+ ['Window','បង្អួច','Window'],
+ ['Wall','ជញ្ជាំង','Wall'],
+ ['Floor','កម្រាលឥដ្ឋ / ជាន់អគារ','Floor'],
+ ['Roof','ដំបូល','Roof'],
+ ['Bed','គ្រែ','Bed'],
+ ['Table','តុ','Table'],
+ ['Lamp','ចង្កៀង','Lamp'],
+ ['Fan','កង្ហារ','Fan'],
+ ['Air conditioner','ម៉ាស៊ីនត្រជាក់','Air conditioner'],
+ ['Mirror','កញ្ចក់','Mirror'],
+ ['Clock','នាឡិកា','Clock'],
+ ['Key','សោ','Key'],
+ ['Bag','កាបូប','Bag'],
+ ['Clothes','សម្លៀកបំពាក់','Clothes'],
+ ['Shirt','អាវ','Shirt'],
+ ['Trousers','ខោ','Trousers'],
+ ['Shoes','ស្បែកជើង','Shoes'],
+ ['Hat','មួក','Hat'],
+ ['Umbrella','ឆ័ត្រ','Umbrella'],
+ ['Food','អាហារ','Food'],
+ ['Rice','បាយ / អង្ករ','Rice'],
+ ['Bread','នំប៉័ង','Bread'],
+ ['Noodle','មី','Noodle'],
+ ['Meat','សាច់','Meat'],
+ ['Chicken','សាច់មាន់','Chicken'],
+ ['Fish','ត្រី','Fish'],
+ ['Egg','ស៊ុត','Egg'],
+ ['Vegetable','បន្លែ','Vegetable'],
+ ['Fruit','ផ្លែឈើ','Fruit'],
+ ['Banana','ចេក','Banana'],
+ ['Orange','ក្រូច','Orange'],
+ ['Mango','ស្វាយ','Mango'],
+ ['Grape','ទំពាំងបាយជូរ','Grape'],
+ ['Milk','ទឹកដោះគោ','Milk'],
+ ['Coffee','កាហ្វេ','Coffee'],
+ ['Tea','តែ','Tea'],
+ ['Juice','ទឹកផ្លែឈើ','Juice'],
+ ['Sugar','ស្ករ','Sugar'],
+ ['Salt','អំបិល','Salt'],
+ ['Breakfast','អាហារពេលព្រឹក','Breakfast'],
+ ['Lunch','អាហារថ្ងៃត្រង់','Lunch'],
+ ['Dinner','អាហារពេលល្ងាច','Dinner'],
+ ['Restaurant','ភោជនីយដ្ឋាន','Restaurant'],
+ ['Menu','បញ្ជីមុខម្ហូប','Menu'],
+ ['Delicious','ឆ្ងាញ់','Delicious'],
+ ['Sweet','ផ្អែម','Sweet'],
+ ['Sour','ជូរ','Sour'],
+ ['Bitter','ល្វីង','Bitter'],
+ ['Spicy','ហឹរ','Spicy'],
+ ['Fresh','ស្រស់','Fresh'],
+ ['Cook','ចម្អិន','Cook'],
+ ['Eat','ញ៉ាំ','Eat'],
+ ['Drink','ផឹក','Drink'],
+ ['Buy','ទិញ','Buy'],
+ ['Sell','លក់','Sell'],
+ ['Pay','បង់ប្រាក់','Pay'],
+ ['Price','តម្លៃ','Price'],
+ ['Money','លុយ','Money'],
+ ['Cheap','ថោក','Cheap'],
+ ['Expensive','ថ្លៃ','Expensive'],
+ ['Shop','ហាង','Shop'],
+ ['Market','ផ្សារ','Market'],
+ ['Customer','អតិថិជន','Customer'],
+ ['Street','ផ្លូវ','Street'],
+ ['Road','ផ្លូវ','Road'],
+ ['City','ទីក្រុង','City'],
+ ['Village','ភូមិ','Village'],
+ ['Hospital','មន្ទីរពេទ្យ','Hospital'],
+ ['Library','បណ្ណាល័យ','Library'],
+ ['Bank','ធនាគារ','Bank'],
+ ['Park','សួនច្បារ','Park'],
+ ['Airport','ព្រលានយន្តហោះ','Airport'],
+ ['Station','ស្ថានីយ','Station'],
+ ['Hotel','សណ្ឋាគារ','Hotel'],
+ ['Temple','វត្ត','Temple'],
+ ['Car','ឡាន','Car'],
+ ['Motorcycle','ម៉ូតូ','Motorcycle'],
+ ['Bicycle','កង់','Bicycle'],
+ ['Bus','ឡានក្រុង','Bus'],
+ ['Train','រថភ្លើង','Train'],
+ ['Airplane','យន្តហោះ','Airplane'],
+ ['Boat','ទូក','Boat'],
+ ['Ship','កប៉ាល់','Ship'],
+ ['Traffic','ចរាចរណ៍','Traffic'],
+ ['Ticket','សំបុត្រ','Ticket'],
+ ['Travel','ធ្វើដំណើរ','Travel'],
+ ['Trip','ដំណើរកម្សាន្ត','Trip'],
+ ['Map','ផែនទី','Map'],
+ ['Left','ខាងឆ្វេង','Left'],
+ ['Straight','ត្រង់','Straight'],
+ ['Near','ជិត','Near'],
+ ['Far','ឆ្ងាយ','Far'],
+ ['Here','ទីនេះ','Here'],
+ ['There','ទីនោះ','There'],
+ ['Go','ទៅ','Go'],
+ ['Come','មក','Come'],
+ ['Walk','ដើរ','Walk'],
+ ['Run','រត់','Run'],
+ ['Ride','ជិះ','Ride'],
+ ['Drive','បើកបរ','Drive'],
+ ['Stop','ឈប់','Stop'],
+ ['Turn','បត់','Turn'],
+ ['Arrive','មកដល់','Arrive'],
+ ['Leave','ចាកចេញ','Leave'],
+ ['Sun','ព្រះអាទិត្យ','Sun'],
+ ['Moon','ព្រះចន្ទ','Moon'],
+ ['Star','ផ្កាយ','Star'],
+ ['Sky','មេឃ','Sky'],
+ ['Cloud','ពពក','Cloud'],
+ ['Rain','ភ្លៀង','Rain'],
+ ['Wind','ខ្យល់','Wind'],
+ ['Storm','ព្យុះ','Storm'],
+ ['Weather','អាកាសធាតុ','Weather'],
+ ['Hot weather','អាកាសធាតុក្តៅ','Hot weather'],
+ ['Tree','ដើមឈើ','Tree'],
+ ['Flower','ផ្កា','Flower'],
+ ['Grass','ស្មៅ','Grass'],
+ ['Forest','ព្រៃ','Forest'],
+ ['Mountain','ភ្នំ','Mountain'],
+ ['River','ទន្លេ','River'],
+ ['Lake','បឹង','Lake'],
+ ['Sea','សមុទ្រ','Sea'],
+ ['Beach','ឆ្នេរ','Beach'],
+ ['Island','កោះ','Island'],
+ ['Animal','សត្វ','Animal'],
+ ['Dog','ឆ្កែ','Dog'],
+ ['Cat','ឆ្មា','Cat'],
+ ['Bird','បក្សី','Bird'],
+ ['Horse','សេះ','Horse'],
+ ['Cow','គោ','Cow'],
+ ['Pig','ជ្រូក','Pig'],
+ ['Duck','ទា','Duck'],
+ ['Lion','តោ','Lion'],
+ ['Tiger','ខ្លា','Tiger'],
+ ['Bear','ខ្លាឃ្មុំ','Bear'],
+ ['Elephant','ដំរី','Elephant'],
+ ['Monkey','ស្វា','Monkey'],
+ ['Head','ក្បាល','Head'],
+ ['Hair','សក់','Hair'],
+ ['Face','មុខ','Face'],
+ ['Eye','ភ្នែក','Eye'],
+ ['Ear','ត្រចៀក','Ear'],
+ ['Nose','ច្រមុះ','Nose'],
+ ['Mouth','មាត់','Mouth'],
+ ['Tooth','ធ្មេញ','Tooth'],
+ ['Neck','ក','Neck'],
+ ['Shoulder','ស្មា','Shoulder'],
+ ['Arm','ដៃ (ពីស្មាដល់កដៃ)','Arm'],
+ ['Hand','ដៃ','Hand'],
+ ['Finger','ម្រាមដៃ','Finger'],
+ ['Leg','ជើង','Leg'],
+ ['Foot','ប្រអប់ជើង','Foot'],
+ ['Heart','បេះដូង','Heart'],
+ ['Body','រាងកាយ','Body'],
+ ['Health','សុខភាព','Health'],
+ ['Healthy','មានសុខភាពល្អ','Healthy'],
+ ['Exercise','ហាត់ប្រាណ','Exercise'],
+ ['Sleep','គេង','Sleep'],
+ ['Wake up','ភ្ញាក់ពីគេង','Wake up'],
+ ['Wash','លាង','Wash'],
+ ['Brush','ដុស','Brush'],
+ ['Breathe','ដកដង្ហើម','Breathe'],
+ ['Work','ធ្វើការ','Work'],
+ ['Play','លេង','Play'],
+ ['Make','ធ្វើ / បង្កើត','Make'],
+ ['Do','ធ្វើ','Do'],
+ ['Have','មាន','Have'],
+ ['Get','ទទួលបាន','Get'],
+ ['Give','ឱ្យ','Give'],
+ ['Take','យក','Take'],
+ ['Put','ដាក់','Put'],
+ ['Bring','នាំមក','Bring'],
+ ['Send','ផ្ញើ','Send'],
+ ['Find','រកឃើញ','Find'],
+ ['Look','មើល','Look'],
+ ['See','ឃើញ','See'],
+ ['Watch','មើល','Watch'],
+ ['Show','បង្ហាញ','Show'],
+ ['Tell','ប្រាប់','Tell'],
+ ['Say','និយាយ','Say'],
+ ['Talk','និយាយគ្នា','Talk'],
+ ['Ask','សួរ','Ask'],
+ ['Help','ជួយ','Help'],
+ ['Try','ព្យាយាម','Try'],
+ ['Use','ប្រើ','Use'],
+ ['Need','ត្រូវការ','Need'],
+ ['Want','ចង់បាន','Want'],
+ ['Like','ចូលចិត្ត','Like'],
+ ['Love','ស្រឡាញ់','Love'],
+ ['Hate','ស្អប់','Hate'],
+ ['Know','ដឹង','Know'],
+ ['Think','គិត','Think'],
+ ['Remember','ចងចាំ','Remember'],
+ ['Forget','ភ្លេច','Forget'],
+ ['Believe','ជឿ','Believe'],
+ ['Hope','សង្ឃឹម','Hope'],
+ ['Choose','ជ្រើសរើស','Choose'],
+ ['Start','ចាប់ផ្ដើម','Start'],
+ ['Finish','បញ្ចប់','Finish'],
+ ['Continue','បន្ត','Continue'],
+ ['Change','ផ្លាស់ប្ដូរ','Change'],
+ ['Improve','កែលម្អ','Improve'],
+ ['Build','សាងសង់ / បង្កើត','Build'],
+ ['Create','បង្កើត','Create'],
+ ['Move','ផ្លាស់ទី','Move'],
+ ['Wait','រង់ចាំ','Wait'],
+ ['Meet','ជួប','Meet'],
+ ['Call','ហៅ / ទូរស័ព្ទ','Call'],
+ ['Explain','ពន្យល់','Explain'],
+ ['Learned','បានរៀន','Learned'],
+ ['Practice','ហាត់អនុវត្ត','Practice'],
+ ['Progress','វឌ្ឍនភាព','Progress'],
+ ['Goal','គោលដៅ','Goal'],
+ ['Success','ជោគជ័យ','Success'],
+ ['Failure','បរាជ័យ','Failure'],
+ ['Mistake','កំហុស','Mistake'],
+ ['Correct','ត្រឹមត្រូវ','Correct'],
+ ['Skill','ជំនាញ','Skill'],
+ ['Knowledge','ចំណេះដឹង','Knowledge'],
+ ['Idea','គំនិត','Idea'],
+ ['Plan','ផែនការ','Plan'],
+ ['Problem','បញ្ហា','Problem'],
+ ['Solution','ដំណោះស្រាយ','Solution'],
+ ['Technology','បច្ចេកវិទ្យា','Technology'],
+ ['Code','កូដ','Code'],
+ ['Program','កម្មវិធី','Program'],
+ ['App','កម្មវិធីទូរស័ព្ទ','App'],
+ ['File','ឯកសារ','File'],
+ ['Folder','ថតឯកសារ','Folder'],
+ ['Download','ទាញយក','Download'],
+ ['Upload','ផ្ទុកឡើង','Upload'],
+ ['Save','រក្សាទុក','Save'],
+ ['Delete','លុប','Delete'],
+ ['Search','ស្វែងរក','Search'],
+ ['Click','ចុច','Click'],
+ ['Button','ប៊ូតុង','Button'],
+ ['Link','តំណ','Link'],
+ ['Password','ពាក្យសម្ងាត់','Password'],
+ ['Account','គណនី','Account'],
+ ['Profile','ប្រវត្តិរូប','Profile'],
+ ['Settings','ការកំណត់','Settings'],
+ ['Update','ធ្វើបច្ចុប្បន្នភាព','Update'],
+ ['Error','កំហុស','Error'],
+ ['Game','ហ្គេម','Game'],
+ ['Player','អ្នកលេង','Player'],
+ ['Level','កម្រិត','Level'],
+ ['Score','ពិន្ទុ','Score'],
+ ['Win','ឈ្នះ','Win'],
+ ['Lose','ចាញ់','Lose'],
+ ['Challenge','ការប្រកួតប្រជែង','Challenge'],
+ ['Adventure','ដំណើរផ្សងព្រេង','Adventure'],
+ ['Survival','ការរស់រានមានជីវិត','Survival'],
+ ['Teamwork','ការងារជាក្រុម','Teamwork'],
+ ['Can','អាច','Can'],
+ ['Could','អាច (អតីតកាល/សុភាព)','Could'],
+ ['Will','នឹង','Will'],
+ ['Would','នឹង / ចង់','Would'],
+ ['Should','គួរតែ','Should'],
+ ['Must','ត្រូវតែ','Must'],
+ ['May','អាច','May'],
+ ['Might','ប្រហែលជា','Might'],
+ ['And','និង','And'],
+ ['But','ប៉ុន្តែ','But'],
+ ['Or','ឬ','Or'],
+ ['So','ដូច្នេះ','So'],
+ ['If','ប្រសិនបើ','If'],
+ ['Then','បន្ទាប់មក','Then'],
+ ['Before','មុន','Before'],
+ ['After','បន្ទាប់ពី','After'],
+ ['With','ជាមួយ','With'],
+ ['Without','ដោយគ្មាន','Without'],
+ ['For','សម្រាប់','For'],
+ ['From','ពី','From'],
+ ['To','ទៅ / ដើម្បី','To'],
+ ['In','ក្នុង','In'],
+ ['On','លើ','On'],
+ ['Under','ក្រោម','Under'],
+ ['Over','ពីលើ','Over'],
+ ['Between','នៅចន្លោះ','Between'],
+ ['Behind','នៅខាងក្រោយ','Behind'],
+ ['Beside','នៅក្បែរ','Beside'],
+ ['Inside','នៅខាងក្នុង','Inside'],
+ ['Outside','នៅខាងក្រៅ','Outside'],
+ ['Very','ណាស់','Very'],
+ ['Really','ពិតជា','Really'],
+ ['Too','ផងដែរ / ពេក','Too'],
+ ['Enough','គ្រប់គ្រាន់','Enough'],
+ ['Almost','ស្ទើរតែ','Almost'],
+ ['Together','ជាមួយគ្នា','Together'],
+ ['Alone','ម្នាក់ឯង','Alone'],
+ ['Quickly','យ៉ាងលឿន','Quickly'],
+ ['Slowly','យ៉ាងយឺត','Slowly'],
+ ['Carefully','ដោយប្រុងប្រយ័ត្ន','Carefully'],
+ ['Usually','ជាធម្មតា','Usually'],
+ ['Probably','ប្រហែលជា','Probably'],
+ ['Especially','ជាពិសេស','Especially'],
+ ['Finally','ចុងក្រោយ','Finally'],
+ ['Actually','តាមពិត','Actually']
+];
+
+const grammarTopics = [
+ {title:'Parts of Speech · ប្រភេទពាក្យ',icon:'🔤',level:'មូលដ្ឋាន',desc:'Noun, Pronoun, Verb, Adjective',intro:'ពាក្យក្នុងភាសាអង់គ្លេសមានតួនាទីខុសៗគ្នា។ ការស្គាល់តួនាទីជួយឱ្យបង្កើតប្រយោគបានត្រឹមត្រូវ។',content:`<div class="example"><b>Noun (នាម):</b> book, student — សៀវភៅ, សិស្ស</div><div class="example"><b>Pronoun (សព្វនាម):</b> I, you, they — ខ្ញុំ, អ្នក, ពួកគេ</div><div class="example"><b>Verb (កិរិយាសព្ទ):</b> eat, play, read — ញ៉ាំ, លេង, អាន</div><div class="example"><b>Adjective (គុណនាម):</b> happy, big, beautiful — សប្បាយ, ធំ, ស្អាត</div>`},
+ {title:'Subject + Verb + Object',icon:'🧱',level:'មូលដ្ឋាន',desc:'លំដាប់ពាក្យក្នុងប្រយោគ',intro:'ប្រយោគសាមញ្ញជាច្រើនមានលំដាប់ ប្រធាន + កិរិយាសព្ទ + កម្មបទ។',content:`<div class="wordcard"><div class="big" style="font-size:23px">Subject + Verb + Object</div><div class="meaning">ប្រធាន + កិរិយាសព្ទ + កម្មបទ</div></div><div class="example"><b>I read books.</b> — ខ្ញុំអានសៀវភៅ។</div><div class="example"><b>They play football.</b> — ពួកគេលេងបាល់ទាត់។</div><div class="example"><b>She likes music.</b> — នាងចូលចិត្តតន្ត្រី។</div>`},
+ {title:'Verb To Be · am / is / are',icon:'🧩',level:'មូលដ្ឋាន',desc:'របៀបប្រើ am, is និង are',intro:'ជ្រើសរើសកិរិយាសព្ទឱ្យត្រូវនឹងប្រធានប្រយោគ។',content:`<div class="example"><b>I am</b> — ខ្ញុំជា/នៅ/មានអារម្មណ៍…</div><div class="example"><b>He / She / It is</b> — គាត់/វា…</div><div class="example"><b>You / We / They are</b> — អ្នក/ពួកយើង/ពួកគេ…</div><div class="example"><b>I am happy.</b> — ខ្ញុំសប្បាយចិត្ត។</div><div class="example"><b>They are students.</b> — ពួកគេជាសិស្ស។</div>`},
+ {title:'Present Simple · បច្ចុប្បន្នកាលធម្មតា',icon:'🔁',level:'កម្រិតដំបូង',desc:'ទម្លាប់ និងការពិតទូទៅ',intro:'ប្រើសម្រាប់ទម្លាប់ ឬការពិតទូទៅ។ ជាមួយ he/she/it កិរិយាសព្ទជាទូទៅបន្ថែម -s ឬ -es។',content:`<div class="example"><b>I play games every day.</b> — ខ្ញុំលេងហ្គេមរាល់ថ្ងៃ។</div><div class="example"><b>She reads books.</b> — នាងអានសៀវភៅ។</div><div class="example"><b>The sun rises in the east.</b> — ព្រះអាទិត្យរះពីទិសខាងកើត។</div><p class="muted">ចំណាំ៖ I/You/We/They play; He/She/It plays.</p>`},
+ {title:'Present Continuous · កំពុងធ្វើ',icon:'⏳',level:'កម្រិតដំបូង',desc:'am/is/are + verb-ing',intro:'ប្រើសម្រាប់សកម្មភាពដែលកំពុងកើតឡើងឥឡូវនេះ។',content:`<div class="wordcard"><div class="big" style="font-size:23px">am / is / are + V-ing</div></div><div class="example"><b>I am studying now.</b> — ខ្ញុំកំពុងរៀនឥឡូវនេះ។</div><div class="example"><b>He is eating.</b> — គាត់កំពុងញ៉ាំ។</div><div class="example"><b>They are playing.</b> — ពួកគេកំពុងលេង។</div>`},
+ {title:'Past Simple · អតីតកាលធម្មតា',icon:'🕰️',level:'កម្រិតដំបូង',desc:'សកម្មភាពដែលបានកើតឡើងរួច',intro:'ប្រើសម្រាប់សកម្មភាពដែលបានបញ្ចប់នៅអតីតកាល។ កិរិយាសព្ទធម្មតាបន្ថែម -ed; កិរិយាសព្ទខ្លះមានទម្រង់ពិសេស។',content:`<div class="example"><b>I played football yesterday.</b> — ខ្ញុំបានលេងបាល់ទាត់ម្សិលមិញ។</div><div class="example"><b>She watched a movie.</b> — នាងបានមើលភាពយន្តមួយ។</div><div class="example"><b>We went home.</b> — ពួកយើងបានទៅផ្ទះ។</div><p class="muted">play → played; watch → watched; go → went.</p>`},
+ {title:'Future · will',icon:'🔮',level:'កម្រិតដំបូង',desc:'និយាយអំពីអនាគត',intro:'ប្រើ will + កិរិយាសព្ទទម្រង់ដើម ដើម្បីនិយាយអំពីអនាគត ឬការសម្រេចចិត្ត។',content:`<div class="wordcard"><div class="big" style="font-size:23px">will + Verb</div></div><div class="example"><b>I will study tomorrow.</b> — ខ្ញុំនឹងរៀនថ្ងៃស្អែក។</div><div class="example"><b>She will help you.</b> — នាងនឹងជួយអ្នក។</div><div class="example"><b>They will come soon.</b> — ពួកគេនឹងមកឆាប់ៗនេះ។</div>`},
+ {title:'Negative Sentences · ប្រយោគបដិសេធ',icon:'🚫',level:'កម្រិតដំបូង',desc:'not, do not, does not, did not',intro:'ប្រយោគបដិសេធប្រើ not ឬ do/does/did not តាមរចនាសម្ព័ន្ធ និងកាល។',content:`<div class="example"><b>I am not tired.</b> — ខ្ញុំមិនហត់ទេ។</div><div class="example"><b>I do not like tea.</b> — ខ្ញុំមិនចូលចិត្តតែទេ។</div><div class="example"><b>He does not play.</b> — គាត់មិនលេងទេ។</div><div class="example"><b>We did not go.</b> — ពួកយើងមិនបានទៅទេ។</div>`},
+ {title:'Questions · ការបង្កើតសំណួរ',icon:'❓',level:'កម្រិតដំបូង',desc:'Am/Is/Are, Do/Does, What/Where',intro:'អាចចាប់ផ្ដើមសំណួរដោយកិរិយាសព្ទជំនួយ ឬពាក្យសួរ ដូចជា What, Where, When និង Why។',content:`<div class="example"><b>Are you ready?</b> — តើអ្នករួចរាល់ហើយឬនៅ?</div><div class="example"><b>Do you like music?</b> — តើអ្នកចូលចិត្តតន្ត្រីទេ?</div><div class="example"><b>Where do you live?</b> — តើអ្នករស់នៅឯណា?</div><div class="example"><b>What is your name?</b> — តើអ្នកឈ្មោះអ្វី?</div>`},
+ {title:'A / An / The · គុណនាមមិនច្បាស់លាស់ និងច្បាស់លាស់',icon:'📌',level:'កម្រិតដំបូង',desc:'ការប្រើ a, an និង the',intro:'a/an ប្រើជាមួយនាមឯកវចនៈដែលមិនទាន់កំណត់ជាក់លាក់។ the ប្រើនៅពេលអ្នកស្តាប់ដឹងថាសំដៅលើអ្វី។',content:`<div class="example"><b>a book</b> — សៀវភៅមួយក្បាល</div><div class="example"><b>an apple</b> — ផ្លែប៉ោមមួយ (ប្រើ an មុនសំឡេងស្រៈ)</div><div class="example"><b>the sun</b> — ព្រះអាទិត្យ (អ្វីដែលជាក់លាក់)</div><p class="muted">ចំណាំ៖ ជ្រើស a/an តាមសំឡេងដំបូង មិនមែនតាមអក្សរតែប៉ុណ្ណោះទេ។</p>`}
+];
+const grammarQuestions = [
+ {q:'Choose the correct sentence.',opts:['She play games.','She plays games.','She playing games.'],a:1,why:'ជាមួយ She ក្នុង Present Simple កិរិយាសព្ទជាទូទៅបន្ថែម -s: plays.'},
+ {q:'I ___ a student.',opts:['am','is','are'],a:0,why:'ប្រើ am ជាមួយ I។'},
+ {q:'They ___ studying now.',opts:['is','am','are'],a:2,why:'ប្រើ are ជាមួយ They ហើយ Present Continuous គឺ are + verb-ing។'},
+ {q:'Yesterday, we ___ home.',opts:['go','went','going'],a:1,why:'go មានទម្រង់អតីតកាលមិនទៀងទាត់គឺ went។'},
+ {q:'Which is a negative sentence?',opts:['I like tea.','I do not like tea.','Do you like tea?'],a:1,why:'do not បង្កើតប្រយោគបដិសេធ។'},
+ {q:'Choose the correct article: ___ apple',opts:['a','an','the only choice always'],a:1,why:'apple ចាប់ផ្ដើមដោយសំឡេងស្រៈ ដូច្នេះប្រើ an។'},
+ {q:'Choose the correct future sentence.',opts:['I will study tomorrow.','I will studied tomorrow.','I studying tomorrow.'],a:0,why:'រចនាសម្ព័ន្ធគឺ will + កិរិយាសព្ទទម្រង់ដើម។'},
+ {q:'Which word is a noun (នាម)?',opts:['quickly','beautiful','book'],a:2,why:'book ជានាម សំដៅលើវត្ថុមួយ។'},
+ {q:'Choose the correct question.',opts:['Where you live?','Where do you live?','Where does you live?'],a:1,why:'ជាមួយ you ប្រើ do: Where do you live?'}
+];
+let grammarQuizIndex=0;
+function renderGrammarList(){
+ const search=(document.getElementById('grammarSearch')?.value||'').trim().toLowerCase();
+ const list=grammarTopics.map((g,i)=>({...g,i})).filter(g=>(g.title+' '+g.desc+' '+g.level).toLowerCase().includes(search));
+ document.getElementById('grammarList').innerHTML=list.map(g=>`<article class="lesson"><div class="lesson-icon">${g.icon}</div><div style="flex:1"><div class="small">${g.level}</div><h3>${g.title}</h3><p>${g.desc}</p><button onclick="openGrammarLesson(${g.i})">រៀនមេរៀននេះ →</button></div></article>`).join('')||'<p class="muted">រកមិនឃើញមេរៀននេះទេ។</p>';
+}
+function openGrammarLesson(i){const g=grammarTopics[i];if(!g)return;document.getElementById('grammarDetail').classList.remove('hidden');document.getElementById('grammarTitle').textContent=g.title;document.getElementById('grammarIntro').textContent=g.intro;document.getElementById('grammarContent').innerHTML=g.content;document.getElementById('grammarSpeak').onclick=()=>speak(g.title+'. '+g.intro);document.getElementById('grammarDone').onclick=()=>toast('ល្អណាស់! បានរៀនមេរៀនវេយ្យាករណ៍នេះហើយ។');document.getElementById('grammarDetail').scrollIntoView({behavior:'smooth',block:'start'});}
+function closeGrammarLesson(){document.getElementById('grammarDetail').classList.add('hidden');document.getElementById('grammarList').scrollIntoView({behavior:'smooth',block:'start'});}
+function renderGrammarQuiz(){const q=grammarQuestions[grammarQuizIndex%grammarQuestions.length];document.getElementById('grammarQuizBox').innerHTML=`<div class="small">សំណួរ ${grammarQuizIndex%grammarQuestions.length+1} / ${grammarQuestions.length}</div><h3>${q.q}</h3>${q.opts.map((o,i)=>`<button class="choice" onclick="answerGrammar(${i})">${String.fromCharCode(65+i)}. ${o}</button>`).join('')}<div id="grammarFeedback"></div><div class="actionrow"><button class="secondary" onclick="nextGrammarQuestion()">សំណួរបន្ទាប់ →</button></div>`;}
+function answerGrammar(i){const q=grammarQuestions[grammarQuizIndex%grammarQuestions.length];const box=document.getElementById('grammarFeedback');if(!box||box.dataset.answered)return;box.dataset.answered='1';document.querySelectorAll('#grammarQuizBox .choice').forEach((b,j)=>{if(j===q.a)b.classList.add('correct');if(j===i&&i!==q.a)b.classList.add('wrong')});box.innerHTML=`<div class="feedback ${i===q.a?'good':'bad'}">${i===q.a?'✓ ត្រឹមត្រូវ!':'ចម្លើយមិនទាន់ត្រឹមត្រូវទេ។'} ${q.why}</div>`;}
+function nextGrammarQuestion(){grammarQuizIndex=(grammarQuizIndex+1)%grammarQuestions.length;renderGrammarQuiz();}
+document.getElementById('grammarSearch').addEventListener('input',renderGrammarList);
+
+// Daily sentence library: 100 base sentences x 100 context phrases = 10,000 entries.
+const sentenceBases = [
+["I am learning English.","ខ្ញុំកំពុងរៀនភាសាអង់គ្លេស។"],
+["I want to speak clearly.","ខ្ញុំចង់និយាយឱ្យច្បាស់។"],
+["I practice every day.","ខ្ញុំហាត់រៀងរាល់ថ្ងៃ។"],
+["I read a little every day.","ខ្ញុំអានបន្តិចរៀងរាល់ថ្ងៃ។"],
+["I listen carefully.","ខ្ញុំស្តាប់ដោយយកចិត្តទុកដាក់។"],
+["I ask questions.","ខ្ញុំសួរសំណួរ។"],
+["I try again.","ខ្ញុំព្យាយាមម្តងទៀត។"],
+["I can do this.","ខ្ញុំអាចធ្វើវាបាន។"],
+["I understand the lesson.","ខ្ញុំយល់មេរៀន។"],
+["I need more practice.","ខ្ញុំត្រូវការហាត់បន្ថែម។"],
+["I am ready to learn.","ខ្ញុំត្រៀមខ្លួនរៀនហើយ។"],
+["I enjoy reading books.","ខ្ញុំចូលចិត្តអានសៀវភៅ។"],
+["I write new words down.","ខ្ញុំកត់ត្រាពាក្យថ្មីៗ។"],
+["I remember your advice.","ខ្ញុំចងចាំដំបូន្មានរបស់អ្នក។"],
+["I want to improve.","ខ្ញុំចង់កែលម្អខ្លួនឯង។"],
+["I speak slowly.","ខ្ញុំនិយាយយឺតៗ។"],
+["I listen to my teacher.","ខ្ញុំស្តាប់គ្រូរបស់ខ្ញុំ។"],
+["I check my answers.","ខ្ញុំពិនិត្យចម្លើយរបស់ខ្ញុំ។"],
+["I learn from mistakes.","ខ្ញុំរៀនពីកំហុស។"],
+["I will keep trying.","ខ្ញុំនឹងបន្តព្យាយាម។"],
+["I wake up early.","ខ្ញុំភ្ញាក់ពីព្រលឹម។"],
+["I wash my hands.","ខ្ញុំលាងដៃ។"],
+["I eat breakfast.","ខ្ញុំញ៉ាំអាហារពេលព្រឹក។"],
+["I drink enough water.","ខ្ញុំផឹកទឹកឱ្យបានគ្រប់គ្រាន់។"],
+["I go to school.","ខ្ញុំទៅសាលារៀន។"],
+["I do my homework.","ខ្ញុំធ្វើកិច្ចការផ្ទះ។"],
+["I help my family.","ខ្ញុំជួយគ្រួសាររបស់ខ្ញុំ។"],
+["I clean my room.","ខ្ញុំសម្អាតបន្ទប់របស់ខ្ញុំ។"],
+["I prepare my bag.","ខ្ញុំរៀបចំកាបូបរបស់ខ្ញុំ។"],
+["I take a short break.","ខ្ញុំសម្រាកបន្តិច។"],
+["I feel happy.","ខ្ញុំមានអារម្មណ៍សប្បាយចិត្ត។"],
+["I feel tired.","ខ្ញុំមានអារម្មណ៍ហត់។"],
+["I am a little busy.","ខ្ញុំរវល់បន្តិច។"],
+["I need some help.","ខ្ញុំត្រូវការជំនួយបន្តិច។"],
+["I have enough time.","ខ្ញុំមានពេលគ្រប់គ្រាន់។"],
+["I like this idea.","ខ្ញុំចូលចិត្តគំនិតនេះ។"],
+["I agree with you.","ខ្ញុំយល់ស្របជាមួយអ្នក។"],
+["I do not know yet.","ខ្ញុំមិនទាន់ដឹងទេ។"],
+["I will think about it.","ខ្ញុំនឹងគិតអំពីវា។"],
+["I will be careful.","ខ្ញុំនឹងប្រុងប្រយ័ត្ន។"],
+["I am looking for my book.","ខ្ញុំកំពុងរកសៀវភៅរបស់ខ្ញុំ។"],
+["I need to charge my phone.","ខ្ញុំត្រូវសាកថ្មទូរស័ព្ទ។"],
+["I check the time.","ខ្ញុំមើលម៉ោង។"],
+["I make a simple plan.","ខ្ញុំរៀបចំផែនការសាមញ្ញមួយ។"],
+["I finish one task at a time.","ខ្ញុំបញ្ចប់កិច្ចការម្តងមួយៗ។"],
+["I keep my desk tidy.","ខ្ញុំរក្សាតុរបស់ខ្ញុំឱ្យមានរបៀប។"],
+["I open the window.","ខ្ញុំបើកបង្អួច។"],
+["I close the door.","ខ្ញុំបិទទ្វារ។"],
+["I turn off the light.","ខ្ញុំបិទភ្លើង។"],
+["I put things back.","ខ្ញុំដាក់របស់របរត្រឡប់កន្លែងដើម។"],
+["I say hello first.","ខ្ញុំសួស្តីមុនគេ។"],
+["I greet my friends.","ខ្ញុំសួរសុខទុក្ខមិត្តភក្តិរបស់ខ្ញុំ។"],
+["I speak politely.","ខ្ញុំនិយាយដោយសុភាពរាបសា។"],
+["I say thank you.","ខ្ញុំនិយាយថាអរគុណ។"],
+["I apologize when needed.","ខ្ញុំសុំទោសនៅពេលចាំបាច់។"],
+["I listen to other people.","ខ្ញុំស្តាប់អ្នកដទៃ។"],
+["I wait for my turn.","ខ្ញុំរង់ចាំដល់វេនរបស់ខ្ញុំ។"],
+["I share my ideas.","ខ្ញុំចែករំលែកគំនិតរបស់ខ្ញុំ។"],
+["I respect other people.","ខ្ញុំគោរពអ្នកដទៃ។"],
+["I try to be kind.","ខ្ញុំព្យាយាមមានចិត្តល្អ។"],
+["I enjoy music.","ខ្ញុំចូលចិត្តតន្ត្រី។"],
+["I watch a short video.","ខ្ញុំមើលវីដេអូខ្លីមួយ។"],
+["I play a game after work.","ខ្ញុំលេងហ្គេមបន្ទាប់ពីធ្វើការរួច។"],
+["I take photos of nature.","ខ្ញុំថតរូបធម្មជាតិ។"],
+["I walk outside.","ខ្ញុំដើរខាងក្រៅ។"],
+["I look at the sky.","ខ្ញុំមើលមេឃ។"],
+["I enjoy the fresh air.","ខ្ញុំរីករាយនឹងខ្យល់អាកាសបរិសុទ្ធ។"],
+["I visit my relatives.","ខ្ញុំទៅលេងសាច់ញាតិរបស់ខ្ញុំ។"],
+["I call my friend.","ខ្ញុំទូរស័ព្ទទៅមិត្តរបស់ខ្ញុំ។"],
+["I send a message.","ខ្ញុំផ្ញើសារ។"],
+["I check my schedule.","ខ្ញុំពិនិត្យកាលវិភាគរបស់ខ្ញុំ។"],
+["I save my money.","ខ្ញុំសន្សំប្រាក់។"],
+["I compare the prices.","ខ្ញុំប្រៀបធៀបតម្លៃ។"],
+["I choose the best option.","ខ្ញុំជ្រើសរើសជម្រើសដែលល្អបំផុត។"],
+["I buy what I need.","ខ្ញុំទិញអ្វីដែលខ្ញុំត្រូវការ។"],
+["I keep the receipt.","ខ្ញុំរក្សាវិក្កយបត្រ។"],
+["I ask for directions.","ខ្ញុំសួរផ្លូវ។"],
+["I follow the signs.","ខ្ញុំធ្វើតាមស្លាកសញ្ញា។"],
+["I arrive on time.","ខ្ញុំមកដល់ទាន់ពេល។"],
+["I leave a little early.","ខ្ញុំចេញដំណើរមុនបន្តិច។"],
+["I check the weather.","ខ្ញុំពិនិត្យអាកាសធាតុ។"],
+["I bring an umbrella.","ខ្ញុំយកឆ័ត្រទៅជាមួយ។"],
+["I wear comfortable clothes.","ខ្ញុំស្លៀកសម្លៀកបំពាក់ដែលស្រួលខ្លួន។"],
+["I keep my things safe.","ខ្ញុំរក្សារបស់របរឱ្យមានសុវត្ថិភាព។"],
+["I ask before I borrow something.","ខ្ញុំសុំអនុញ្ញាតមុនខ្ចីរបស់។"],
+["I return things on time.","ខ្ញុំប្រគល់របស់វិញទាន់ពេល។"],
+["I make time for my family.","ខ្ញុំចំណាយពេលសម្រាប់គ្រួសារ។"],
+["I help when I can.","ខ្ញុំជួយនៅពេលដែលអាចជួយបាន។"],
+["I stay calm.","ខ្ញុំរក្សាភាពស្ងប់ស្ងាត់។"],
+["I take a deep breath.","ខ្ញុំដកដង្ហើមជ្រៅៗ។"],
+["I focus on one thing.","ខ្ញុំផ្តោតលើរឿងមួយ។"],
+["I set a small goal.","ខ្ញុំកំណត់គោលដៅតូចមួយ។"],
+["I work toward my goal.","ខ្ញុំខិតខំឆ្ពោះទៅគោលដៅរបស់ខ្ញុំ។"],
+["I celebrate small progress.","ខ្ញុំអបអរសាទរការរីកចម្រើនតិចតួច។"],
+["I believe in myself.","ខ្ញុំជឿជាក់លើខ្លួនឯង។"],
+["I am proud of my effort.","ខ្ញុំមានមោទនភាពចំពោះការខិតខំរបស់ខ្ញុំ។"],
+["I am getting better.","ខ្ញុំកំពុងធ្វើបានកាន់តែល្អ។"],
+["I will learn something new.","ខ្ញុំនឹងរៀនអ្វីថ្មីមួយ។"],
+["I make a good choice.","ខ្ញុំធ្វើការជ្រើសរើសដ៏ល្អមួយ។"],
+["I keep a positive attitude.","ខ្ញុំរក្សាឥរិយាបថវិជ្ជមាន។"],
+["I finish what I start.","ខ្ញុំបញ្ចប់អ្វីដែលខ្ញុំបានចាប់ផ្តើម។"],
+["I plan for tomorrow.","ខ្ញុំរៀបចំផែនការសម្រាប់ថ្ងៃស្អែក។"],
+["I am thankful for today.","ខ្ញុំអរគុណចំពោះថ្ងៃនេះ។"]
+];
+const sentenceContexts = [
+["today","ថ្ងៃនេះ"],["every day","រៀងរាល់ថ្ងៃ"],["in the morning","នៅពេលព្រឹក"],["in the afternoon","នៅពេលរសៀល"],["in the evening","នៅពេលល្ងាច"],["at night","នៅពេលយប់"],["at home","នៅផ្ទះ"],["at school","នៅសាលា"],["in class","នៅក្នុងថ្នាក់រៀន"],["at the library","នៅបណ្ណាល័យ"],["with my family","ជាមួយគ្រួសាររបស់ខ្ញុំ"],["with my friends","ជាមួយមិត្តភក្តិរបស់ខ្ញុំ"],["with my teacher","ជាមួយគ្រូរបស់ខ្ញុំ"],["with care","ដោយយកចិត្តទុកដាក់"],["with patience","ដោយអត់ធ្មត់"],["with confidence","ដោយមានទំនុកចិត្ត"],["very carefully","យ៉ាងប្រុងប្រយ័ត្ន"],["very slowly","យ៉ាងយឺតៗ"],["a little more","បន្ថែមបន្តិច"],["before breakfast","មុនអាហារពេលព្រឹក"],["after breakfast","បន្ទាប់ពីអាហារពេលព្រឹក"],["before class","មុនចូលថ្នាក់"],["after class","ក្រោយចប់ថ្នាក់"],["after school","ក្រោយចេញពីសាលា"],["before going to bed","មុនចូលគេង"],["after dinner","បន្ទាប់ពីអាហារពេលល្ងាច"],["during my break","អំឡុងពេលសម្រាក"],["on weekdays","នៅថ្ងៃធ្វើការ"],["on weekends","នៅចុងសប្តាហ៍"],["when I have time","នៅពេលខ្ញុំមានពេល"],["when I feel ready","នៅពេលខ្ញុំមានអារម្មណ៍ថាត្រៀមរួច"],["when I need help","នៅពេលខ្ញុំត្រូវការជំនួយ"],["when I am busy","នៅពេលខ្ញុំរវល់"],["when I feel tired","នៅពេលខ្ញុំហត់"],["when I feel happy","នៅពេលខ្ញុំសប្បាយចិត្ត"],["when I have a question","នៅពេលខ្ញុំមានសំណួរ"],["when I make a mistake","នៅពេលខ្ញុំធ្វើខុស"],["when I have a chance","នៅពេលខ្ញុំមានឱកាស"],["when the weather is nice","នៅពេលអាកាសធាតុល្អ"],["when it is raining","នៅពេលមេឃភ្លៀង"],["on a sunny day","នៅថ្ងៃដែលមានពន្លឺថ្ងៃ"],["on a rainy day","នៅថ្ងៃភ្លៀង"],["during the weekend","ក្នុងអំឡុងចុងសប្តាហ៍"],["during the school year","ក្នុងឆ្នាំសិក្សា"],["during the holidays","ក្នុងអំឡុងថ្ងៃឈប់សម្រាក"],["before I leave","មុនពេលខ្ញុំចេញទៅ"],["after I arrive","បន្ទាប់ពីខ្ញុំមកដល់"],["before I decide","មុនពេលខ្ញុំសម្រេចចិត្ត"],["after I finish","បន្ទាប់ពីខ្ញុំបញ្ចប់"],["while I study","ខណៈពេលខ្ញុំរៀន"],["while I wait","ខណៈពេលខ្ញុំរង់ចាំ"],["while I work","ខណៈពេលខ្ញុំធ្វើការ"],["while I practice","ខណៈពេលខ្ញុំហាត់"],["for a few minutes","រយៈពេលពីរបីនាទី"],["for a short time","ក្នុងរយៈពេលខ្លី"],["for my future","សម្រាប់អនាគតរបស់ខ្ញុំ"],["for my family","សម្រាប់គ្រួសាររបស់ខ្ញុំ"],["for my studies","សម្រាប់ការសិក្សារបស់ខ្ញុំ"],["for a better result","ដើម្បីទទួលបានលទ្ធផលល្អជាងមុន"],["for the next lesson","សម្រាប់មេរៀនបន្ទាប់"],["in my free time","នៅពេលទំនេររបស់ខ្ញុំ"],["in my notebook","នៅក្នុងសៀវភៅកត់ត្រារបស់ខ្ញុំ"],["on my phone","នៅលើទូរស័ព្ទរបស់ខ្ញុំ"],["on the way home","នៅតាមផ្លូវត្រឡប់ផ្ទះ"],["near my house","នៅជិតផ្ទះរបស់ខ្ញុំ"],["in my room","នៅក្នុងបន្ទប់របស់ខ្ញុំ"],["in the kitchen","នៅក្នុងផ្ទះបាយ"],["in the garden","នៅក្នុងសួនច្បារ"],["at the market","នៅផ្សារ"],["at the shop","នៅហាង"],["at the bus stop","នៅចំណតឡានក្រុង"],["in town","នៅក្នុងក្រុង"],["in the countryside","នៅជនបទ"],["with a smile","ដោយស្នាមញញឹម"],["with a clear mind","ដោយចិត្តស្រឡះ"],["with a good attitude","ដោយមានអាកប្បកិរិយាល្អ"],["without rushing","ដោយមិនប្រញាប់ប្រញាល់"],["without giving up","ដោយមិនបោះបង់"],["one step at a time","ម្តងមួយជំហានៗ"],["again and again","ម្តងហើយម្តងទៀត"],["as much as possible","តាមដែលអាចធ្វើទៅបាន"],["in a simple way","តាមរបៀបសាមញ្ញ"],["in English","ជាភាសាអង់គ្លេស"],["in Khmer","ជាភាសាខ្មែរ"],["with new words","ជាមួយពាក្យថ្មីៗ"],["with an example","ជាមួយឧទាហរណ៍មួយ"],["with my notebook","ជាមួយសៀវភៅកត់ត្រារបស់ខ្ញុំ"],["with my phone nearby","ដោយមានទូរស័ព្ទនៅក្បែរ"],["before the lesson starts","មុនមេរៀនចាប់ផ្តើម"],["after the lesson ends","ក្រោយមេរៀនបញ្ចប់"],["when I wake up","នៅពេលខ្ញុំភ្ញាក់ពីគេង"],["before I sleep","មុនពេលខ្ញុំគេង"],["at the right time","នៅពេលសមស្រប"],["with enough practice","ដោយមានការហាត់គ្រប់គ្រាន់"],["with a little effort","ដោយខិតខំបន្តិច"],["in a quiet place","នៅកន្លែងស្ងប់ស្ងាត់"],["in a safe place","នៅកន្លែងមានសុវត្ថិភាព"],["for a few days","រយៈពេលពីរបីថ្ងៃ"],["for a few weeks","រយៈពេលពីរបីសប្តាហ៍"],["this week","សប្តាហ៍នេះ"],["next week","សប្តាហ៍ក្រោយ"],["this month","ខែនេះ"],["next month","ខែក្រោយ"]
+];
+const dailySentences = sentenceBases.flatMap((base, bi) => sentenceContexts.map((ctx, ci) => ({
+ id: bi * sentenceContexts.length + ci + 1,
+ en: base[0].replace(/[.!?]$/, '') + (ctx[0].startsWith('when ') || ctx[0].startsWith('while ') ? ' ' : ' ') + ctx[0] + '.',
+ km: base[1].replace(/[។.!?]$/, '') + ' ' + ctx[1] + '។'
+}))).slice(0,10000);
+let sentencePage = 0;
+const sentencePageSize = 20;
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function renderSentences(){
+ const search=(document.getElementById('sentenceSearch')?.value||'').trim().toLowerCase();
+ const filtered=dailySentences.filter(s=>(s.en+' '+s.km).toLowerCase().includes(search));
+ const pages=Math.max(1,Math.ceil(filtered.length/sentencePageSize));
+ sentencePage=Math.min(sentencePage,pages-1);
+ const shown=filtered.slice(sentencePage*sentencePageSize,(sentencePage+1)*sentencePageSize);
+ document.getElementById('sentenceCount').textContent=dailySentences.length.toLocaleString()+' ប្រយោគ';
+ document.getElementById('sentenceResultsLabel').textContent=`រកឃើញ ${filtered.length.toLocaleString()} ប្រយោគ · បង្ហាញ ${shown.length} ប្រយោគក្នុងមួយទំព័រ`;
+ document.getElementById('sentencePageLabel').textContent=`ទំព័រ ${sentencePage+1} / ${pages}`;
+ document.getElementById('sentencePrev').disabled=sentencePage===0;
+ document.getElementById('sentenceNext').disabled=sentencePage>=pages-1;
+ document.getElementById('sentenceList').innerHTML=shown.map(s=>`<article class="lesson"><div class="lesson-icon">💬</div><div style="flex:1"><div class="small">ប្រយោគទី ${s.id}</div><h3>${escapeHtml(s.en)}</h3><p><b>អត្ថន័យ៖</b> ${escapeHtml(s.km)}</p><button onclick="speakSentenceById(${s.id})">🔊 ស្ដាប់</button></div></article>`).join('')||'<p class="muted">រកមិនឃើញប្រយោគនេះទេ។</p>';
+}
+function speakSentenceById(id){const s=dailySentences.find(item=>item.id===Number(id));if(s)speak(s.en)}
+function showDailySentence(){
+ const i=(new Date().getFullYear()*366+new Date().getMonth()*31+new Date().getDate())%dailySentences.length;
+ const s=dailySentences[i];
+ document.getElementById('dailySentenceCard').innerHTML=`<div class="small">ប្រយោគប្រចាំថ្ងៃ · #${s.id}</div><h3>${escapeHtml(s.en)}</h3><p><b>អត្ថន័យ៖</b> ${escapeHtml(s.km)}</p><button class="secondary" onclick="speakSentenceById(${s.id})">🔊 ស្ដាប់ការបញ្ចេញសំឡេង</button>`;
+}
+function randomSentence(){
+ const s=dailySentences[Math.floor(Math.random()*dailySentences.length)];
+ document.getElementById('dailySentenceCard').innerHTML=`<div class="small">ប្រយោគចៃដន្យ · #${s.id}</div><h3>${escapeHtml(s.en)}</h3><p><b>អត្ថន័យ៖</b> ${escapeHtml(s.km)}</p><button class="secondary" onclick="speakSentenceById(${s.id})">🔊 ស្ដាប់ការបញ្ចេញសំឡេង</button>`;
+}
+document.getElementById('sentenceSearch').addEventListener('input',()=>{sentencePage=0;renderSentences()});
+document.getElementById('sentencePrev').addEventListener('click',()=>{sentencePage=Math.max(0,sentencePage-1);renderSentences()});
+document.getElementById('sentenceNext').addEventListener('click',()=>{sentencePage++;renderSentences()});
+
+const questions = [
+ {q:'តើ “Hello” មានន័យដូចម្ដេច?',options:['អរគុណ','សួស្តី','សុំទោស','លាហើយ'],answer:1,why:'Hello មានន័យថា សួស្តី។'},
+ {q:'ជាមួយ “I” តើប្រើកិរិយាសព្ទ To Be មួយណា?',options:['is','are','am','be'],answer:2,why:'ត្រូវនិយាយថា “I am ...”។'},
+ {q:'តើពាក្យណាខាងក្រោមជាស្រៈ?',options:['B','T','M','E'],answer:3,why:'E គឺជាស្រៈមួយក្នុងចំណោម A, E, I, O, U។'},
+ {q:'“Thank you” មានន័យថា?',options:['សុំទោស','អរគុណ','សួស្តី','ជម្រាបលា'],answer:1,why:'Thank you ប្រើសម្រាប់បង្ហាញការអរគុណ។'},
+ {q:'តើប្រយោគណាត្រឹមត្រូវ?',options:['She are happy.','She am happy.','She is happy.','She be happy.'],answer:2,why:'ប្រើ “is” ជាមួយ She។'},
+ {q:'“Friend” មានន័យថា?',options:['គ្រូ','សៀវភៅ','មិត្តភក្តិ','ទឹក'],answer:2,why:'Friend មានន័យថា មិត្តភក្តិ។'},
+ {q:'តើ “They” មានន័យថា?',options:['ខ្ញុំ','អ្នក','គាត់','ពួកគេ'],answer:3,why:'They មានន័យថា ពួកគេ។'},
+ {q:'ជ្រើសរើសប្រយោគដែលមានន័យថា “ខ្ញុំចូលចិត្តតន្ត្រី”',options:['I play music.','I like music.','I am music.','I read music.'],answer:1,why:'I like music = ខ្ញុំចូលចិត្តតន្ត្រី។'}
+];
+// Categorized vocabulary libraries. Produce and fish/meat lists are curated names; larger lists include useful compound terms for extra practice.
+const produceNames = `apple|banana|orange|mango|grape|watermelon|pineapple|papaya|guava|coconut|lemon|lime|pomelo|jackfruit|durian|rambutan|lychee|longan|dragon fruit|passion fruit|avocado|pear|peach|plum|cherry|strawberry|blueberry|raspberry|blackberry|kiwi|pomegranate|fig|date fruit|persimmon|apricot|nectarine|cranberry|cantaloupe|honeydew|mandarin|tangerine|grapefruit|star fruit|custard apple|soursop|breadfruit|sugar apple|mulberry|gooseberry|olive|quince|plantain|chestnut|hazelnut|almond|walnut|pistachio|cashew|peanut|macadamia|pecan|cucumber|tomato|potato|sweet potato|yam|carrot|onion|garlic|ginger|shallot|spring onion|leek|cabbage|cauliflower|broccoli|lettuce|spinach|kale|mustard greens|water spinach|bok choy|celery|asparagus|artichoke|beetroot|radish|turnip|parsnip|pumpkin|squash|zucchini|eggplant|bell pepper|chili pepper|okra|green bean|long bean|pea|snow pea|corn|mushroom|bamboo shoot|bean sprout|lotus root|lotus stem|taro|cassava|lemongrass|mint|basil|cilantro|parsley|dill|rosemary|thyme|curry leaf|pandan leaf|kohlrabi|fennel|endive|arugula|watercress|collard greens|swiss chard|turnip greens|chayote|bitter melon|winter melon|ridge gourd|bottle gourd|luffa|yardlong bean|edamame|fava bean|chickpea|lentil|black bean|kidney bean|pinto bean|soybean|mung bean|white radish|daikon|rutabaga|celeriac|shallot greens|red onion|yellow onion|purple cabbage|red cabbage|green cabbage|romaine lettuce|iceberg lettuce|mustard cabbage|Chinese cabbage|Chinese broccoli|Chinese celery|Japanese eggplant|Thai eggplant|Thai basil|holy basil|Thai chili|bird's eye chili|red chili|green chili|yellow pepper|jalapeno|habanero|serrano pepper|sweet corn|baby corn|white mushroom|shiitake mushroom|oyster mushroom|enoki mushroom|portobello mushroom|truffle|seaweed|nori|kelp|wakame|chives|garlic chives|water chestnut|jicama|tamarind|green mango|green papaya|unripe banana|young coconut|coconut meat|coconut shoot|banana blossom|banana stem|pumpkin leaf|sweet potato leaf|cassava leaf|amaranth greens|purslane|malabar spinach|drumstick pod|moringa leaf|breadfruit leaf|peppermint|lemongrass shoot|ginger root|turmeric root|galangal|horseradish|wasabi|water bamboo|lotus seed|lotus flower|banana pepper|red beet|golden beet|yellow squash|acorn squash|butternut squash|spaghetti squash|pattypan squash|purple yam|ube|arrowroot|sunchoke|chicory|broad bean|green lentil|red lentil|black-eyed pea|split pea|adzuki bean|cranberry bean|winged bean|snake bean|hyacinth bean|cluster bean|mangetout|fiddlehead fern|samphire|palm heart|palm shoot|chrysanthemum greens|garland chrysanthemum|perilla leaf|shiso leaf|pepper leaf|mustard leaf|beet greens|broccoli rabe|rapini|Romanesco|kabocha|delicata squash|bitter gourd|wax gourd|snake gourd|pointed gourd|Ivy gourd|tindora|parwal|salsify|black salsify|cardoon|sea asparagus|salad onion|scallion|fresh turmeric|fresh galangal|red amaranth|green amaranth|purple carrot|white carrot|baby spinach|baby kale|microgreens|water celery|Indian spinach|Malabar gourd|chayote shoot|lotus leaf|banana leaf|grape leaf|fig leaf|curry pumpkin|yellow tomato|cherry tomato|plum tomato|heirloom tomato|green tomato|Roma tomato|beefsteak tomato|purple cauliflower|orange cauliflower|purple broccoli|white asparagus|purple asparagus|yellow zucchini|round zucchini|white eggplant|striped eggplant|long eggplant|red okra|purple okra|winged yam|Chinese yam|konjac|burdock root|lotus bulb|watercress stem|celery root|turnip cabbage|black radish|watermelon radish|pink radish|French bean|wax bean|runner bean|haricot bean|navy bean|great northern bean|lima bean|butter bean|mung bean sprout|alfalfa sprout|clover sprout|pea shoot|sunflower shoot|garlic scape|onion flower|pumpkin flower|zucchini flower|banana flower|daylily bud|bamboo fungus|wood ear mushroom|black trumpet mushroom|chanterelle mushroom|morel mushroom|king oyster mushroom|king trumpet mushroom|button mushroom|brown mushroom|white button mushroom|fresh corn|baby carrot|mini cucumber|pickling cucumber|English cucumber|Persian cucumber|Japanese cucumber|seedless cucumber|yellow cucumber|green pumpkin|white pumpkin|red pumpkin|calabaza|chayote squash|cushaw squash|marrow squash|crookneck squash|straightneck squash|yardlong cucumber|snake bean pod|green chickpea|fresh peas|snow pea shoots|pea eggplant|Thai pea eggplant|wild garlic|ramsons|water dropwort|Chinese chive|lemon basil|Thai coriander|culantro|sorrel|lovage|oregano|marjoram|sage|tarragon|bay leaf|saffron crocus|anise|caraway|cumin seed|fenugreek leaf|fenugreek greens|mustard seed greens|radicchio|frisee|butter lettuce|oak leaf lettuce|little gem lettuce|tatsoi|mizuna|komatsuna|yu choy|gai lan|choy sum|napa cabbage|savoy cabbage|pointed cabbage|Brussels sprouts|red kale|dinosaur kale|Chinese mustard greens|choy sum flower|bamboo pith|lotus rhizome|arrowhead tuber|water caltrop|jute leaves|roselle leaves|roselle calyx|sweet leaf|katuk|vegetable fern|paku|fern shoot|banana heart|coconut sprout|palm cabbage|sugar beet|fodder beet|white turnip|purple turnip|yellow turnip|red onion bulb|pearl onion|cipollini onion|elephant garlic|purple garlic|green garlic|pickled garlic|young ginger|red ginger|blue ginger|fingerroot|krachai|fresh horseradish|daikon greens|radish sprouts|mustard sprouts|broccoli sprouts|kale sprouts|bean curd skin|fresh soybeans|fresh broad beans|fresh fava beans|fresh lima beans|fresh runner beans|fresh green beans|fresh yardlong beans|fresh snow peas|fresh sugar snap peas|fresh green peas|fresh edamame|fresh chickpeas|fresh lentils|fresh mung beans|fresh kidney beans|fresh black beans|fresh pinto beans|fresh navy beans|fresh butter beans|fresh adzuki beans|fresh black-eyed peas|fresh pigeon peas|fresh hyacinth beans|fresh winged beans|fresh cluster beans|fresh guar beans|fresh cranberry beans|fresh cannellini beans|fresh borlotti beans|fresh flageolet beans|fresh soy sprouts|fresh lentil sprouts|fresh chickpea sprouts|fresh mung sprouts|fresh pea sprouts|fresh radish sprouts|fresh mustard sprouts|fresh onion sprouts|fresh garlic sprouts|fresh leek sprouts|fresh chive sprouts|fresh sunflower sprouts|fresh pea tendrils|fresh squash blossoms|fresh okra pods|fresh bitter melon|fresh winter melon|fresh ridge gourd|fresh bottle gourd|fresh snake gourd|fresh pointed gourd|fresh ivy gourd|fresh tindora|fresh parwal|fresh drumstick pods|fresh moringa pods|fresh cassava root|fresh taro root|fresh yam root|fresh sweet potato root|fresh potato tuber|fresh lotus root|fresh burdock root|fresh turmeric root|fresh ginger root|fresh galangal root|fresh horseradish root|fresh parsnip root|fresh turnip root|fresh radish root|fresh beet root|fresh carrot root|fresh celery root|fresh jicama root|fresh arrowroot root|fresh sunchoke tuber|fresh water chestnut|fresh bamboo shoot|fresh palm heart|fresh artichoke heart|fresh fennel bulb|fresh kohlrabi bulb|fresh cabbage heart|fresh lettuce heart|fresh broccoli stem|fresh cauliflower stem|fresh asparagus spear|fresh celery stalk|fresh rhubarb stalk|fresh chard stem|fresh kale stem|fresh collard stem|fresh mustard stem|fresh water spinach stem|fresh morning glory stem|fresh lotus stem|fresh banana stem|fresh bamboo stem|fresh lemongrass stalk|fresh spring onion stalk|fresh leek stalk|fresh garlic scape|fresh onion shoot|fresh chive stem|fresh coriander root|fresh parsley root|fresh dill stem|fresh basil stem|fresh mint stem|fresh rosemary sprig|fresh thyme sprig|fresh sage leaf|fresh bay leaf|fresh pandan leaf|fresh curry leaf|fresh kaffir lime leaf|fresh grape leaf|fresh fig leaf|fresh banana leaf|fresh lotus leaf|fresh mustard leaf|fresh pumpkin leaf|fresh sweet potato leaf|fresh cassava leaf|fresh moringa leaf|fresh amaranth leaf|fresh roselle leaf|fresh jute leaf|fresh katuk leaf|fresh fern shoot|fresh vegetable fern|fresh watercress|fresh purslane|fresh sorrel|fresh chicory|fresh endive|fresh arugula|fresh radicchio|fresh frisee|fresh tatsoi|fresh mizuna|fresh komatsuna|fresh yu choy|fresh gai lan|fresh choy sum|fresh napa cabbage|fresh savoy cabbage|fresh Brussels sprouts|fresh Romanesco|fresh kabocha squash|fresh butternut squash|fresh acorn squash|fresh spaghetti squash|fresh delicata squash|fresh pattypan squash|fresh crookneck squash|fresh straightneck squash|fresh yellow squash|fresh zucchini|fresh eggplant|fresh bell pepper|fresh chili pepper|fresh jalapeno|fresh habanero|fresh serrano pepper|fresh tomato|fresh cherry tomato|fresh plum tomato|fresh Roma tomato|fresh beefsteak tomato|fresh green tomato|fresh yellow tomato|fresh cucumber|fresh pumpkin|fresh melon|fresh watermelon|fresh cantaloupe|fresh honeydew|fresh papaya|fresh mango|fresh pineapple|fresh banana|fresh apple|fresh pear|fresh orange|fresh lemon|fresh lime|fresh pomelo|fresh grapefruit|fresh mandarin|fresh tangerine|fresh guava|fresh dragon fruit|fresh passion fruit|fresh star fruit|fresh jackfruit|fresh durian|fresh rambutan|fresh lychee|fresh longan|fresh coconut|fresh avocado|fresh kiwi|fresh peach|fresh plum|fresh apricot|fresh nectarine|fresh cherry|fresh strawberry|fresh blueberry|fresh raspberry|fresh blackberry|fresh cranberry|fresh pomegranate|fresh fig|fresh date fruit|fresh persimmon|fresh quince|fresh mulberry|fresh gooseberry|fresh breadfruit|fresh soursop|fresh custard apple|fresh sugar apple|fresh plantain|fresh olive|fresh chestnut|fresh almond|fresh walnut|fresh cashew|fresh peanut|fresh hazelnut|fresh pistachio|fresh pecan|fresh macadamia`.split('|');
+const produceKh = {'apple':'ផ្លែប៉ោម','banana':'ចេក','orange':'ក្រូច','mango':'ស្វាយ','grape':'ទំពាំងបាយជូរ','watermelon':'ឪឡឹក','pineapple':'ម្នាស់','papaya':'ល្ហុង','guava':'ត្របែក','coconut':'ដូង','lemon':'ក្រូចឆ្មារ','lime':'ក្រូចឆ្មា','pomelo':'ក្រូចថ្លុង','jackfruit':'ខ្នុរ','durian':'ធុរេន','rambutan':'សាវម៉ាវ','lychee':'គូលែន','longan':'មៀន','dragon fruit':'ផ្លែស្រកានាគ','passion fruit':'ផ្លែផាសិន','avocado':'ផ្លែប័រ','pear':'ផ្លែសារី','peach':'ផ្លែប៉ិច','strawberry':'ស្ត្របឺរី','kiwi':'ផ្លែគីវី','cucumber':'ត្រសក់','tomato':'ប៉េងប៉ោះ','potato':'ដំឡូងបារាំង','sweet potato':'ដំឡូងជ្វា','carrot':'ការ៉ុត','onion':'ខ្ទឹមបារាំង','garlic':'ខ្ទឹមស','ginger':'ខ្ញី','cabbage':'ស្ពៃក្តោប','cauliflower':'ផ្កាខាត់ណា','broccoli':'ប្រូខូលី','lettuce':'សាឡាត់','spinach':'ស្ពៃស្ពីណាច','pumpkin':'ល្ពៅ','eggplant':'ត្រប់','bell pepper':'ម្ទេសផ្អែម','chili pepper':'ម្ទេស','okra':'ត្រប់ពុតលំញង','green bean':'សណ្តែកបារាំង','pea':'សណ្តែកពារាំង','corn':'ពោត','mushroom':'ផ្សិត','bamboo shoot':'បន្លែឬស្សី','bean sprout':'សណ្តែកបណ្តុះ','lemongrass':'ស្លឹកគ្រៃ','mint':'ជីអង្កាម','basil':'ជីរនាងវង','cilantro':'ជីវ៉ាន់ស៊ុយ','parsley':'ជីប៉ាស្លី','taro':'ត្រាវ','cassava':'ដំឡូងមី','radish':'ឆៃថាវ','celery':'សេឡេរី'};
+const produceUnique=[...new Set(produceNames)].slice(0,200);
+while(produceUnique.length<200) produceUnique.push('produce item '+(produceUnique.length+1));
+const produceItems=produceUnique.map((en,i)=>[en,produceKh[en]||'ឈ្មោះបន្លែ ឬផ្លែឈើ៖ '+en,'']);
+const proteinNames=`salmon|tuna|trout|cod|haddock|tilapia|catfish|carp|mackerel|sardine|anchovy|herring|snapper|grouper|sea bass|barramundi|mullet|milkfish|snakehead fish|mudfish|catfish fillet|eel|perch|pike|halibut|flounder|sole|swordfish|marlin|mahi-mahi|sailfish|shark|ray|stingray|skate|pollock|hake|whiting|monkfish|herring roe|fish roe|fish ball|dried fish|smoked fish|salted fish|fish fillet|fish head|fish cake|fish paste|shrimp|prawn|crab|lobster|crayfish|crawfish|squid|octopus|cuttlefish|clam|mussel|oyster|scallop|cockle|snail|sea cucumber|sea urchin|jellyfish|frog legs|freshwater prawn|river shrimp|blue crab|mud crab|king crab|snow crab|soft-shell crab|king oyster shrimp|chicken|chicken breast|chicken thigh|chicken wing|chicken drumstick|chicken liver|chicken heart|duck|duck breast|duck leg|duck egg|turkey|turkey breast|quail|quail meat|goose|pigeon|pork|pork belly|pork chop|pork ribs|pork shoulder|pork loin|ham|bacon|sausage|beef|beef steak|ground beef|beef ribs|beef brisket|beef liver|beef tongue|veal|lamb|lamb chop|mutton|goat meat|buffalo meat|venison|rabbit|horse meat|meatball|minced meat|dried meat|smoked meat|jerky|meat sausage|meat dumpling|fish sausage|pork sausage|beef sausage|chicken sausage|tofu|egg|quail egg|duck egg|chicken egg|fish maw|pork skin|chicken feet|pig feet|beef tendon|bone marrow|pork intestine|beef tripe|chicken gizzard|chicken skin|pork liver|pork kidney|beef kidney|pork heart|beef heart|lamb liver|lamb kidney|duck liver|goose liver|turkey leg|turkey wing|chicken carcass|beef shank|pork shank|lamb shank|pork neck|beef neck|pork shoulder steak|beef short ribs|beef chuck|beef round|beef sirloin|beef tenderloin|pork tenderloin|pork ribs rack|lamb ribs|lamb shoulder|goat ribs|goat liver|rabbit leg|rabbit loin|smoked salmon|canned tuna|canned sardines|dried shrimp|dried squid|dried anchovy|salted egg|century egg|fish sauce|shrimp paste|crab meat|lobster tail|scallop meat|oyster meat|clam meat|mussel meat|octopus tentacle|squid ring|fish steak|fish belly|fish collar|fish skin|fish bone|fish roe sac|roe paste|surimi|imitation crab|seafood mix|mixed seafood|fish dumpling|shrimp dumpling|prawn cake|crab stick|fish tofu|fish ball soup|pork mince|beef mince|chicken mince|turkey mince|lamb mince|goat mince|duck meat|goose meat|wild boar|quail egg yolk|chicken yolk|egg white|egg yolk`.split('|');
+const proteinKh={'salmon':'ត្រីសាម៉ុង','tuna':'ត្រីធូណា','trout':'ត្រីត្រឡាចសមុទ្រ','cod':'ត្រីខូដ','tilapia':'ត្រីទីឡាព្យា','catfish':'ត្រីអណ្ដែង','carp':'ត្រីគល់រាំង','mackerel':'ត្រីម៉ាកឺរែល','sardine':'ត្រីសាឌីន','snapper':'ត្រីស្នេបភើ','grouper':'ត្រីហ្ក្រូភើ','shrimp':'បង្គា','prawn':'បង្គា','crab':'ក្តាម','lobster':'បង្កង','squid':'មឹក','octopus':'រតីយាវហឺ','clam':'លៀស','mussel':'ខ្យងសមុទ្រ','oyster':'អយស្ទ័រ','scallop':'ខ្យងស្កាឡប់','chicken':'សាច់មាន់','duck':'សាច់ទា','turkey':'សាច់ទួរគី','pork':'សាច់ជ្រូក','beef':'សាច់គោ','lamb':'សាច់ចៀម','mutton':'សាច់ចៀមពេញវ័យ','goat meat':'សាច់ពពែ','rabbit':'សាច់ទន្សាយ','egg':'ស៊ុត','tofu':'តៅហ៊ូ'};
+const proteinItems=[...new Set(proteinNames)].slice(0,100).map(en=>[en,proteinKh[en]||'ប្រភេទត្រី ឬសាច់៖ '+en,'']);
+const objectNouns=`bag|backpack|book|notebook|pen|pencil|eraser|ruler|desk|chair|table|lamp|light|phone|tablet|computer|laptop|keyboard|mouse|monitor|charger|cable|headphones|speaker|camera|clock|watch|mirror|door|window|key|lock|bottle|cup|glass|plate|bowl|spoon|fork|knife|pot|pan|kettle|rice cooker|refrigerator|fan|air conditioner|television|remote control|sofa|bed|pillow|blanket`.split('|');
+const objectMods=[['school','សាលា'],['office','ការិយាល័យ'],['home','ផ្ទះ'],['travel','ធ្វើដំណើរ'],['sports','កីឡា'],['kitchen','ផ្ទះបាយ'],['bedroom','បន្ទប់គេង'],['bathroom','បន្ទប់ទឹក'],['garden','សួនច្បារ'],['study','សិក្សា'],['work','ការងារ'],['digital','ឌីជីថល'],['wireless','ឥតខ្សែ'],['portable','ចល័ត'],['small','តូច'],['large','ធំ'],['wooden','ធ្វើពីឈើ'],['plastic','ប្លាស្ទិក'],['metal','លោហៈ'],['glass','កញ្ចក់'],['paper','ក្រដាស'],['leather','ស្បែក'],['cotton','កប្បាស'],['electric','អគ្គិសនី'],['smart','ឆ្លាតវៃ'],['folding','បត់បាន'],['reusable','ប្រើឡើងវិញ'],['rechargeable','អាចសាកថ្មបាន'],['waterproof','មិនជ្រាបទឹក'],['digital','ឌីជីថល'],['portable','ចល័ត'],['modern','ទំនើប'],['traditional','បែបប្រពៃណី'],['cleaning','សម្អាត'],['cooking','ចម្អិនអាហារ'],['storage','ផ្ទុក'],['safety','សុវត្ថិភាព'],['school bag','កាបូបសាលា'],['work desk','តុធ្វើការ'],['reading','អាន'],['writing','សរសេរ'],['drawing','គូរ'],['music','តន្ត្រី'],['gaming','លេងហ្គេម'],['computer','កុំព្យូទ័រ'],['phone','ទូរស័ព្ទ'],['camping','បោះជំរំ'],['picnic','ពិសាអាហារក្រៅផ្ទះ'],['fitness','ហាត់ប្រាណ'],['cycling','ជិះកង់']];
+const objectKh={'bag':'កាបូប','backpack':'កាបូបស្ពាយ','book':'សៀវភៅ','notebook':'សៀវភៅកត់ត្រា','pen':'ប៊ិច','pencil':'ខ្មៅដៃ','eraser':'ជ័រលុប','ruler':'បន្ទាត់','desk':'តុ','chair':'កៅអី','table':'តុ','lamp':'ចង្កៀង','light':'ភ្លើង','phone':'ទូរស័ព្ទ','tablet':'ថេប្លេត','computer':'កុំព្យូទ័រ','laptop':'កុំព្យូទ័រយួរដៃ','keyboard':'ក្ដារចុច','mouse':'ម៉ៅស៍','monitor':'អេក្រង់','charger':'ឆ្នាំងសាក','cable':'ខ្សែ','headphones':'កាស','speaker':'ឧបករណ៍បំពងសំឡេង','camera':'កាមេរ៉ា','clock':'នាឡិកា','watch':'នាឡិកាដៃ','mirror':'កញ្ចក់ឆ្លុះ','door':'ទ្វារ','window':'បង្អួច','key':'សោ','lock':'សោចាក់','bottle':'ដប','cup':'ពែង','glass':'កែវ','plate':'ចាន','bowl':'ចានគោម','spoon':'ស្លាបព្រា','fork':'សម','knife':'កាំបិត','pot':'ឆ្នាំង','pan':'ខ្ទះ','kettle':'កំសៀវ','refrigerator':'ទូទឹកកក','fan':'កង្ហារ','television':'ទូរទស្សន៍','remote control':'ឧបករណ៍បញ្ជា','sofa':'សាឡុង','bed':'គ្រែ','pillow':'ខ្នើយ','blanket':'ភួយ'};
+const uniqueObjectMods=[...new Map(objectMods.map(x=>[x[0],x])).values()]; objectMods.splice(0,objectMods.length,...uniqueObjectMods); objectMods.push(['decorative','តុបតែង'],['emergency','សង្គ្រោះបន្ទាន់']);
+const objectItems=[]; for(const [mod,km] of objectMods){for(const noun of objectNouns){if(objectItems.length>=2500)break;objectItems.push([mod+' '+noun,km+' + '+(objectKh[noun]||noun),'']);}if(objectItems.length>=2500)break;}
+const verbs=[['learn','រៀន'],['read','អាន'],['write','សរសេរ'],['open','បើក'],['close','បិទ'],['buy','ទិញ'],['sell','លក់'],['make','ធ្វើ'],['use','ប្រើ'],['clean','សម្អាត'],['wash','លាង'],['cook','ចម្អិន'],['carry','យួរ'],['bring','យកមក'],['take','យក'],['find','រកឃើញ'],['choose','ជ្រើសរើស'],['keep','រក្សា'],['repair','ជួសជុល'],['check','ពិនិត្យ'],['charge','សាកថ្ម'],['save','រក្សាទុក'],['share','ចែករំលែក'],['draw','គូរ'],['paint','លាបពណ៌'],['build','សាងសង់'],['move','ផ្លាស់ទី'],['put','ដាក់'],['hold','កាន់'],['touch','ប៉ះ'],['watch','មើល'],['listen to','ស្តាប់'],['play','លេង'],['pack','វេចខ្ចប់'],['store','ទុកដាក់'],['organize','រៀបចំ'],['replace','ប្តូរ'],['connect','ភ្ជាប់'],['disconnect','ផ្តាច់'],['protect','ការពារ'],['measure','វាស់'],['cut','កាត់'],['fold','បត់'],['press','ចុច'],['turn on','បើកដំណើរការ'],['turn off','បិទដំណើរការ'],['borrow','ខ្ចី'],['return','ប្រគល់ត្រឡប់'],['give','ឱ្យ'],['show','បង្ហាញ']];
+const libraryItems=[]; for(const [v,km] of verbs){for(const noun of objectNouns){if(libraryItems.length>=2500)break;libraryItems.push([v+' '+noun,km+' '+(objectKh[noun]||noun),'']);}if(libraryItems.length>=2500)break;}
+const collectionMeta={produce:{title:'🥦 បន្លែ និងផ្លែឈើ',description:'200 ឈ្មោះសម្រាប់ហាត់អាន និងស្ដាប់។ អត្ថន័យខ្មែរត្រូវបានបង្ហាញនៅពាក្យទូទៅដែលមានការបកប្រែ។',items:produceItems},protein:{title:'🐟 ត្រី និងសាច់',description:'100 ឈ្មោះត្រី សាច់ និងអាហារប្រូតេអ៊ីន។',items:proteinItems},objects:{title:'🧰 វត្ថុ និងរបស់ប្រើប្រាស់',description:'2,500 ពាក្យ/ឃ្លាអំពីវត្ថុ និងការប្រើប្រាស់ប្រចាំថ្ងៃ។ ឃ្លាមួយចំនួនត្រូវបានបង្កើតពីពាក្យពិពណ៌នា + វត្ថុ ដើម្បីហាត់អាន។',items:objectItems},library:{title:'📚 បណ្ណាល័យពាក្យទូទៅ',description:'2,500 ឃ្លាហាត់អានដែលផ្សំពីកិរិយាសព្ទ និងវត្ថុ។ ឃ្លាទាំងនេះជាសម្ភារៈហាត់ពាក្យ មិនមែនសុទ្ធតែជាប្រយោគពេញលេញទេ។',items:libraryItems}};
+let activeCollection='produce', collectionPageIndex=0;
+function openCollection(id){activeCollection=id;collectionPageIndex=0;document.getElementById('collectionBrowser').classList.remove('hidden');document.getElementById('collectionTitle').textContent=collectionMeta[id].title;document.getElementById('collectionDescription').textContent=collectionMeta[id].description;document.getElementById('collectionSearch').value='';renderCollection();document.getElementById('collectionBrowser').scrollIntoView({behavior:'smooth',block:'start'});}
+function closeCollection(){document.getElementById('collectionBrowser').classList.add('hidden');document.getElementById('collectionSearch').value='';}
+function renderCollection(){const c=collectionMeta[activeCollection];const q=document.getElementById('collectionSearch').value.trim().toLowerCase();const filtered=c.items.filter(x=>x.join(' ').toLowerCase().includes(q));const pages=Math.max(1,Math.ceil(filtered.length/25));collectionPageIndex=Math.min(collectionPageIndex,pages-1);document.getElementById('collectionCount').textContent=`រកឃើញ ${filtered.length.toLocaleString()} ធាតុ · បង្ហាញ 25 ក្នុងមួយទំព័រ`;document.getElementById('collectionPage').textContent=`ទំព័រ ${collectionPageIndex+1} / ${pages}`;document.getElementById('collectionPrev').disabled=collectionPageIndex===0;document.getElementById('collectionNext').disabled=collectionPageIndex>=pages-1;const part=filtered.slice(collectionPageIndex*25,collectionPageIndex*25+25);document.getElementById('collectionList').innerHTML=part.map((x,i)=>`<article class="lesson"><div class="lesson-icon">🔊</div><div style="flex:1"><h3>${escapeHtml(x[0])}</h3><p><b>អត្ថន័យ/ជំនួយ៖</b> ${escapeHtml(x[1])}</p><button data-text="${escapeHtml(x[0])}" onclick="speakCollectionText(this.dataset.text)">🔊 ស្ដាប់</button></div></article>`).join('')||'<p class="muted">រកមិនឃើញពាក្យនេះទេ។</p>';}
+function speakCollectionText(text){speak(text)}
+function escapeHtml(v){return String(v).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));}
+document.getElementById('collectionSearch').addEventListener('input',()=>{collectionPageIndex=0;renderCollection()});document.getElementById('collectionPrev').addEventListener('click',()=>{collectionPageIndex=Math.max(0,collectionPageIndex-1);renderCollection()});document.getElementById('collectionNext').addEventListener('click',()=>{collectionPageIndex++;renderCollection()});
+
+const state = {completed:[],learned:[],best:0,history:[],quizIndex:0,quizScore:0,answered:false,currentLesson:null};
+function loadState(){try{const s=JSON.parse(localStorage.getItem('englishTutorProgress')||'{}');state.completed=s.completed||[];state.learned=s.learned||[];state.best=s.best||0;state.history=s.history||[]}catch(e){}}
+function saveState(){try{localStorage.setItem('englishTutorProgress',JSON.stringify({completed:state.completed,learned:state.learned,best:state.best,history:state.history}))}catch(e){toast('មិនអាចរក្សាទុកបាននៅក្នុង browser នេះទេ។')};renderStats()}
+function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.remove('hidden');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>t.classList.add('hidden'),2400)}
+
+function hubSpeakNow(){const t=document.getElementById('hubSpeak').value;if('speechSynthesis'in window){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='en-US';u.rate=.82;speechSynthesis.speak(u)}else toast('Browser នេះមិនគាំទ្រសំឡេងទេ។')}
+function hubListenNow(){const t='Good morning! How are you? I am fine, thank you. What are you doing today? I am going to school.';if('speechSynthesis'in window){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='en-US';u.rate=.78;speechSynthesis.speak(u)}else toast('Browser នេះមិនគាំទ្រសំឡេងទេ។')}
+function saveHubMissions(){const checks=[...document.querySelectorAll('[data-mission]')];const vals={date:new Date().toISOString().slice(0,10),done:checks.filter(x=>x.checked).map(x=>x.dataset.mission)};try{localStorage.setItem('sengHourDailyMissions',JSON.stringify(vals))}catch(e){}const count=vals.done.length;document.getElementById('hubMissionStatus').textContent=count===4?'🎉 អស្ចារ្យ! បំពេញបេសកកម្មទាំងអស់ហើយ!':`បានបំពេញ ${count}/4 បេសកកម្ម`;}
+function loadHubMissions(){try{const v=JSON.parse(localStorage.getItem('sengHourDailyMissions')||'null');if(v&&v.date===new Date().toISOString().slice(0,10)){document.querySelectorAll('[data-mission]').forEach(x=>x.checked=v.done.includes(x.dataset.mission))}else{localStorage.removeItem('sengHourDailyMissions')} }catch(e){}saveHubMissions()}
+function resetHubMissions(){document.querySelectorAll('[data-mission]').forEach(x=>x.checked=false);saveHubMissions()}
+
+function showView(id){if(id==='reading')renderReadingList();if(id==='learninghub')loadHubMissions();document.querySelectorAll('.view').forEach(v=>v.classList.toggle('active',v.id===id));document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.view===id||(id==='lessonDetail'&&b.dataset.view==='lessons')));if(id==='quiz'&&!state.quizStarted)startQuiz();if(id==='words')renderWords();if(id==='sentences')renderSentences();if(id==='grammar'){renderGrammarList();renderGrammarQuiz()}if(id==='progress')renderProgress();window.scrollTo({top:0,behavior:'smooth'})}
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>showView(b.dataset.view)));
+function lessonCard(l){const done=state.completed.includes(l.id);return `<article class="lesson"><div class="lesson-icon">${l.icon}</div><div style="flex:1"><div class="small">${l.level}${done?' · ✓ បានបញ្ចប់':''}</div><h3>${l.title}</h3><p>${l.desc}</p><button onclick="openLesson('${l.id}')">${done?'រៀនម្ដងទៀត':'ចាប់ផ្ដើមរៀន'} →</button></div></article>`}
+function renderLessons(){document.getElementById('homeLessons').innerHTML=lessons.slice(0,4).map(lessonCard).join('');document.getElementById('allLessons').innerHTML=lessons.map(lessonCard).join('')}
+function openLesson(id){const l=lessons.find(x=>x.id===id);if(!l)return;state.currentLesson=l;document.getElementById('detailTag').textContent=l.level.toUpperCase();document.getElementById('detailTitle').textContent=l.title;document.getElementById('detailIntro').textContent=l.intro;document.getElementById('detailContent').innerHTML=l.content;document.getElementById('completeLesson').textContent=state.completed.includes(id)?'✓ បានបញ្ចប់រួចហើយ':'✓ សម្គាល់ថាបានរៀន';showView('lessonDetail')}
+document.getElementById('completeLesson').addEventListener('click',()=>{if(!state.currentLesson)return;const id=state.currentLesson.id;if(!state.completed.includes(id)){state.completed.push(id);saveState();renderLessons();toast('អបអរសាទរ! អ្នកបានបញ្ចប់មេរៀន 🎉')}else toast('មេរៀននេះបានបញ្ចប់រួចហើយ!');document.getElementById('completeLesson').textContent='✓ បានបញ្ចប់រួចហើយ'});
+let availableEnglishVoices=[];
+function refreshEnglishVoices(){
+ if(!('speechSynthesis' in window)){const st=document.getElementById('voiceStatus');if(st)st.textContent='Browser នេះមិនគាំទ្រមុខងារសំឡេងទេ។';return}
+ const all=window.speechSynthesis.getVoices();
+ availableEnglishVoices=all.filter(v=>/^en-US$/i.test(v.lang)||/^en[-_]US/i.test(v.lang));
+ const select=document.getElementById('voiceSelect');if(!select)return;
+ const previous=select.value;select.innerHTML='';
+ if(!availableEnglishVoices.length){select.add(new Option('សំឡេងលំនាំដើម (បើមាន)',''));document.getElementById('voiceStatus').textContent='មិនទាន់រកឃើញសំឡេង American English ជាក់លាក់ទេ។ អ្នកអាចដំឡើង English (United States) ក្នុង Android Text-to-speech settings ហើយចុចរកសំឡេងម្ដងទៀត។';return}
+ availableEnglishVoices.sort((a,b)=>{const score=v=>(/google us english/i.test(v.name)?5:0)+(/natural|premium|enhanced/i.test(v.name)?4:0)+(/microsoft/i.test(v.name)?2:0)+(!v.localService?1:0);return score(b)-score(a)});
+ availableEnglishVoices.forEach((v,i)=>select.add(new Option(v.name+' — '+v.lang,i)));
+ if(previous && Number(previous)<availableEnglishVoices.length)select.value=previous;
+ document.getElementById('voiceStatus').textContent='រកឃើញ '+availableEnglishVoices.length+' សំឡេង American English។ ជ្រើសសំឡេង ហើយសាកស្ដាប់។';
+}
+function selectedEnglishVoice(){const el=document.getElementById('voiceSelect');if(!el||el.value==='')return null;return availableEnglishVoices[Number(el.value)]||null}
+function speak(text){if(!('speechSynthesis'in window)){toast('Browser នេះមិនគាំទ្រមុខងារសំឡេងទេ។');return}window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=.88;u.pitch=1;const v=selectedEnglishVoice();if(v){u.voice=v;u.lang=v.lang||'en-US'}window.speechSynthesis.speak(u)}
+function testEnglishVoice(){speak('Hello! Welcome to Seng Hour English Academy. Let us learn English together. Please listen and repeat after me.')}
+if('speechSynthesis' in window){window.speechSynthesis.addEventListener('voiceschanged',refreshEnglishVoices);setTimeout(refreshEnglishVoices,300)}
+function speakCurrent(){if(!state.currentLesson)return;const l=state.currentLesson;const wordsInLesson=words.map(w=>w[0]).filter(w=>l.content.toLowerCase().includes(w.toLowerCase()));speak(wordsInLesson.length?wordsInLesson.join('. '):l.title)}
+function wordExample(en){
+ const examples={
+  'Hello':['Hello, my friend.','សួស្តី មិត្តរបស់ខ្ញុំ។'],
+  'Apple':['I eat an apple.','ខ្ញុំញ៉ាំផ្លែប៉ោមមួយ។'],
+  'Beautiful':['The flower is beautiful.','ផ្កានោះស្អាត។'],
+  'Learn':['I learn English every day.','ខ្ញុំរៀនភាសាអង់គ្លេសរាល់ថ្ងៃ។'],
+  'Friend':['He is my friend.','គាត់ជាមិត្តរបស់ខ្ញុំ។'],
+  'Book':['This is my book.','នេះជាសៀវភៅរបស់ខ្ញុំ។'],
+  'Water':['I drink water.','ខ្ញុំផឹកទឹក។'],
+  'Happy':['I am happy today.','ថ្ងៃនេះខ្ញុំសប្បាយចិត្ត។'],
+  'Practice':['Practice every day.','ហាត់អនុវត្តរាល់ថ្ងៃ។'],
+  'Thank you':['Thank you for your help.','អរគុណសម្រាប់ជំនួយរបស់អ្នក។'],
+  'Good morning':['Good morning, teacher.','អរុណសួស្តី លោកគ្រូ/អ្នកគ្រូ។'],
+  'School':['I go to school.','ខ្ញុំទៅសាលារៀន។'],
+  'Family':['I love my family.','ខ្ញុំស្រឡាញ់គ្រួសាររបស់ខ្ញុំ។'],
+  'Teacher':['My teacher is kind.','គ្រូរបស់ខ្ញុំមានចិត្តល្អ។'],
+  'Student':['I am a student.','ខ្ញុំជាសិស្ស។'],
+  'Brave':['He is brave.','គាត់ក្លាហាន។'],
+  'Improve':['I want to improve my English.','ខ្ញុំចង់កែលម្អភាសាអង់គ្លេសរបស់ខ្ញុំ។']
+ };
+ return examples[en]||[en+'.','ឧទាហរណ៍៖ '+en+'.'];
+}
+function renderWords(filter=''){const f=filter.trim().toLowerCase();const countEl=document.getElementById('dictionaryCount');if(countEl)countEl.textContent=words.length;const list=words.filter(w=>w.join(' ').toLowerCase().includes(f));document.getElementById('wordList').innerHTML=list.map(w=>{const ex=wordExample(w[0]);return `<article class="lesson"><div class="lesson-icon">🔊</div><div style="flex:1"><h3>${w[0]}</h3><p style="margin-bottom:4px"><b>អត្ថន័យ៖</b> ${w[1]}</p><p><b>ឧទាហរណ៍៖</b> ${ex[0]}<br><span class="muted">${ex[1]}</span></p><p>អានប្រហែល៖ ${w[2]}</p><button onclick="speak('${w[0].replace(/'/g,"\\'")}')">ស្ដាប់សំឡេង</button> <button onclick="markWord('${w[0].replace(/'/g,"\\'")}')">${state.learned.includes(w[0])?'✓ បានរៀន':'សម្គាល់ថាបានរៀន'}</button></div></article>`}).join('')||'<p class="muted">រកមិនឃើញពាក្យនេះទេ។</p>'}
+function markWord(w){if(!state.learned.includes(w))state.learned.push(w);saveState();renderWords(document.getElementById('wordSearch').value);toast('បានកត់ត្រាពាក្យ '+w)}
+document.getElementById('wordSearch').addEventListener('input',e=>renderWords(e.target.value));
+function startQuiz(){state.quizStarted=true;state.quizIndex=0;state.quizScore=0;state.answered=false;renderQuestion()}
+function renderQuestion(){const box=document.getElementById('quizBox');if(state.quizIndex>=questions.length){const pct=Math.round(state.quizScore/questions.length*100);state.best=Math.max(state.best,pct);state.history.unshift({score:pct,date:new Date().toLocaleDateString()});state.history=state.history.slice(0,5);saveState();box.innerHTML=`<div style="text-align:center;padding:15px"><div style="font-size:55px">${pct>=70?'🏆':'💪'}</div><h2>អ្នកបានបញ្ចប់សំណួរ!</h2><div style="font-size:40px;font-weight:850;color:var(--blue)">${state.quizScore}/${questions.length}</div><p class="muted">ពិន្ទុរបស់អ្នក៖ ${pct}%. ${pct>=70?'ល្អណាស់! បន្តការរៀនទៀត។':'កុំបារម្ភ! រៀនមេរៀនម្ដងទៀត ហើយសាកល្បងម្ដងទៀត។'}</p><button class="secondary" onclick="startQuiz()">សាកល្បងម្ដងទៀត ↻</button></div>`;renderProgress();return}
+const q=questions[state.quizIndex];box.innerHTML=`<div class="small">សំណួរ ${state.quizIndex+1} ក្នុង ${questions.length}</div><div class="progress-wrap"><div class="progress-bar" style="width:${state.quizIndex/questions.length*100}%"></div></div><h2 style="margin-top:20px">${q.q}</h2><div id="choices">${q.options.map((o,i)=>`<button class="choice" onclick="answerQuestion(${i})">${String.fromCharCode(65+i)}. ${o}</button>`).join('')}</div><div id="quizFeedback"></div><button id="nextQuestion" class="secondary hidden" onclick="nextQuestion()">សំណួរបន្ទាប់ →</button>`}
+function answerQuestion(i){if(state.answered)return;state.answered=true;const q=questions[state.quizIndex];const choices=[...document.querySelectorAll('.choice')];choices.forEach((b,j)=>{b.disabled=true;if(j===q.answer)b.classList.add('correct');else if(j===i)b.classList.add('wrong')});const good=i===q.answer;if(good)state.quizScore++;document.getElementById('quizFeedback').innerHTML=`<div class="feedback ${good?'good':'bad'}">${good?'✓ ត្រឹមត្រូវ!':'✗ មិនទាន់ត្រឹមត្រូវទេ។'} ${q.why}</div>`;document.getElementById('nextQuestion').classList.remove('hidden')}
+function nextQuestion(){state.quizIndex++;state.answered=false;renderQuestion()}
+function renderStats(){document.getElementById('completedCount').textContent=state.completed.length;document.getElementById('bestScore').textContent=state.best+'%';document.getElementById('wordCount').textContent=state.learned.length}
+function renderProgress(){document.getElementById('progressText').textContent=`${state.completed.length} ក្នុង ${lessons.length} មេរៀន`;document.getElementById('progressBar').style.width=(state.completed.length/lessons.length*100)+'%';document.getElementById('scoreHistory').innerHTML=state.history.length?state.history.map((h,i)=>`<div class="example">លើកទី ${state.history.length-i}: <b>${h.score}%</b> <span class="small">· ${h.date}</span></div>`).join(''):'មិនទាន់មានពិន្ទុទេ។ សាកល្បងសំណួរមើល!'}
+document.getElementById('dailyWord').innerHTML=`<div style="display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap"><div><div class="small">WORD OF THE DAY</div><h2 style="color:var(--blue);margin:6px 0">Practice</h2><div>ហាត់ប្រាណ / ហាត់អនុវត្ត</div><p class="muted">“Practice makes progress.” — ការហាត់អនុវត្តជួយឱ្យរីកចម្រើន។</p></div><button class="secondary" onclick="speak('Practice makes progress')">🔊 ស្ដាប់</button></div>`;
+document.getElementById('resetBtn').addEventListener('click',()=>{if(confirm('តើអ្នកប្រាកដថាចង់លុបវឌ្ឍនភាពទាំងអស់មែនទេ?')){state.completed=[];state.learned=[];state.best=0;state.history=[];saveState();renderLessons();renderWords();renderProgress();toast('បានកំណត់វឌ្ឍនភាពឡើងវិញ')}})
+loadState();renderLessons();renderStats();renderWords();
+
+
+// Pro features are additive; original academy features remain unchanged.
+const PRO_KEY='sengHourProStateV1';
+let proState={xp:0,actions:0,lastDay:'',streak:0,unlocked:[],gameIndex:0,gameScore:0,gameAnswered:false};
+const proQuestions=[
+ {en:'Apple',km:'ផ្លែប៉ោម',opts:['ផ្លែប៉ោម','សៀវភៅ','ទឹក','សាលារៀន'],a:0},
+ {en:'Book',km:'សៀវភៅ',opts:['កៅអី','សៀវភៅ','បង្អួច','ឆ្មា'],a:1},
+ {en:'Water',km:'ទឹក',opts:['ទឹក','អាហារ','ផ្កា','ឡាន'],a:0},
+ {en:'School',km:'សាលារៀន',opts:['ផ្ទះ','មិត្តភក្តិ','សាលារៀន','គ្រួសារ'],a:2},
+ {en:'Happy',km:'សប្បាយចិត្ត',opts:['ហត់នឿយ','សប្បាយចិត្ត','ខឹង','ឃ្លាន'],a:1}
+];
+const proBadgeDefs=[
+ {id:'first',icon:'🌱',name:'អ្នកចាប់ផ្ដើម',desc:'ទទួលបាន XP លើកដំបូង',test:()=>proState.xp>0},
+ {id:'xp50',icon:'⭐',name:'ផ្កាយដំបូង',desc:'ប្រមូលបាន 50 XP',test:()=>proState.xp>=50},
+ {id:'xp150',icon:'🏆',name:'អ្នកពូកែ',desc:'ប្រមូលបាន 150 XP',test:()=>proState.xp>=150},
+ {id:'game',icon:'🎮',name:'អ្នកលេងហ្គេម',desc:'បញ្ចប់ហ្គេមពាក្យមួយជុំ',test:()=>proState.unlocked.includes('game')},
+ {id:'speaker',icon:'🎙️',name:'អ្នកហាត់និយាយ',desc:'ប្រើការហាត់និយាយ',test:()=>proState.unlocked.includes('speaker')},
+ {id:'streak3',icon:'🔥',name:'បន្តការហាត់',desc:'ហាត់ 3 ថ្ងៃជាប់គ្នា',test:()=>proState.streak>=3}
+];
+
+const localTutorAnswers=[
+ {keys:['hello','សួស្តី','hi'],answer:'👋 Hello / Hi = សួស្តី។ ឧទាហរណ៍៖ Hello, how are you? = សួស្តី អ្នកសុខសប្បាយទេ?'},
+ {keys:['how are you','សុខសប្បាយ'],answer:'💬 How are you? = អ្នកសុខសប្បាយទេ? អាចឆ្លើយថា: I am fine, thank you. = ខ្ញុំសុខសប្បាយទេ អរគុណ។'},
+ {keys:['i am','ខ្ញុំជា','ប្រយោគ'],answer:'📘 I am... = ខ្ញុំជា... ឬ ខ្ញុំកំពុង... តាមបរិបទ។ ឧទាហរណ៍៖ I am happy. = ខ្ញុំសប្បាយចិត្ត។ I am learning English. = ខ្ញុំកំពុងរៀនភាសាអង់គ្លេស។'},
+ {keys:['thank'],answer:'🙏 Thank you = អរគុណ។ Thank you very much = អរគុណច្រើន។'},
+ {keys:['apple','ផ្លែប៉ោម'],answer:'🍎 Apple = ផ្លែប៉ោម។ ឧទាហរណ៍៖ I eat an apple. = ខ្ញុំញ៉ាំផ្លែប៉ោមមួយ។'},
+ {keys:['grammar','វេយ្យាករណ៍'],answer:'📚 ចាប់ផ្ដើមពីលំនាំសាមញ្ញ៖ Subject + Verb + Object។ ឧទាហរណ៍៖ I read a book. = ខ្ញុំអានសៀវភៅ។'},
+ {keys:['pronunciation','អាន','បញ្ចេញសំឡេង'],answer:'🔊 ចុចប៊ូតុង “ស្ដាប់ឃ្លា” ក្នុងផ្នែកហាត់និយាយ រួចស្ដាប់ ហើយនិយាយតាមយឺតៗ។'}
+];
+function tutorQuick(q){document.getElementById('tutorQuestion').value=q;askLocalTutor()}
+function askLocalTutor(){const input=document.getElementById('tutorQuestion');const q=(input.value||'').trim();const out=document.getElementById('tutorChat');if(!q){out.textContent='សូមសរសេរសំណួរមួយសិន 🙂';return}const low=q.toLowerCase();const found=localTutorAnswers.find(item=>item.keys.some(k=>low.includes(k.toLowerCase())));out.innerHTML='<b>អ្នកសួរ៖</b> '+escapeTutorText(q)+'<br><br><b>គ្រូជំនួយ៖</b> '+(found?found.answer:'🙂 ខ្ញុំមិនទាន់មានចម្លើយសម្រាប់សំណួរនេះទេ។ សាកសួរអំពី Hello, How are you, I am..., Thank you, Apple ឬវេយ្យាករណ៍។');addProXP(2);input.value=''}
+function escapeTutorText(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+const scrambleBank=[{word:'BOOK',hint:'សៀវភៅ'},{word:'APPLE',hint:'ផ្លែប៉ោម'},{word:'WATER',hint:'ទឹក'},{word:'HAPPY',hint:'សប្បាយចិត្ត'},{word:'SCHOOL',hint:'សាលារៀន'}];let scrambleIndex=0;let scrambleDone=[];
+function shuffledWord(word){let a=word.split('');for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}if(a.join('')===word&&a.length>1)a.push(a.shift());return a.join('')}
+function renderScramble(){const q=scrambleBank[scrambleIndex];document.getElementById('scrambleRound').textContent=`ពាក្យ ${scrambleIndex+1} / ${scrambleBank.length}`;document.getElementById('scrambleLetters').textContent=shuffledWord(q.word);document.getElementById('scrambleHint').textContent='ជំនួយ៖ '+q.hint;document.getElementById('scrambleAnswer').value='';document.getElementById('scrambleFeedback').textContent='សរសេរពាក្យ រួចចុច “ពិនិត្យ”។'}
+function checkScramble(){const ans=document.getElementById('scrambleAnswer').value.trim().toUpperCase();const q=scrambleBank[scrambleIndex];const out=document.getElementById('scrambleFeedback');if(ans===q.word){if(!scrambleDone.includes(q.word)){scrambleDone.push(q.word);addProXP(10)}out.textContent='✓ ត្រឹមត្រូវ! '+q.word+' = '+q.hint}else out.textContent='សាកម្ដងទៀត 🙂 ពិនិត្យអក្សរម្ដងទៀត។'}
+function nextScramble(){scrambleIndex=(scrambleIndex+1)%scrambleBank.length;renderScramble()}
+function updateAutosaveStatus(){const el=document.getElementById('autosaveStatus');if(el)el.textContent='✅ វឌ្ឍនភាពរក្សាទុកក្នុង browser ដោយស្វ័យប្រវត្តិ។ Backup ឯករាជ្យនៅតែត្រូវទាញយកដោយដៃ។'}
+document.addEventListener('keydown',e=>{if(e.key==='Enter'&&document.activeElement&&document.activeElement.id==='tutorQuestion')askLocalTutor();if(e.key==='Enter'&&document.activeElement&&document.activeElement.id==='scrambleAnswer')checkScramble()});
+
+function exportAcademyBackup(){
+  try{
+    const payload={app:'Seng Hour English Academy',formatVersion:1,createdAt:new Date().toISOString(),
+      progress:JSON.parse(localStorage.getItem('englishTutorProgress')||'{}'),
+      pro:JSON.parse(localStorage.getItem(PRO_KEY)||'{}'),
+      theme:localStorage.getItem('sengHourTheme')||'light'};
+    const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);const a=document.createElement('a');
+    a.href=url;a.download='SengHourAcademy-Backup-'+new Date().toISOString().slice(0,10)+'.json';
+    document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    toast('បានបង្កើតឯកសារ Backup ហើយ! សូមរក្សាទុកឯកសារនេះ។');
+  }catch(e){toast('មិនអាចបង្កើត Backup បានទេ។ សូមសាកល្បងម្ដងទៀត។')}
+}
+function importAcademyBackup(event){
+  const file=event.target.files&&event.target.files[0];if(!file)return;
+  const reader=new FileReader();reader.onload=()=>{
+    try{
+      const data=JSON.parse(String(reader.result||''));
+      if(!data||data.app!=='Seng Hour English Academy'||data.formatVersion!==1||typeof data.progress!=='object'||typeof data.pro!=='object')throw new Error('invalid backup');
+      if(!confirm('ការស្ដារ Backup នឹងជំនួសវឌ្ឍនភាពដែលមានក្នុង browser នេះ។ តើបន្តទេ?')){event.target.value='';return;}
+      localStorage.setItem('englishTutorProgress',JSON.stringify(data.progress));
+      localStorage.setItem(PRO_KEY,JSON.stringify(data.pro));
+      localStorage.setItem('sengHourTheme',data.theme==='dark'?'dark':'light');
+      toast('បានស្ដារ Backup ហើយ។ កំពុងផ្ទុកវេបសាយឡើងវិញ…');setTimeout(()=>location.reload(),700);
+    }catch(e){toast('ឯកសារ Backup មិនត្រឹមត្រូវ ឬមិនអាចអានបានទេ។');}
+    event.target.value='';
+  };reader.onerror=()=>{toast('មិនអាចអានឯកសារនេះបានទេ។');event.target.value='';};reader.readAsText(file);
+}
+
+function loadProState(){try{const x=JSON.parse(localStorage.getItem(PRO_KEY)||'{}');proState={...proState,...x};}catch(e){}}
+function saveProState(){try{localStorage.setItem(PRO_KEY,JSON.stringify(proState));}catch(e){}renderProStats();}
+function proToday(){return new Date().toISOString().slice(0,10)}
+function addProXP(amount,action=''){const today=proToday();if(proState.lastDay!==today){const prev=new Date(Date.now()-86400000).toISOString().slice(0,10);proState.streak=proState.lastDay===prev?proState.streak+1:1;proState.lastDay=today;}proState.xp+=amount;proState.actions++;if(action&&!proState.unlocked.includes(action))proState.unlocked.push(action);saveProState();toast('+'+amount+' XP ✨ បន្តការរៀន!');}
+function renderProStats(){const level=Math.floor(proState.xp/100)+1,into=proState.xp%100;const a=document.getElementById('proXP');if(!a)return;a.textContent=proState.xp;document.getElementById('proLevel').textContent=level;document.getElementById('proXPBar').style.width=into+'%';document.getElementById('proStreak').textContent=proState.streak;document.getElementById('proActions').textContent=proState.actions;document.getElementById('proBadges').innerHTML=proBadgeDefs.map(b=>{const ok=b.test();return `<div class="pro-badge ${ok?'':'locked'}"><div class="badge-icon">${ok?b.icon:'🔒'}</div><strong>${b.name}</strong><small>${b.desc}</small><div class="small">${ok?'✓ ដោះសោហើយ':'មិនទាន់ដោះសោ'}</div></div>`}).join('');}
+function toggleProTheme(){document.body.classList.toggle('dark-mode');const dark=document.body.classList.contains('dark-mode');try{localStorage.setItem('sengHourTheme',dark?'dark':'light')}catch(e){}document.getElementById('themeBtn').textContent=dark?'☀️ Light Mode':'🌙 Dark Mode';}
+function renderProGame(){const q=proQuestions[proState.gameIndex];document.getElementById('gameRound').textContent=`សំណួរ ${proState.gameIndex+1} / ${proQuestions.length}`;document.getElementById('gameWord').textContent=q.en;document.getElementById('gameFeedback').innerHTML='';document.getElementById('gameNext').textContent='បន្ទាប់ →';document.getElementById('gameChoices').innerHTML=q.opts.map((o,i)=>`<button class="game-choice" onclick="answerProGame(${i})">${String.fromCharCode(65+i)}. ${o}</button>`).join('');proState.gameAnswered=false;}
+function answerProGame(i){if(proState.gameAnswered)return;proState.gameAnswered=true;const q=proQuestions[proState.gameIndex];document.querySelectorAll('.game-choice').forEach((b,j)=>{b.disabled=true;if(j===q.a)b.classList.add('good');else if(j===i)b.classList.add('bad')});const good=i===q.a;if(good)proState.gameScore++;document.getElementById('gameFeedback').innerHTML=`<div class="feedback ${good?'good':'bad'}">${good?'✓ ត្រឹមត្រូវ! +10 XP':'មិនទាន់ត្រូវទេ។'} ${q.en} = ${q.km}</div>`;if(good)addProXP(10);}
+function nextProGame(){if(!proState.gameAnswered){toast('សូមជ្រើសចម្លើយសិន 🙂');return}if(proState.gameIndex===proQuestions.length-1){document.getElementById('gameRound').textContent='បានបញ្ចប់ហ្គេម!';document.getElementById('gameWord').textContent=`ពិន្ទុ ${proState.gameScore} / ${proQuestions.length}`;document.getElementById('gameChoices').innerHTML='';document.getElementById('gameFeedback').innerHTML='<div class="feedback good">🎉 ល្អណាស់! អ្នកបានបញ្ចប់មួយជុំ។</div>';document.getElementById('gameNext').textContent='លេងម្ដងទៀត';if(!proState.unlocked.includes('game')){proState.unlocked.push('game');saveProState()}return}proState.gameIndex++;renderProGame();}
+function restartProGame(){proState.gameIndex=0;proState.gameScore=0;proState.gameAnswered=false;renderProGame();}
+
+const readingArticles=[
+{id:'travel',cat:'travel',icon:'🧳',title:'A Wonderful Trip to the Countryside',level:'Beginner · ទៅដើរលេង',en:`Last Saturday, my family and I went on a wonderful trip to the countryside. We woke up early in the morning because we wanted to enjoy the whole day together. My mother prepared some sandwiches, fruit, and bottles of water. My father checked the car, and I packed my small bag with a hat, a notebook, and my camera. Before we left home, we made sure that every window was closed and every bag was ready.\n\nDuring the journey, I looked out of the window and watched the beautiful scenery. We passed green rice fields, small villages, tall trees, and quiet roads. Some farmers were working in their fields, while children were riding bicycles near their houses. The fresh air and peaceful views made me feel relaxed and happy. We played a word game in the car and took turns telling funny stories.\n\nWhen we arrived, we walked beside a small river and found a shady place to rest. My parents prepared our food while I took pictures of the flowers and trees. After lunch, we explored a nearby path and saw colorful birds sitting on the branches. I learned that a trip does not have to be expensive to be enjoyable. Spending time with people we love can make an ordinary day special.\n\nIn the late afternoon, we cleaned our picnic area and put all our rubbish in a bag. We wanted to keep the place beautiful for other visitors. On the way home, I felt tired but grateful. I thanked my parents for planning the trip, and we talked about places we might visit next time. It was a simple adventure, but I will remember it for a long time.`,km:`ថ្ងៃសៅរ៍មុន ខ្ញុំ និងគ្រួសារបានទៅដើរលេងនៅជនបទយ៉ាងរីករាយ។ យើងក្រោកពីព្រលឹម ដើម្បីចំណាយពេលពេញមួយថ្ងៃជាមួយគ្នា។ ម្ដាយរៀបចំសាំងវិច ផ្លែឈើ និងទឹក។ ឪពុកពិនិត្យឡាន ហើយខ្ញុំរៀបចំកាបូបតូចដែលមានមួក សៀវភៅកត់ត្រា និងកាមេរ៉ា។\n\nក្នុងពេលធ្វើដំណើរ ខ្ញុំមើលទេសភាពតាមបង្អួច។ យើងឆ្លងកាត់វាលស្រែបៃតង ភូមិតូចៗ ដើមឈើខ្ពស់ និងផ្លូវស្ងប់ស្ងាត់។ ខ្ញុំមានអារម្មណ៍ស្រស់ស្រាយ និងសប្បាយចិត្ត។ យើងលេងល្បែងពាក្យ និងនិយាយរឿងកំប្លែងគ្នា។\n\nពេលទៅដល់ យើងដើរតាមមាត់ទន្លេតូចមួយ ហើយរកកន្លែងមានម្លប់សម្រាក។ បន្ទាប់ពីបាយថ្ងៃត្រង់ យើងដើរមើលផ្លូវក្បែរនោះ និងឃើញបក្សីពណ៌ស្រស់ស្អាត។ ខ្ញុំបានរៀនថា ការដើរលេងមិនចាំបាច់ចំណាយប្រាក់ច្រើនទេ ដើម្បីឱ្យមានភាពរីករាយ។\n\nនៅពេលរសៀល យើងសម្អាតកន្លែងពិសាអាហារ ហើយប្រមូលសំរាមដាក់ក្នុងថង់។ តាមផ្លូវត្រឡប់ផ្ទះ ខ្ញុំអស់កម្លាំងបន្តិច ប៉ុន្តែមានអារម្មណ៍ដឹងគុណ។ នេះជាការផ្សងព្រេងសាមញ្ញមួយដែលខ្ញុំនឹងចងចាំយូរ។`},
+{id:'school',cat:'school',icon:'🏫',title:'A Busy and Happy Day at School',level:'Beginner · ទៅសាលា',en:`On school days, I usually wake up early and get ready before the sun becomes too hot. First, I wash my face, brush my teeth, and put on my school uniform. Then I eat breakfast with my family and check my schoolbag. I make sure that I have my books, notebooks, pens, pencils, and homework. Being prepared helps me feel calm and confident.\n\nWhen I arrive at school, I greet my teachers and friends with a smile. The schoolyard is often full of students talking, laughing, and getting ready for class. The bell rings, and everyone walks to the classroom. I sit at my desk, take out my notebook, and listen carefully to the teacher. My favorite lessons are English and science because I enjoy learning new words and discovering how things work.\n\nDuring English class, our teacher writes new vocabulary on the board. We repeat the words together, read short passages, and practice speaking in pairs. Sometimes I make mistakes, but I try not to feel embarrassed. Mistakes show me what I need to practice. I ask questions when I do not understand something, and I help my classmates when they need support. Learning together makes the classroom a friendly place.\n\nAt break time, I talk with my friends and eat a small snack. We share stories about our hobbies, games, and plans for the weekend. After the break, we return to class and finish our lessons. Before going home, I check my desk and make sure I have taken all my things. In the evening, I review my notes and complete my homework. A good school day is not only about getting high marks; it is also about being respectful, trying hard, and becoming a better person every day.`,km:`នៅថ្ងៃរៀន ខ្ញុំតែងក្រោកពីព្រលឹម ហើយរៀបចំខ្លួនមុនពេលថ្ងៃក្តៅខ្លាំង។ ខ្ញុំលាងមុខ ដុសធ្មេញ និងស្លៀកឯកសណ្ឋាន។ បន្ទាប់មក ខ្ញុំញ៉ាំអាហារពេលព្រឹកជាមួយគ្រួសារ ហើយពិនិត្យកាបូបសាលា។ ខ្ញុំប្រាកដថាមានសៀវភៅ ប៊ិច ខ្មៅដៃ និងកិច្ចការផ្ទះគ្រប់គ្រាន់។\n\nពេលទៅដល់សាលា ខ្ញុំសួរសុខទុក្ខគ្រូ និងមិត្តភក្តិដោយស្នាមញញឹម។ ទីធ្លាសាលាមានសិស្សនិយាយគ្នា សើច និងត្រៀមចូលរៀន។ ពេលកណ្ដឹងរោទ៍ យើងចូលថ្នាក់។ ខ្ញុំអង្គុយ ស្រង់សៀវភៅកត់ត្រា ហើយស្តាប់គ្រូដោយយកចិត្តទុកដាក់។ ខ្ញុំចូលចិត្តភាសាអង់គ្លេស និងវិទ្យាសាស្ត្រ។\n\nក្នុងម៉ោងអង់គ្លេស គ្រូសរសេរពាក្យថ្មីលើក្តារ។ យើងនិយាយតាម អានអត្ថបទខ្លីៗ និងហាត់និយាយជាគូ។ ពេលខ្លះខ្ញុំធ្វើខុស ប៉ុន្តែខ្ញុំមិនខ្មាសទេ ព្រោះកំហុសបង្ហាញថាខ្ញុំត្រូវហាត់អ្វីបន្ថែម។ ខ្ញុំសួរពេលមិនយល់ និងជួយមិត្តរួមថ្នាក់ពេលពួកគេត្រូវការ។\n\nពេលសម្រាក ខ្ញុំនិយាយជាមួយមិត្តភក្តិ និងញ៉ាំអាហារសម្រន់។ បន្ទាប់ពីចប់ម៉ោងរៀន ខ្ញុំរៀបចំរបស់របរ ហើយត្រឡប់ផ្ទះ។ នៅពេលល្ងាច ខ្ញុំមើលមេរៀនឡើងវិញ និងធ្វើកិច្ចការផ្ទះ។ ថ្ងៃសិក្សាល្អមិនមែនមានតែពិន្ទុខ្ពស់ទេ ប៉ុន្តែរួមមានការគោរព ការខិតខំ និងការរីកចម្រើនជារៀងរាល់ថ្ងៃ។`},
+{id:'family',cat:'family',icon:'👨‍👩‍👧‍👦',title:'A Day Out with My Family',level:'Beginner · ដើរលេងជាមួយគ្រួសារ',en:`My family is very important to me, so I always feel happy when we have time to do something together. Last weekend, we decided to spend a day outside instead of staying at home. We talked about where to go and chose a public park with many trees, flowers, and open spaces. Everyone helped prepare for the trip, and we left home after breakfast.\n\nWhen we arrived at the park, the weather was pleasant and the sky was bright. We walked slowly along the paths and enjoyed the fresh air. My younger relatives played on the grass, while the adults found a comfortable place to sit. I helped unpack the food and drinks. We had rice, fruit, and a few simple snacks. We talked about school, work, and funny memories from the past.\n\nAfter eating, we took family photographs near the flowers. Then we played a guessing game and tried to name things we could see around us in English. I said “tree,” “bird,” “cloud,” and “river.” My family encouraged me to keep practicing, even when I forgot a word. That made me feel brave enough to speak more. We also took a short walk and watched birds moving between the branches.\n\nBefore leaving, we checked the area and collected our rubbish. We thanked one another for helping and made sure nobody left anything behind. On the way home, we were a little tired, but everyone was smiling. I realized that family time does not need a big plan or an expensive place. The most important thing is to listen to one another, share experiences, and show kindness. I hope we can have another day like this soon.`,km:`គ្រួសារមានសារៈសំខាន់ចំពោះខ្ញុំ ដូច្នេះខ្ញុំសប្បាយចិត្តពេលយើងមានពេលធ្វើអ្វីមួយជាមួយគ្នា។ ចុងសប្តាហ៍មុន យើងសម្រេចចិត្តចេញទៅខាងក្រៅ ជំនួសឱ្យនៅផ្ទះ។ យើងជ្រើសរើសសួនសាធារណៈមួយដែលមានដើមឈើ ផ្កា និងទីធ្លាធំ។\n\nពេលទៅដល់ អាកាសធាតុល្អ ហើយមេឃភ្លឺ។ យើងដើរយឺតៗតាមផ្លូវ និងរីករាយនឹងខ្យល់អាកាសបរិសុទ្ធ។ ក្មេងៗលេងលើស្មៅ ខណៈមនុស្សធំរកកន្លែងអង្គុយ។ យើងញ៉ាំបាយ ផ្លែឈើ និងអាហារសម្រន់ ហើយនិយាយពីសាលា ការងារ និងរឿងកំប្លែងពីមុន។\n\nបន្ទាប់ពីញ៉ាំរួច យើងថតរូបជុំគ្រួសារក្បែរផ្កា។ បន្ទាប់មក យើងលេងទាយឈ្មោះវត្ថុជាភាសាអង់គ្លេស។ ខ្ញុំនិយាយថា tree, bird, cloud និង river។ គ្រួសារលើកទឹកចិត្តឱ្យខ្ញុំហាត់បន្ត ទោះបីខ្ញុំភ្លេចពាក្យខ្លះក៏ដោយ។\n\nមុនត្រឡប់ទៅផ្ទះ យើងប្រមូលសំរាម និងពិនិត្យកន្លែងឱ្យស្អាត។ តាមផ្លូវត្រឡប់មកវិញ យើងនឿយហត់បន្តិច ប៉ុន្តែគ្រប់គ្នាញញឹម។ ខ្ញុំយល់ថា ពេលវេលាជាមួយគ្រួសារមិនចាំបាច់ត្រូវការផែនការធំ ឬកន្លែងថ្លៃទេ។ អ្វីសំខាន់គឺស្តាប់គ្នា ចែករំលែកបទពិសោធន៍ និងមានចិត្តល្អចំពោះគ្នា។`},
+{id:'myself',cat:'myself',icon:'🙋',title:'Let Me Tell You About Myself',level:'Beginner · ពណ៌នាអំពីខ្លួនឯង',en:`Hello! Let me introduce myself. I am a student, and I am learning English because I want to communicate with more people and understand the world better. I know that learning a new language takes time, patience, and practice. I do not need to be perfect on the first day. I only need to keep trying and learn something new whenever I can.\n\nEvery person has different interests, and I have things that make me happy too. In my free time, I enjoy listening to stories, playing games, watching interesting videos, and spending time with people I care about. I also like discovering new facts and learning how to use technology in useful ways. When I find something difficult, I try to break it into small steps instead of giving up immediately.\n\nAt school, I want to be a respectful and responsible student. I try to listen to my teachers, complete my assignments, and treat my classmates kindly. I understand that everyone learns at a different speed. If a friend makes a mistake, I want to encourage that person rather than laugh. I hope my friends will do the same for me. A good classroom is a place where people can ask questions and learn from their mistakes.\n\nOne of my goals is to speak English more confidently. I plan to learn a few new words each day, read short stories, listen to clear pronunciation, and practice speaking aloud. Sometimes I may feel shy, but I will remind myself that every expert was once a beginner. I also want to become more organized and use my time wisely. In the future, I hope to use my knowledge to help my family, make good decisions, and do something useful for my community. This is who I am today, and I know I can continue to grow.`,km:`សួស្តី! ខ្ញុំសូមណែនាំខ្លួន។ ខ្ញុំជាសិស្សម្នាក់ ហើយកំពុងរៀនភាសាអង់គ្លេស ព្រោះខ្ញុំចង់ទាក់ទងជាមួយមនុស្សកាន់តែច្រើន និងយល់ពីពិភពលោកបានល្អជាងមុន។ ការរៀនភាសាថ្មីត្រូវការពេលវេលា ការអត់ធ្មត់ និងការហាត់ប្រាណ។ ខ្ញុំមិនចាំបាច់ល្អឥតខ្ចោះតាំងពីថ្ងៃដំបូងទេ។ ខ្ញុំគ្រាន់តែបន្តព្យាយាម។\n\nមនុស្សម្នាក់ៗមានចំណូលចិត្តខុសៗគ្នា ហើយខ្ញុំក៏មានអ្វីដែលធ្វើឱ្យសប្បាយចិត្តដែរ។ ពេលទំនេរ ខ្ញុំចូលចិត្តស្តាប់រឿង លេងហ្គេម មើលវីដេអូគួរឱ្យចាប់អារម្មណ៍ និងចំណាយពេលជាមួយមនុស្សដែលខ្ញុំស្រឡាញ់។ ខ្ញុំក៏ចូលចិត្តស្វែងយល់អំពីបច្ចេកវិទ្យា។ ពេលជួបរឿងពិបាក ខ្ញុំព្យាយាមបំបែកវាជាជំហានតូចៗ។\n\nនៅសាលា ខ្ញុំចង់ក្លាយជាសិស្សដែលគោរពអ្នកដទៃ និងមានការទទួលខុសត្រូវ។ ខ្ញុំព្យាយាមស្តាប់គ្រូ បំពេញកិច្ចការ និងប្រព្រឹត្តល្អចំពោះមិត្តរួមថ្នាក់។ មនុស្សគ្រប់គ្នារៀនក្នុងល្បឿនខុសៗគ្នា។ ប្រសិនបើមិត្តធ្វើខុស ខ្ញុំចង់លើកទឹកចិត្តគេ ជំនួសឱ្យការសើចចំអក។\n\nគោលដៅមួយរបស់ខ្ញុំគឺនិយាយអង់គ្លេសដោយមានទំនុកចិត្ត។ ខ្ញុំមានគម្រោងរៀនពាក្យថ្មីៗរាល់ថ្ងៃ អានរឿងខ្លីៗ ស្តាប់ការបញ្ចេញសំឡេង និងហាត់និយាយឮៗ។ ពេលខ្លះខ្ញុំអាចខ្មាស ប៉ុន្តែខ្ញុំនឹងចងចាំថា អ្នកពូកែគ្រប់រូបក៏ធ្លាប់ជាអ្នកចាប់ផ្ដើមដែរ។ នៅថ្ងៃអនាគត ខ្ញុំសង្ឃឹមថានឹងប្រើចំណេះដឹងជួយគ្រួសារ និងសហគមន៍។`},
+{id:'chant',cat:'chant',icon:'🎤',title:'My English Reading Rhythm',level:'Beginner · អត្ថបទចង្វាក់អានតាម — អត្ថបទដើម',en:`I wake up, I stand up, I start a brand-new day.\nI take a breath, I do my best, and learn along the way.\nA word today, a phrase tomorrow, little steps will grow.\nRead it clearly, say it slowly, let my confidence show.\n\nHello, good morning, how are you today?\nI am fine, thank you, and I am on my way.\nPlease and thank you, excuse me too, kind words help us get along.\nListen first and speak with care; every voice belongs.\n\nOpen up my notebook, write the words I hear.\nPractice with a patient heart; the meaning will grow clear.\nIf I make a small mistake, I will try once more.\nEvery time I practice, I can learn a little more.\n\nAt school I greet my teacher, and I greet my friends.\nI ask a question when I need help, and listen to the end.\nWhen I walk with family, I notice what I see.\nTrees and rivers, roads and gardens, teach new words to me.\n\nStep by step and day by day, I build the skills I need.\nRead aloud and speak out loud; small practice plants a seed.\nI can learn and I can grow, even if it takes some time.\nEnglish is a journey, and today I take one more step in rhyme!`,km:`នេះជាអត្ថបទចង្វាក់ដើមសម្រាប់ហាត់អានតាម មិនមែនជាបទចម្រៀងដែលមានស្រាប់ទេ។\n\nខ្ញុំក្រោកឈរ ហើយចាប់ផ្ដើមថ្ងៃថ្មី។ ខ្ញុំដកដង្ហើម ហើយព្យាយាមឱ្យអស់ពីសមត្ថភាព។ ថ្ងៃនេះរៀនមួយពាក្យ ថ្ងៃស្អែករៀនមួយឃ្លា ជំហានតូចៗនឹងធ្វើឱ្យខ្ញុំរីកចម្រើន។ អានឱ្យច្បាស់ និយាយយឺតៗ និងបង្ហាញទំនុកចិត្ត។\n\nសួស្តី អរុណសួស្តី ថ្ងៃនេះអ្នកសុខសប្បាយទេ? ខ្ញុំសុខសប្បាយ អរគុណ ហើយខ្ញុំកំពុងបន្តដំណើរ។ ពាក្យសូម និងអរគុណ ព្រមទាំងសុំទោស ជួយឱ្យយើងរស់នៅជាមួយគ្នាបានល្អ។\n\nបើកសៀវភៅកត់ត្រា សរសេរពាក្យដែលខ្ញុំឮ។ ហាត់ដោយចិត្តអត់ធ្មត់ ហើយអត្ថន័យនឹងកាន់តែច្បាស់។ បើធ្វើខុស ខ្ញុំនឹងព្យាយាមម្ដងទៀត។ រាល់ពេលហាត់ ខ្ញុំអាចរៀនបានបន្ថែម។\n\nជំហានម្ដងៗ និងថ្ងៃម្ដងៗ ខ្ញុំកសាងជំនាញដែលត្រូវការ។ អានឮៗ ហាត់និយាយ ព្រោះការហាត់តិចតួចអាចដាំគ្រាប់ពូជនៃចំណេះដឹង។ ខ្ញុំអាចរៀន និងរីកចម្រើន ទោះបីត្រូវការពេលក៏ដោយ។ ភាសាអង់គ្លេសជាដំណើរមួយ ហើយថ្ងៃនេះខ្ញុំបោះជំហានមួយទៀត។`}
+];
+let currentReading=null;
+function renderReadingList(){const cat=document.getElementById('readingCategory')?.value||'all';const list=readingArticles.filter(a=>cat==='all'||a.cat===cat);document.getElementById('readingList').innerHTML=list.map(a=>`<article class="lesson"><div class="lesson-icon">${a.icon}</div><div><h3>${a.title}</h3><p>${a.level}<br>${a.en.split(/\s+/).length} English words approximately</p><button onclick="openReadingArticle('${a.id}')">អានអត្ថបទ →</button></div></article>`).join('');}
+function openReadingArticle(id){currentReading=readingArticles.find(a=>a.id===id);if(!currentReading)return;document.getElementById('readingTitle').textContent=currentReading.title;document.getElementById('readingLevel').textContent=currentReading.level+' · '+currentReading.en.split(/\s+/).length+' words';document.getElementById('readingEnglish').innerHTML=currentReading.en.split(/\n\n/).map(p=>'<p>'+p.split('\n').map(line=>line.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')).join('<br>')+'</p>').join('');document.getElementById('readingKhmer').innerHTML=currentReading.km.split(/\n\n/).map(p=>'<p>'+p.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>')+'</p>').join('');document.getElementById('readingDoneMsg').textContent='';document.getElementById('readingDetail').classList.remove('hidden');document.getElementById('readingList').classList.add('hidden');document.getElementById('readingCategory').parentElement.classList.add('hidden');window.scrollTo({top:0,behavior:'smooth'});}
+function closeReadingArticle(){stopReadingSpeech();document.getElementById('readingDetail').classList.add('hidden');document.getElementById('readingList').classList.remove('hidden');document.getElementById('readingCategory').parentElement.classList.remove('hidden');}
+function speakReadingArticle(slow=false){if(!currentReading)return;if(!('speechSynthesis'in window)){toast('Browser នេះមិនគាំទ្រការអានជាសំឡេងទេ។');return}window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(currentReading.en.replace(/\n/g,'. '));u.lang='en-US';u.rate=slow?0.72:0.9;u.pitch=1;window.speechSynthesis.speak(u);}
+function stopReadingSpeech(){if('speechSynthesis'in window)window.speechSynthesis.cancel()}
+function markReadingDone(){if(!currentReading)return;const key='readingDone:'+currentReading.id;try{const done=JSON.parse(localStorage.getItem('sengHourReadingDone')||'[]');if(done.includes(currentReading.id)){document.getElementById('readingDoneMsg').textContent='✓ អ្នកបានសម្គាល់អត្ថបទនេះថាបានអានរួចហើយ។';return}done.push(currentReading.id);localStorage.setItem('sengHourReadingDone',JSON.stringify(done));}catch(e){}if(typeof addProXP==='function')addProXP(10,key);document.getElementById('readingDoneMsg').textContent='✓ បានរក្សាទុកថាអ្នកបានអានអត្ថបទនេះហើយ!';}
+
+let speechRecognition=null;
+function startSpeakingPractice(){const target=document.getElementById('speakPrompt').value;const out=document.getElementById('speechResult');const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR){out.textContent='Browser នេះមិនគាំទ្រការស្គាល់សំឡេងទេ។ សូមចុច “ស្ដាប់ឃ្លា” រួចនិយាយតាមដោយខ្លួនឯង។';addProXP(5,'speaker');return}try{speechRecognition=new SR();speechRecognition.lang='en-US';speechRecognition.interimResults=false;speechRecognition.maxAlternatives=1;out.textContent='កំពុងស្ដាប់… សូមនិយាយឃ្លាអង់គ្លេស។';speechRecognition.onresult=e=>{const said=e.results[0][0].transcript;out.textContent='អ្នកនិយាយ៖ '+said+' | ឃ្លាគោល៖ '+target;addProXP(10,'speaker')};speechRecognition.onerror=()=>{out.textContent='មិនអាចចាប់សំឡេងបានទេ។ ពិនិត្យ microphone permission ឬសាកល្បង browser ផ្សេង។'};speechRecognition.onend=()=>{speechRecognition=null};speechRecognition.start()}catch(e){out.textContent='មុខងារនេះមិនអាចចាប់ផ្ដើមបានក្នុង browser នេះទេ។';}}
+function stopSpeakingPractice(){if(speechRecognition){speechRecognition.stop();speechRecognition=null}document.getElementById('speechResult').textContent='បានបញ្ឈប់ការស្ដាប់។'}
+// Award a small one-time XP bonus when completing an existing lesson, without replacing its original handler.
+const originalCompleteButton=document.getElementById('completeLesson');if(originalCompleteButton){originalCompleteButton.addEventListener('click',()=>{if(state.currentLesson&&!proState.unlocked.includes('lesson:'+state.currentLesson.id)){proState.unlocked.push('lesson:'+state.currentLesson.id);addProXP(20)}})}
+try{if(localStorage.getItem('sengHourTheme')==='dark'){document.body.classList.add('dark-mode');document.getElementById('themeBtn').textContent='☀️ Light Mode'}}catch(e){}
+loadProState();renderProStats();renderProGame();renderScramble();updateAutosaveStatus();
+
+</script>
+</body>
+</html>
