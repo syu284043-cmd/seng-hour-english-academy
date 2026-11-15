@@ -1,0 +1,22 @@
+[
+{"en":"hello","pos":"interjection","km":"សួស្តី","ex":"Hello, how are you today?"},
+{"en":"thank you","pos":"phrase","km":"អរគុណ","ex":"Thank you for learning with us."},
+{"en":"beautiful","pos":"adjective","km":"ស្អាត","ex":"The sunset is beautiful."},
+{"en":"learn","pos":"verb","km":"រៀន","ex":"I want to learn English every day."},
+{"en":"practice","pos":"verb","km":"ហាត់ប្រាណ / អនុវត្ត","ex":"Practice makes perfect."},
+{"en":"friend","pos":"noun","km":"មិត្តភក្តិ","ex":"She is my best friend."},
+{"en":"family","pos":"noun","km":"គ្រួសារ","ex":"My family is very kind."},
+{"en":"happy","pos":"adjective","km":"សប្បាយរីករាយ","ex":"I am happy to see you."},
+{"en":"book","pos":"noun","km":"សៀវភៅ","ex":"I am reading a good book."},
+{"en":"water","pos":"noun","km":"ទឹក","ex":"Please give me a glass of water."},
+{"en":"school","pos":"noun","km":"សាលារៀន","ex":"The children go to school by bus."},
+{"en":"teacher","pos":"noun","km":"គ្រូបង្រៀន","ex":"My teacher explains the lesson clearly."},
+{"en":"study","pos":"verb","km":"សិក្សា","ex":"I study English at night."},
+{"en":"morning","pos":"noun","km":"ព្រឹក","ex":"Good morning, everyone!"},
+{"en":"success","pos":"noun","km":"ជោគជ័យ","ex":"Hard work leads to success."},
+{"en":"patient","pos":"adjective","km":"អត់ធ្មត់","ex":"Be patient when you learn something new."},
+{"en":"journey","pos":"noun","km":"ដំណើរ","ex":"Learning English is a long journey."},
+{"en":"dream","pos":"noun","km":"សុបិន / ក្តីស្រមៃ","ex":"Follow your dream."},
+{"en":"try","pos":"verb","km":"ព្យាយាម","ex":"Never stop trying."},
+{"en":"confidence","pos":"noun","km":"ការជឿជាក់លើខ្លួនឯង","ex":"Speak with confidence."}
+]
