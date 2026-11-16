@@ -1,6 +1,5 @@
-    import os, json, html, datetime, tempfile
+import os, json, html, datetime
 import requests
-from gtts import gTTS
 
 TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT = os.environ["TELEGRAM_CHAT_ID"]
@@ -31,8 +30,8 @@ p2 = ("ពាក្យនេះអាចប្រើបានច្រើនក�
       "ទាំងនៅផ្ទះ នៅសាលារៀន ឬពេលនិយាយជាមួយមិត្តភក្តិ។ "
       "បើអ្នករៀនវាឱ្យបានល្អ អ្នកនឹងយល់ និងនិយាយភាសាអង់គ្លេសបានកាន់តែងាយ។")
 p3 = f"ជាភាសាអង់គ្លេសយើងអាចនិយាយថា៖ <i>{html.escape(ex)}</i>"
-p4 = ("សូមចងចាំ និងនិយាយពាក្យនេះតាមសំឡេងអានខាងក្រោម "
-      "ហើយព្យាយាមសរសេរប្រយោគមួយរបស់អ្នកផ្ទាល់ ដើម្បីផ្ញើមកក្នុង channel។")
+p4 = ("សូមចងចាំពាក្យនេះ ហើយព្យាយាមសរសេរប្រយោគមួយរបស់អ្នកផ្ទាល់ "
+      "ដើម្បីផ្ញើមកក្នុង channel។")
 
 text = (
     f"<b>{html.escape(title)}</b>\n\n"
@@ -46,21 +45,4 @@ r = requests.post(f"{API}/sendMessage", data={
     "disable_web_page_preview": "true",
 }, timeout=30)
 r.raise_for_status()
-
-speech = (
-    f"Today's word is {en}. It means {km}. "
-    f"{ex} "
-    f"Listen and repeat after me: {en}. {en}. {en}."
-)
-mp3 = os.path.join(tempfile.gettempdir(), "word_of_the_day.mp3")
-gTTS(text=speech, lang="en", slow=False).save(mp3)
-
-with open(mp3, "rb") as audio:
-    r = requests.post(f"{API}/sendAudio", data={
-        "chat_id": CHAT,
-        "title": title,
-        "performer": "Seng Hour English Academy",
-        "caption": "🔊 ស្តាប់ និងអានតាម / Listen and repeat",
-    }, files={"audio": ("word_of_the_day.mp3", audio, "audio/mpeg")}, timeout=90)
-r.raise_for_status()
-print("sent article and audio:", en)
+print("sent article:", en)
