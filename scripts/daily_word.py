@@ -1,4 +1,4 @@
-  import os, json, html, datetime, tempfile, subprocess
+    import os, json, html, datetime, tempfile
 import requests
 from gtts import gTTS
 
@@ -10,7 +10,6 @@ here = os.path.dirname(os.path.abspath(__file__))
 with open(os.path.join(here, "words.json"), encoding="utf8") as f:
     words = json.load(f)
 
-# one article per day, cycling through the word list
 today = datetime.date.today()
 w = words[today.toordinal() % len(words)]
 en, pos, km, ex = w["en"], w["pos"], w["km"], w["ex"]
@@ -37,42 +36,31 @@ p4 = ("សូមចងចាំ និងនិយាយពាក្យនេះ
 
 text = (
     f"<b>{html.escape(title)}</b>\n\n"
-    f"{p1}\n\n"
-    f"{p2}\n\n"
-    f"{p3}\n\n"
-    f"{p4}\n\n"
+    f"{p1}\n\n{p2}\n\n{p3}\n\n{p4}\n\n"
     "🎓 Seng Hour English Academy\n"
     "🔗 https://syu284043-cmd.github.io/seng-hour-english-academy/index%20(2).html"
 )
 
-# 1) send the article
 r = requests.post(f"{API}/sendMessage", data={
-    "chat_id": CHAT,
-    "text": text,
-    "parse_mode": "HTML",
+    "chat_id": CHAT, "text": text, "parse_mode": "HTML",
     "disable_web_page_preview": "true",
 }, timeout=30)
 r.raise_for_status()
 
-# 2) read the same article aloud (English)
 speech = (
     f"Today's word is {en}. It means {km}. "
     f"{ex} "
     f"Listen and repeat after me: {en}. {en}. {en}."
 )
-tmp = tempfile.gettempdir()
-mp3 = os.path.join(tmp, "word_of_the_day.mp3")
-ogg = os.path.join(tmp, "word_of_the_day.ogg")
+mp3 = os.path.join(tempfile.gettempdir(), "word_of_the_day.mp3")
 gTTS(text=speech, lang="en", slow=False).save(mp3)
 
-# convert to OGG/Opus so Telegram shows it as a voice message (no cover photo)
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3,
-                "-c:a", "libopus", "-b:a", "48k", ogg], check=True)
-
-with open(ogg, "rb") as voice:
-    r = requests.post(f"{API}/sendVoice", data={
+with open(mp3, "rb") as audio:
+    r = requests.post(f"{API}/sendAudio", data={
         "chat_id": CHAT,
+        "title": title,
+        "performer": "Seng Hour English Academy",
         "caption": "🔊 ស្តាប់ និងអានតាម / Listen and repeat",
-    }, files={"voice": ("word_of_the_day.ogg", voice, "audio/ogg")}, timeout=90)
+    }, files={"audio": ("word_of_the_day.mp3", audio, "audio/mpeg")}, timeout=90)
 r.raise_for_status()
-print("sent article and voice:", en)
+print("sent article and audio:", en)
