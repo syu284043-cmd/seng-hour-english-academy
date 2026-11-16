@@ -10,20 +10,42 @@ here = os.path.dirname(os.path.abspath(__file__))
 with open(os.path.join(here, "words.json"), encoding="utf8") as f:
     words = json.load(f)
 
-# one word per day, cycling through the list
+# one article per day, cycling through the word list
 today = datetime.date.today()
 w = words[today.toordinal() % len(words)]
+en, pos, km, ex = w["en"], w["pos"], w["km"], w["ex"]
+
+tips = {
+    "noun": "ជាពាក្យនាម ដែលប្រើហៅមនុស្ស ទីកន្លែង ឬវត្ថុ។",
+    "verb": "ជាពាក្យកិរិយាបទ ដែលប្រើបង្ហាញសកម្មភាព។",
+    "adjective": "ជាពាក្យគុណនាម ដែលប្រើពិពណ៌នាអំពីអ្វីមួយ។",
+    "adverb": "ជាពាក្យក្រិយាវិសេសនាម ដែលប្រើបញ្ជាក់របៀប ឬពេលវេលា។",
+    "phrase": "ជាឃ្លាដែលគេប្រើញឹកញាប់ក្នុងការសន្ទនាប្រចាំថ្ងៃ។",
+    "interjection": "ជាពាក្យឧទាន ដែលគេប្រើក្នុងស្ថានការណ៍ផ្សេងៗ។",
+}
+tip = tips.get(pos, "ជាពាក្យដែលគេប្រើក្នុងការសន្ទនាប្រចាំថ្ងៃ។")
+
+title = f"📖 ពាក្យថ្ងៃនេះ៖ {en}"
+p1 = (f"ថ្ងៃនេះយើងនឹងស្គាល់ពាក្យ <b>{html.escape(en)}</b> "
+      f"ដែលមានន័យថា <b>{html.escape(km)}</b>។ {html.escape(tip)}")
+p2 = ("ពាក្យនេះអាចប្រើបានច្រើនក្នុងជីវិតប្រចាំថ្ងៃ "
+      "ទាំងនៅផ្ទះ នៅសាលារៀន ឬពេលនិយាយជាមួយមិត្តភក្តិ។ "
+      "បើអ្នករៀនវាឱ្យបានល្អ អ្នកនឹងយល់ និងនិយាយភាសាអង់គ្លេសបានកាន់តែងាយ។")
+p3 = f"ជាភាសាអង់គ្លេសយើងអាចនិយាយថា៖ <i>{html.escape(ex)}</i>"
+p4 = ("សូមចងចាំ និងនិយាយពាក្យនេះតាមសំឡេងអានខាងក្រោម "
+      "ហើយព្យាយាមសរសេរប្រយោគមួយរបស់អ្នកផ្ទាល់ ដើម្បីផ្ញើមកក្នុង channel។")
 
 text = (
-    "📘 <b>ពាក្យថ្ងៃនេះ / Word of the Day</b>\n\n"
-    f"🔤 <b>{html.escape(w['en'])}</b> <i>({html.escape(w['pos'])})</i>\n"
-    f"🇰🇭 {html.escape(w['km'])}\n\n"
-    f"💬 <i>{html.escape(w['ex'])}</i>\n\n"
+    f"<b>{html.escape(title)}</b>\n\n"
+    f"{p1}\n\n"
+    f"{p2}\n\n"
+    f"{p3}\n\n"
+    f"{p4}\n\n"
     "🎓 Seng Hour English Academy\n"
     "🔗 https://syu284043-cmd.github.io/seng-hour-english-academy/index%20(2).html"
 )
 
-# 1) send the text message
+# 1) send the article
 r = requests.post(f"{API}/sendMessage", data={
     "chat_id": CHAT,
     "text": text,
@@ -32,17 +54,21 @@ r = requests.post(f"{API}/sendMessage", data={
 }, timeout=30)
 r.raise_for_status()
 
-# 2) create a spoken version (English) and send it as a playable audio message
-speech = f"{w['en']}. {w['ex']}"
+# 2) read the same article aloud (English), so the word is pronounced clearly
+speech = (
+    f"Today's word is {en}. It means {km}. "
+    f"{ex} "
+    f"Listen and repeat after me: {en}. {en}. {en}."
+)
 mp3 = os.path.join(tempfile.gettempdir(), "word_of_the_day.mp3")
 gTTS(text=speech, lang="en", slow=False).save(mp3)
 
 with open(mp3, "rb") as audio:
     r = requests.post(f"{API}/sendAudio", data={
         "chat_id": CHAT,
-        "title": w["en"],
+        "title": title,
         "performer": "Seng Hour English Academy",
         "caption": "🔊 ស្តាប់ និងអានតាម / Listen and repeat",
     }, files={"audio": ("word_of_the_day.mp3", audio, "audio/mpeg")}, timeout=90)
 r.raise_for_status()
-print("sent word and audio:", w["en"])
+print("sent article and audio:", en)
