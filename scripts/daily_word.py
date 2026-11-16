@@ -1,4 +1,4 @@
-import os, json, html, datetime, tempfile
+import os, json, html, datetime, tempfile, subprocess
 import requests
 from gtts import gTTS
 
@@ -54,21 +54,25 @@ r = requests.post(f"{API}/sendMessage", data={
 }, timeout=30)
 r.raise_for_status()
 
-# 2) read the same article aloud (English), so the word is pronounced clearly
+# 2) read the same article aloud (English)
 speech = (
     f"Today's word is {en}. It means {km}. "
     f"{ex} "
     f"Listen and repeat after me: {en}. {en}. {en}."
 )
-mp3 = os.path.join(tempfile.gettempdir(), "word_of_the_day.mp3")
+tmp = tempfile.gettempdir()
+mp3 = os.path.join(tmp, "word_of_the_day.mp3")
+ogg = os.path.join(tmp, "word_of_the_day.ogg")
 gTTS(text=speech, lang="en", slow=False).save(mp3)
 
-with open(mp3, "rb") as audio:
-    r = requests.post(f"{API}/sendAudio", data={
+# convert to OGG/Opus so Telegram shows it as a voice message (no cover photo)
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3,
+                "-c:a", "libopus", "-b:a", "48k", ogg], check=True)
+
+with open(ogg, "rb") as voice:
+    r = requests.post(f"{API}/sendVoice", data={
         "chat_id": CHAT,
-        "title": title,
-        "performer": "Seng Hour English Academy",
         "caption": "🔊 ស្តាប់ និងអានតាម / Listen and repeat",
-    }, files={"audio": ("word_of_the_day.mp3", audio, "audio/mpeg")}, timeout=90)
+    }, files={"voice": ("word_of_the_day.ogg", voice, "audio/ogg")}, timeout=90)
 r.raise_for_status()
-print("sent article and audio:", en)
+print("sent article and voice:", en)
