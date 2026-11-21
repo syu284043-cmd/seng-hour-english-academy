@@ -1,0 +1,722 @@
+[
+{
+"en": "bread roll",
+"pos": "noun",
+"km": "នំបាំងបារាំង",
+"ex": "I eat a bread roll for breakfast."
+},
+{
+"en": "pancake",
+"pos": "noun",
+"km": "នំប៉ានខេក",
+"ex": "Pancakes with honey taste great."
+},
+{
+"en": "cake",
+"pos": "noun",
+"km": "នំខេក",
+"ex": "We cut the birthday cake together."
+},
+{
+"en": "cookie",
+"pos": "noun",
+"km": "នំកកុះ / នំឃី",
+"ex": "These cookies are crispy and sweet."
+},
+{
+"en": "candy",
+"pos": "noun",
+"km": "ស្ករគ្រាប់",
+"ex": "The kids want candy from the shop."
+},
+{
+"en": "chocolate",
+"pos": "noun",
+"km": "សូកូឡា",
+"ex": "She loves dark chocolate."
+},
+{
+"en": "ice cream",
+"pos": "noun",
+"km": "ការ៉េម / ការ៉ែម",
+"ex": "Ice cream is cold and creamy."
+},
+{
+"en": "yogurt",
+"pos": "noun",
+"km": "យ៉ាអួត",
+"ex": "I eat yogurt with fruit in the morning."
+},
+{
+"en": "cheese cake",
+"pos": "noun",
+"km": "នំឈីស",
+"ex": "The cheese cake is delicious."
+},
+{
+"en": "sandwich",
+"pos": "noun",
+"km": "សាំងវិច",
+"ex": "I packed a sandwich for lunch."
+},
+{
+"en": "hamburger",
+"pos": "noun",
+"km": "ហាំប៊ឺហ្គឺ",
+"ex": "He ordered a hamburger and fries."
+},
+{
+"en": "pizza",
+"pos": "noun",
+"km": "ភីហ្សា",
+"ex": "We ordered pizza for dinner."
+},
+{
+"en": "spaghetti",
+"pos": "noun",
+"km": "ស្ប៉ាហ្គេទី",
+"ex": "Spaghetti with tomato sauce is my favorite."
+},
+{
+"en": "sausage",
+"pos": "noun",
+"km": "ស៊ុសស៊ីស",
+"ex": "Grilled sausage smells very good."
+},
+{
+"en": "bacon",
+"pos": "noun",
+"km": "សាច់ជ្រូកកំពឹស",
+"ex": "Bacon and eggs for breakfast."
+},
+{
+"en": "ham",
+"pos": "noun",
+"km": "សាច់ហាំ",
+"ex": "Put ham in the sandwich."
+},
+{
+"en": "beef noodle soup",
+"pos": "noun",
+"km": "ស៊ុបមីសាច់គោ",
+"ex": "Beef noodle soup is very popular."
+},
+{
+"en": "fried rice",
+"pos": "noun",
+"km": "បាយឆា",
+"ex": "Fried rice with egg is quick to make."
+},
+{
+"en": "steamed rice",
+"pos": "noun",
+"km": "បាយស",
+"ex": "Steamed rice goes well with fish."
+},
+{
+"en": "sticky rice",
+"pos": "noun",
+"km": "បាយដំណើប",
+"ex": "We eat sticky rice with mango."
+},
+{
+"en": "rice porridge",
+"pos": "noun",
+"km": "បបរ",
+"ex": "Rice porridge is good when you are sick."
+},
+{
+"en": "congee",
+"pos": "noun",
+"km": "បបរ",
+"ex": "Congee is a soft food for breakfast."
+},
+{
+"en": "fish amok",
+"pos": "noun",
+"km": "អាម៉ុកត្រី",
+"ex": "Fish amok is a famous Khmer dish."
+},
+{
+"en": "lok lak",
+"pos": "noun",
+"km": "ឡុកឡាក់",
+"ex": "Lok lak is beef served with rice."
+},
+{
+"en": "num banh chok",
+"pos": "noun",
+"km": "នំបញ្ចុក",
+"ex": "Num banh chok is noodles with green curry."
+},
+{
+"en": "prahok",
+"pos": "noun",
+"km": "ប្រហុក",
+"ex": "Prahok is a strong fermented fish paste."
+},
+{
+"en": "fish sauce",
+"pos": "noun",
+"km": "ទឹកត្រី",
+"ex": "Add fish sauce to the soup."
+},
+{
+"en": "soy sauce",
+"pos": "noun",
+"km": "ទឹកសុី",
+"ex": "Put soy sauce on the rice."
+},
+{
+"en": "vinegar",
+"pos": "noun",
+"km": "ទឹកខ្មេះ",
+"ex": "Vinegar makes the salad sour."
+},
+{
+"en": "chili",
+"pos": "noun",
+"km": "ម្ទេស",
+"ex": "Add a little chili to the soup."
+},
+{
+"en": "ginger",
+"pos": "noun",
+"km": "ខ្ញី",
+"ex": "Ginger tea is good for your stomach."
+},
+{
+"en": "lemongrass",
+"pos": "noun",
+"km": "ស្លឹកគុយទាវ / ស្លឹកឈើ",
+"ex": "Lemongrass gives a fresh smell to the soup."
+},
+{
+"en": "basil",
+"pos": "noun",
+"km": "ផ្ការ៉ាម / រ៉ា",
+"ex": "Fresh basil goes on top of the soup."
+},
+{
+"en": "mint",
+"pos": "noun",
+"km": "ស្លឹកបណ្ដូល",
+"ex": "Mint leaves are cool and fresh."
+},
+{
+"en": "cilantro",
+"pos": "noun",
+"km": "ស្លឹកខ្ទឹម",
+"ex": "Put cilantro on the noodles."
+},
+{
+"en": "tamarind",
+"pos": "noun",
+"km": "ម្ជូរ",
+"ex": "Tamarind makes the soup sour."
+},
+{
+"en": "palm sugar",
+"pos": "noun",
+"km": "ស្ករត្នោត",
+"ex": "Palm sugar is sweet and brown."
+},
+{
+"en": "coconut milk",
+"pos": "noun",
+"km": "ដូងខ្ទិះ",
+"ex": "Coconut milk makes the curry rich."
+},
+{
+"en": "coconut cream",
+"pos": "noun",
+"km": "ខ្ទិះដូង",
+"ex": "Coconut cream is added to the dessert."
+},
+{
+"en": "flour",
+"pos": "noun",
+"km": "ម្សៅ",
+"ex": "Mix flour with water to make dough."
+},
+{
+"en": "dough",
+"pos": "noun",
+"km": "ម្សៅនុយ",
+"ex": "The dough is ready to bake."
+},
+{
+"en": "oil",
+"pos": "noun",
+"km": "ប្រេង",
+"ex": "Heat the oil before frying."
+},
+{
+"en": "cooking oil",
+"pos": "noun",
+"km": "ប្រេងឆា",
+"ex": "Use cooking oil for frying the fish."
+},
+{
+"en": "cream",
+"pos": "noun",
+"km": "ខ្ទិះ",
+"ex": "Add cream to the coffee."
+},
+{
+"en": "soy milk",
+"pos": "noun",
+"km": "ទឹកសណ្ដែកណៅ",
+"ex": "Soy milk is a healthy drink."
+},
+{
+"en": "soda",
+"pos": "noun",
+"km": "ទឹកសូដា",
+"ex": "Soda is very sweet and cold."
+},
+{
+"en": "energy drink",
+"pos": "noun",
+"km": "ភេសជ្ជៈថាមពល",
+"ex": "He drinks an energy drink before work."
+},
+{
+"en": "iced coffee",
+"pos": "noun",
+"km": "កាហ្វេទឹកកក",
+"ex": "I like iced coffee in the afternoon."
+},
+{
+"en": "hot tea",
+"pos": "noun",
+"km": "តែក្តៅ",
+"ex": "Drink hot tea when you have a cold."
+},
+{
+"en": "green tea",
+"pos": "noun",
+"km": "តែបៃតង",
+"ex": "Green tea is healthy."
+},
+{
+"en": "black tea",
+"pos": "noun",
+"km": "តែខ្មៅ",
+"ex": "I drink black tea without sugar."
+},
+{
+"en": "milk tea",
+"pos": "noun",
+"km": "តែទឹកដោះគោ",
+"ex": "Milk tea with ice is very popular."
+},
+{
+"en": "bubble tea",
+"pos": "noun",
+"km": "តែពពុះ",
+"ex": "Bubble tea has small black balls."
+},
+{
+"en": "sugarcane juice",
+"pos": "noun",
+"km": "ទឹកអំពៅ",
+"ex": "Sugarcane juice is sweet and cold."
+},
+{
+"en": "coconut water",
+"pos": "noun",
+"km": "ទឹកដូង",
+"ex": "Coconut water is fresh and light."
+},
+{
+"en": "lemonade",
+"pos": "noun",
+"km": "ទឹកក្រូចឆ្មារ",
+"ex": "Lemonade is perfect on a hot day."
+},
+{
+"en": "beer",
+"pos": "noun",
+"km": "ស្រា​ប៊ីយ៉ា",
+"ex": "He drinks beer with friends."
+},
+{
+"en": "wine",
+"pos": "noun",
+"km": "ស្រាទំពាំងបាយជូរ",
+"ex": "Red wine goes well with beef."
+},
+{
+"en": "soup bowl",
+"pos": "noun",
+"km": "ថូស៊ុប",
+"ex": "Serve the soup in a bowl."
+},
+{
+"en": "hot pot",
+"pos": "noun",
+"km": "ឡូវចាន / ឡូហ្វ",
+"ex": "We eat hot pot in winter."
+},
+{
+"en": "barbecue",
+"pos": "noun",
+"km": "អាំង",
+"ex": "We had a barbecue by the river."
+},
+{
+"en": "grilled chicken",
+"pos": "noun",
+"km": "សាច់មាន់អាំង",
+"ex": "Grilled chicken is my favorite."
+},
+{
+"en": "fried chicken",
+"pos": "noun",
+"km": "សាច់មាន់ចៀន",
+"ex": "Fried chicken is crispy."
+},
+{
+"en": "fried fish",
+"pos": "noun",
+"km": "ត្រីចៀន",
+"ex": "Fried fish is served with rice."
+},
+{
+"en": "boiled egg",
+"pos": "noun",
+"km": "ស៊ុតស្ងោរ",
+"ex": "Eat a boiled egg for a snack."
+},
+{
+"en": "omelet",
+"pos": "noun",
+"km": "ស៊ុតចៀន",
+"ex": "An omelet is quick to make."
+},
+{
+"en": "salad",
+"pos": "noun",
+"km": "ស្លាតាំ",
+"ex": "I eat salad with dinner."
+},
+{
+"en": "pickle",
+"pos": "noun",
+"km": "ផ្លែឈើជូរ",
+"ex": "Pickles are sour and crunchy."
+},
+{
+"en": "dried fish",
+"pos": "noun",
+"km": "ត្រីងាវ",
+"ex": "Dried fish is a popular snack."
+},
+{
+"en": "dried fruit",
+"pos": "noun",
+"km": "ផ្លែឈើស្ងួត",
+"ex": "Dried fruit is good for snacks."
+},
+{
+"en": "nut",
+"pos": "noun",
+"km": "គ្រាប់ឈើ",
+"ex": "Nuts are good for your health."
+},
+{
+"en": "peanut",
+"pos": "noun",
+"km": "សណ្ដែកដី",
+"ex": "Roasted peanuts are a good snack."
+},
+{
+"en": "sesame",
+"pos": "noun",
+"km": "ល្ង",
+"ex": "Sprinkle sesame on the rice."
+},
+{
+"en": "cashew",
+"pos": "noun",
+"km": "គ្រាប់ស្វាយជ្រូក",
+"ex": "Cashew nuts are sweet and crunchy."
+},
+{
+"en": "potato chips",
+"pos": "noun",
+"km": "ដំឡូងចៀន",
+"ex": "Potato chips are my favorite snack."
+},
+{
+"en": "popcorn",
+"pos": "noun",
+"km": "ពោតលីង",
+"ex": "We watched a movie and ate popcorn."
+},
+{
+"en": "corn on the cob",
+"pos": "noun",
+"km": "ពោតអាំង",
+"ex": "Roasted corn on the cob is sweet."
+},
+{
+"en": "jam",
+"pos": "noun",
+"km": "ជែម",
+"ex": "Spread jam on your bread."
+},
+{
+"en": "syrup",
+"pos": "noun",
+"km": "សុីរ៉ូ",
+"ex": "Add syrup to the shaved ice."
+},
+{
+"en": "shaved ice",
+"pos": "noun",
+"km": "ទឹកកកកិន",
+"ex": "Shaved ice with syrup is cool."
+},
+{
+"en": "sweet soup",
+"pos": "noun",
+"km": "បង្អែម",
+"ex": "Sweet soup is a favorite dessert."
+},
+{
+"en": "pudding",
+"pos": "noun",
+"km": "ពុតឌីង",
+"ex": "The pudding is soft and sweet."
+},
+{
+"en": "custard",
+"pos": "noun",
+"km": "គ្រឿងក្រែម",
+"ex": "Custard is made from eggs and milk."
+},
+{
+"en": "dessert",
+"pos": "noun",
+"km": "បង្អែមចុងក្រោយ",
+"ex": "What is for dessert tonight?"
+},
+{
+"en": "snack food",
+"pos": "noun",
+"km": "អាហារសម្រន់",
+"ex": "Kids love snack food after school."
+},
+{
+"en": "breakfast food",
+"pos": "noun",
+"km": "អាហារពេលព្រឹក",
+"ex": "Breakfast food is often simple."
+},
+{
+"en": "fast food",
+"pos": "noun",
+"km": "អាហារសម្រេច",
+"ex": "Fast food is quick but not very healthy."
+},
+{
+"en": "street food",
+"pos": "noun",
+"km": "អាហារតាមផ្លូវ",
+"ex": "Street food in Phnom Penh is delicious."
+},
+{
+"en": "takeaway",
+"pos": "noun",
+"km": "អាហារយកទៅផ្ទះ",
+"ex": "I ordered a takeaway for dinner."
+},
+{
+"en": "buffet",
+"pos": "noun",
+"km": "អាហារបាយ",
+"ex": "The hotel buffet has many dishes."
+},
+{
+"en": "menu",
+"pos": "noun",
+"km": "បញ្ជីម្ហូប",
+"ex": "Can I see the menu, please?"
+},
+{
+"en": "waiter order",
+"pos": "noun",
+"km": "ការបញ្ជាអាហារ",
+"ex": "The waiter took our order."
+},
+{
+"en": "recipe book",
+"pos": "noun",
+"km": "សៀវភៅមុខម្ហូប",
+"ex": "My mother has a recipe book."
+},
+{
+"en": "curry",
+"pos": "noun",
+"km": "ការី",
+"ex": "Chicken curry is spicy and warm."
+},
+{
+"en": "stew",
+"pos": "noun",
+"km": "ស្ទូ",
+"ex": "The beef stew cooked for three hours."
+},
+{
+"en": "roast pork",
+"pos": "noun",
+"km": "សាច់ជ្រូកអាំង",
+"ex": "Roast pork with rice is very tasty."
+},
+{
+"en": "duck",
+"pos": "noun",
+"km": "ទា",
+"ex": "Roast duck is served at the restaurant."
+},
+{
+"en": "sea food",
+"pos": "noun",
+"km": "អាហារសមុទ្រ",
+"ex": "We ordered sea food at the beach."
+},
+{
+"en": "squid",
+"pos": "noun",
+"km": "ប្រមាណ",
+"ex": "Grilled squid is crispy and chewy."
+},
+{
+"en": "octopus",
+"pos": "noun",
+"km": "ប្រមូមីហ្ស៊ីស",
+"ex": "Octopus soup is very good."
+},
+{
+"en": "lobster",
+"pos": "noun",
+"km": "បង្កង",
+"ex": "Lobster is expensive at this restaurant."
+},
+{
+"en": "clam",
+"pos": "noun",
+"km": "ខ្យងសមុទ្រ",
+"ex": "Fried clams taste good with lime."
+},
+{
+"en": "oyster",
+"pos": "noun",
+"km": "ខ្យងព្រ័ត្រ",
+"ex": "Oysters are served with lemon."
+},
+{
+"en": "tofu",
+"pos": "noun",
+"km": "តៅហ៊ូ",
+"ex": "Fried tofu is a healthy meal."
+},
+{
+"en": "mushroom",
+"pos": "noun",
+"km": "ផ្សិត",
+"ex": "Mushroom soup is light and warm."
+},
+{
+"en": "bean",
+"pos": "noun",
+"km": "សណ្ដែក",
+"ex": "Green beans are good in salad."
+},
+{
+"en": "pea",
+"pos": "noun",
+"km": "សណ្ដែកបៃតង",
+"ex": "Put peas in the fried rice."
+},
+{
+"en": "eggplant",
+"pos": "noun",
+"km": "ត្រប់",
+"ex": "Grilled eggplant tastes smoky."
+},
+{
+"en": "pumpkin",
+"pos": "noun",
+"km": "ល្ពៅ",
+"ex": "Pumpkin soup is sweet and warm."
+},
+{
+"en": "sweet potato",
+"pos": "noun",
+"km": "ដំឡូងជ្វា",
+"ex": "Roasted sweet potato is delicious."
+},
+{
+"en": "spinach",
+"pos": "noun",
+"km": "ស្ពៃ",
+"ex": "Spinach soup is healthy."
+},
+{
+"en": "lettuce",
+"pos": "noun",
+"km": "ខាត់ស្លឹក",
+"ex": "Put lettuce in the sandwich."
+},
+{
+"en": "bean sprouts",
+"pos": "noun",
+"km": "ពន្លកសណ្ដែក",
+"ex": "Bean sprouts are crunchy in noodle soup."
+},
+{
+"en": "chili pepper",
+"pos": "noun",
+"km": "ម្ទេសស្រស់",
+"ex": "Fresh chili pepper is very spicy."
+},
+{
+"en": "green onion",
+"pos": "noun",
+"km": "ខ្ទឹមបៃតង",
+"ex": "Sprinkle green onion on the soup."
+},
+{
+"en": "celery",
+"pos": "noun",
+"km": "ការីតងាវ",
+"ex": "Celery is crunchy and light."
+},
+{
+"en": "broccoli",
+"pos": "noun",
+"km": "ប្រុកកូលី",
+"ex": "Steamed broccoli is healthy."
+},
+{
+"en": "cauliflower",
+"pos": "noun",
+"km": "ផ្កាខាត់",
+"ex": "Cauliflower is white and soft."
+},
+{
+"en": "avocado",
+"pos": "noun",
+"km": "អាវ៉ូកាដូ",
+"ex": "Avocado is creamy and green."
+},
+{
+"en": "lime",
+"pos": "noun",
+"km": "ក្រូចឆ្មារ",
+"ex": "Squeeze lime on the fish."
+}
+]
