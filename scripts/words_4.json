@@ -1,0 +1,722 @@
+[
+{
+"en": "head",
+"pos": "noun",
+"km": "ក្បាល",
+"ex": "He hit his head on the door."
+},
+{
+"en": "hair",
+"pos": "noun",
+"km": "សក់",
+"ex": "She has long black hair."
+},
+{
+"en": "face",
+"pos": "noun",
+"km": "មុខ",
+"ex": "Wash your face in the morning."
+},
+{
+"en": "eye",
+"pos": "noun",
+"km": "ភ្នែក",
+"ex": "Her eyes are big and bright."
+},
+{
+"en": "ear",
+"pos": "noun",
+"km": "ត្រចៀក",
+"ex": "Listen with your ears, not your mouth."
+},
+{
+"en": "nose",
+"pos": "noun",
+"km": "ច្រមុះ",
+"ex": "The flower smells nice to my nose."
+},
+{
+"en": "mouth",
+"pos": "noun",
+"km": "មាត់",
+"ex": "Open your mouth and say it."
+},
+{
+"en": "tooth",
+"pos": "noun",
+"km": "ធ្មេញ",
+"ex": "I brush my teeth twice a day."
+},
+{
+"en": "tongue",
+"pos": "noun",
+"km": "អណ្តាត",
+"ex": "Put out your tongue, please."
+},
+{
+"en": "neck",
+"pos": "noun",
+"km": "ករ",
+"ex": "He wears a scarf around his neck."
+},
+{
+"en": "shoulder",
+"pos": "noun",
+"km": "ស្មា",
+"ex": "She put her hand on my shoulder."
+},
+{
+"en": "arm",
+"pos": "noun",
+"km": "ដៃ / ដៃខាងលើ",
+"ex": "He raised his arm to say hello."
+},
+{
+"en": "hand",
+"pos": "noun",
+"km": "ដៃ",
+"ex": "Wash your hands before you eat."
+},
+{
+"en": "finger",
+"pos": "noun",
+"km": "ម្រាមដៃ",
+"ex": "She has a ring on her finger."
+},
+{
+"en": "chest",
+"pos": "noun",
+"km": "ទ្រូង",
+"ex": "I have pain in my chest."
+},
+{
+"en": "back",
+"pos": "noun",
+"km": "ខ្នង",
+"ex": "My back hurts after sitting all day."
+},
+{
+"en": "stomach",
+"pos": "noun",
+"km": "ពោះ",
+"ex": "My stomach is full after lunch."
+},
+{
+"en": "leg",
+"pos": "noun",
+"km": "ជើង",
+"ex": "He broke his leg playing football."
+},
+{
+"en": "knee",
+"pos": "noun",
+"km": "ជង្គង់",
+"ex": "Her knee is sore from running."
+},
+{
+"en": "foot",
+"pos": "noun",
+"km": "ជើង / ជើងខាងក្រោម",
+"ex": "My foot hurts in these new shoes."
+},
+{
+"en": "skin",
+"pos": "noun",
+"km": "ស្បែក",
+"ex": "Use sunscreen to protect your skin."
+},
+{
+"en": "bone",
+"pos": "noun",
+"km": "ឆ្អឹង",
+"ex": "Milk makes your bones strong."
+},
+{
+"en": "muscle",
+"pos": "noun",
+"km": "សាច់ដុំ",
+"ex": "Exercise builds strong muscles."
+},
+{
+"en": "heart",
+"pos": "noun",
+"km": "បេះដូង",
+"ex": "My heart beats fast when I run."
+},
+{
+"en": "brain",
+"pos": "noun",
+"km": "ខួរក្បាល",
+"ex": "Your brain needs sleep to work well."
+},
+{
+"en": "wake up",
+"pos": "verb",
+"km": "ភ្ញាក់ពីដំណេក",
+"ex": "I wake up at six every morning."
+},
+{
+"en": "brush",
+"pos": "verb",
+"km": "ដុសខាត់",
+"ex": "Brush your hair before school."
+},
+{
+"en": "shower",
+"pos": "verb",
+"km": "ងូតទឹក",
+"ex": "I shower after coming home."
+},
+{
+"en": "comb",
+"pos": "verb",
+"km": "ទម្លាយសក់",
+"ex": "Comb your hair before the photo."
+},
+{
+"en": "sweep",
+"pos": "verb",
+"km": "បោសសម្អាត",
+"ex": "Sweep the floor after dinner."
+},
+{
+"en": "mop",
+"pos": "verb",
+"km": "ជូតម៉ុប",
+"ex": "Mop the kitchen floor on Sunday."
+},
+{
+"en": "iron",
+"pos": "verb",
+"km": "បន្ទោ / រមៀលខោអាវ",
+"ex": "Iron your shirt before the meeting."
+},
+{
+"en": "laundry",
+"pos": "noun",
+"km": "ខោអាវដែលត្រូវលាង",
+"ex": "Do the laundry on Saturday."
+},
+{
+"en": "dish",
+"pos": "noun",
+"km": "ចានសម្រាប់ខ្ជះ / ម្ហូប",
+"ex": "Wash the dishes after dinner."
+},
+{
+"en": "trash",
+"pos": "noun",
+"km": "សំរាម",
+"ex": "Take the trash out tonight."
+},
+{
+"en": "garbage",
+"pos": "noun",
+"km": "សំរាម / សំណល់",
+"ex": "Put the garbage in the bin."
+},
+{
+"en": "cleaning",
+"pos": "noun",
+"km": "ការសម្អាត",
+"ex": "Cleaning the house takes time."
+},
+{
+"en": "cook rice",
+"pos": "verb",
+"km": "ស្ងោរបាយ",
+"ex": "She cooks rice every evening."
+},
+{
+"en": "wait",
+"pos": "verb",
+"km": "រង់ចាំ",
+"ex": "Please wait for me here."
+},
+{
+"en": "meet",
+"pos": "verb",
+"km": "ជួប",
+"ex": "Let's meet at the coffee shop."
+},
+{
+"en": "call",
+"pos": "verb",
+"km": "ហៅទូរស័ព្ទ",
+"ex": "I will call you after dinner."
+},
+{
+"en": "text",
+"pos": "verb",
+"km": "ផ្ញើសារ",
+"ex": "Text me when you arrive."
+},
+{
+"en": "send",
+"pos": "verb",
+"km": "ផ្ញើ",
+"ex": "Send me the photo, please."
+},
+{
+"en": "receive",
+"pos": "verb",
+"km": "ទទួល",
+"ex": "I received a gift today."
+},
+{
+"en": "share",
+"pos": "verb",
+"km": "ចែករំលែក",
+"ex": "Share your food with your friends."
+},
+{
+"en": "borrow money",
+"pos": "verb",
+"km": "ខ្ចីលុយ",
+"ex": "Can I borrow some money?"
+},
+{
+"en": "lend",
+"pos": "verb",
+"km": "ផ្តល់ឱ្យខ្ចី",
+"ex": "Can you lend me your pen?"
+},
+{
+"en": "save",
+"pos": "verb",
+"km": "សន្សំ",
+"ex": "I save money every month."
+},
+{
+"en": "spend",
+"pos": "verb",
+"km": "ចំណាយ",
+"ex": "Don't spend too much money."
+},
+{
+"en": "count",
+"pos": "verb",
+"km": "រាប់",
+"ex": "Count the number of students."
+},
+{
+"en": "remember",
+"pos": "verb",
+"km": "ចងចាំ",
+"ex": "I remember your name."
+},
+{
+"en": "forget",
+"pos": "verb",
+"km": "ភ្លេច",
+"ex": "Don't forget to bring your book."
+},
+{
+"en": "decide",
+"pos": "verb",
+"km": "សម្រេចចិត្ត",
+"ex": "We need to decide quickly."
+},
+{
+"en": "choose",
+"pos": "verb",
+"km": "ជ្រើសរើស",
+"ex": "Choose the color you like."
+},
+{
+"en": "plan",
+"pos": "verb",
+"km": "រៀបចំផែនការ",
+"ex": "We plan a trip for next month."
+},
+{
+"en": "prepare",
+"pos": "verb",
+"km": "រៀបចំ",
+"ex": "Prepare your lesson for tomorrow."
+},
+{
+"en": "begin",
+"pos": "verb",
+"km": "ចាប់ផ្តើម",
+"ex": "The class begins at eight o'clock."
+},
+{
+"en": "finish",
+"pos": "verb",
+"km": "បញ្ចប់",
+"ex": "Finish your work before you go."
+},
+{
+"en": "continue",
+"pos": "verb",
+"km": "បន្ត",
+"ex": "Please continue reading the story."
+},
+{
+"en": "stop",
+"pos": "verb",
+"km": "ឈប់",
+"ex": "Stop talking and listen."
+},
+{
+"en": "fail",
+"pos": "verb",
+"km": "បរាជ័យ",
+"ex": "Do not be afraid to fail."
+},
+{
+"en": "succeed",
+"pos": "verb",
+"km": "ជោគជ័យ",
+"ex": "Hard work helps you succeed."
+},
+{
+"en": "win",
+"pos": "verb",
+"km": "ឈ្នះ",
+"ex": "Our team wants to win the game."
+},
+{
+"en": "lose",
+"pos": "verb",
+"km": "ចាញ់",
+"ex": "We lost the match yesterday."
+},
+{
+"en": "play",
+"pos": "verb",
+"km": "លេង",
+"ex": "Children play in the park."
+},
+{
+"en": "kick",
+"pos": "verb",
+"km": "ទះ / ទាត់",
+"ex": "He kicked the ball very hard."
+},
+{
+"en": "throw",
+"pos": "verb",
+"km": "បោះ",
+"ex": "Throw the ball to me."
+},
+{
+"en": "catch",
+"pos": "verb",
+"km": "ចាប់",
+"ex": "Catch the ball with both hands."
+},
+{
+"en": "ride",
+"pos": "verb",
+"km": "ជិះ",
+"ex": "I ride my bicycle to school."
+},
+{
+"en": "drive",
+"pos": "verb",
+"km": "បើកបរ",
+"ex": "My father drives to work."
+},
+{
+"en": "fly",
+"pos": "verb",
+"km": "ហោះ",
+"ex": "Birds can fly very high."
+},
+{
+"en": "sit",
+"pos": "verb",
+"km": "អង្គុយ",
+"ex": "Please sit down and relax."
+},
+{
+"en": "stand",
+"pos": "verb",
+"km": "ឈរ",
+"ex": "Stand up when the teacher comes."
+},
+{
+"en": "snore",
+"pos": "verb",
+"km": "ខ្ទះ / ដកដង្ហើមខ្លាំង",
+"ex": "Dad snores loudly at night."
+},
+{
+"en": "yawn",
+"pos": "verb",
+"km": "ហាវ",
+"ex": "She yawned during the long lesson."
+},
+{
+"en": "laugh",
+"pos": "verb",
+"km": "សើច",
+"ex": "We laughed at the funny story."
+},
+{
+"en": "smile",
+"pos": "verb",
+"km": "ញញឹម",
+"ex": "She smiled when she saw me."
+},
+{
+"en": "cry",
+"pos": "verb",
+"km": "យំ",
+"ex": "The baby cried all night."
+},
+{
+"en": "shout",
+"pos": "verb",
+"km": "ស្រែក",
+"ex": "Don't shout, I can hear you."
+},
+{
+"en": "whisper",
+"pos": "verb",
+"km": "ខ្សឹបខ្សៀវ",
+"ex": "Whisper so the baby can sleep."
+},
+{
+"en": "paint",
+"pos": "verb",
+"km": "លាបពណ៌ / គូររូប",
+"ex": "She paints beautiful pictures."
+},
+{
+"en": "photo",
+"pos": "noun",
+"km": "រូបថត",
+"ex": "Take a photo of our family."
+},
+{
+"en": "video",
+"pos": "noun",
+"km": "វីដេអូ",
+"ex": "We watched a short video in class."
+},
+{
+"en": "guitar",
+"pos": "noun",
+"km": "ហ្គីតា",
+"ex": "He plays the guitar very well."
+},
+{
+"en": "piano",
+"pos": "noun",
+"km": "ព្យាណូ",
+"ex": "She practices piano every day."
+},
+{
+"en": "drum",
+"pos": "noun",
+"km": "ស្គរ",
+"ex": "The drum sounds loud in the festival."
+},
+{
+"en": "football",
+"pos": "noun",
+"km": "បាល់ទាត់",
+"ex": "Football is popular in Cambodia."
+},
+{
+"en": "volleyball",
+"pos": "noun",
+"km": "បាល់ទះ",
+"ex": "We play volleyball on Sundays."
+},
+{
+"en": "basketball",
+"pos": "noun",
+"km": "បាល់បោះ",
+"ex": "He is tall and good at basketball."
+},
+{
+"en": "badminton",
+"pos": "noun",
+"km": "បាល់ឡេ",
+"ex": "Badminton is fun to play with friends."
+},
+{
+"en": "swimming pool",
+"pos": "noun",
+"km": "អាងហែលទឹក",
+"ex": "The swimming pool is very cold."
+},
+{
+"en": "exercise",
+"pos": "noun",
+"km": "ការហាត់ប្រាណ",
+"ex": "Exercise every day to stay healthy."
+},
+{
+"en": "hobby",
+"pos": "noun",
+"km": "ចំណូលចិត្ត",
+"ex": "Reading is my favorite hobby."
+},
+{
+"en": "festival",
+"pos": "noun",
+"km": "ពិធីបុណ្យ",
+"ex": "The water festival is very big."
+},
+{
+"en": "party",
+"pos": "noun",
+"km": "ពិធីជប់លៀង",
+"ex": "She invited me to her birthday party."
+},
+{
+"en": "gift card",
+"pos": "noun",
+"km": "កាតអំណោយ",
+"ex": "I bought a gift card for my friend."
+},
+{
+"en": "picnic",
+"pos": "noun",
+"km": "ការបោះតង់ / ទៅកម្សាន្ត",
+"ex": "We had a picnic by the river."
+},
+{
+"en": "wedding",
+"pos": "noun",
+"km": "ពិធីមង្គលការ",
+"ex": "The wedding was held in the temple."
+},
+{
+"en": "temple",
+"pos": "noun",
+"km": "វត្ត",
+"ex": "We visit the temple on Sunday."
+},
+{
+"en": "pagoda",
+"pos": "noun",
+"km": "ប្រាសាទ / បន្ទាយ",
+"ex": "The pagoda is very old and beautiful."
+},
+{
+"en": "museum",
+"pos": "noun",
+"km": "សារមន្ទីរ",
+"ex": "The museum shows Khmer history."
+},
+{
+"en": "park",
+"pos": "noun",
+"km": "សួនច្បារ",
+"ex": "Children play in the park every evening."
+},
+{
+"en": "market place",
+"pos": "noun",
+"km": "ផ្សារ",
+"ex": "The market place is full of people."
+},
+{
+"en": "bus stop",
+"pos": "noun",
+"km": "ចំណតឡានក្រុង",
+"ex": "Wait for me at the bus stop."
+},
+{
+"en": "traffic",
+"pos": "noun",
+"km": "ចរាចរណ៍",
+"ex": "The traffic is heavy at rush hour."
+},
+{
+"en": "traffic light",
+"pos": "noun",
+"km": "ភ្លើងស្តុប",
+"ex": "Stop at the red traffic light."
+},
+{
+"en": "rope",
+"pos": "noun",
+"km": "ខ្សែ",
+"ex": "Tie the boat with a strong rope."
+},
+{
+"en": "tent",
+"pos": "noun",
+"km": "ត្រសាល",
+"ex": "We slept in a tent by the lake."
+},
+{
+"en": "pot",
+"pos": "noun",
+"km": "ឆ្នាំង",
+"ex": "Cook the soup in a big pot."
+},
+{
+"en": "pan",
+"pos": "noun",
+"km": "ខ្ទះ",
+"ex": "Heat the oil in the pan."
+},
+{
+"en": "tray",
+"pos": "noun",
+"km": "ថាស",
+"ex": "Carry the food on a tray."
+},
+{
+"en": "basket",
+"pos": "noun",
+"km": "ល្អិត / ក្រឡា",
+"ex": "Put the fruit in the basket."
+},
+{
+"en": "bucket",
+"pos": "noun",
+"km": "ធុងទឹក",
+"ex": "Fill the bucket with water."
+},
+{
+"en": "needle",
+"pos": "noun",
+"km": "ម្ជុល",
+"ex": "Be careful with the needle."
+},
+{
+"en": "thread",
+"pos": "noun",
+"km": "ខ្សែអំបោះ",
+"ex": "Use a thread to sew the button."
+},
+{
+"en": "button",
+"pos": "noun",
+"km": "គ្រាប់ចុច / ប៊ូតុង",
+"ex": "One button fell off my shirt."
+},
+{
+"en": "zipper",
+"pos": "noun",
+"km": "ខ្សែរូត",
+"ex": "The zipper of my bag is broken."
+},
+{
+"en": "pocket",
+"pos": "noun",
+"km": "ហោប៉ៅ",
+"ex": "Keep your phone in your pocket."
+},
+{
+"en": "umbrella",
+"pos": "noun",
+"km": "ឆ័ត្រ",
+"ex": "Take an umbrella, it may rain."
+},
+{
+"en": "raincoat",
+"pos": "noun",
+"km": "អាវភ្លៀង",
+"ex": "Wear a raincoat when it rains."
+}
+]
