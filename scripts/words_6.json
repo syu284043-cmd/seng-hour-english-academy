@@ -1,0 +1,722 @@
+[
+{
+"en": "kind",
+"pos": "adjective",
+"km": "ចិត្តល្អ",
+"ex": "She is kind to everyone."
+},
+{
+"en": "generous",
+"pos": "adjective",
+"km": "សប្បុរស",
+"ex": "He is generous and shares his food."
+},
+{
+"en": "honest",
+"pos": "adjective",
+"km": "ស្មោះត្រង់",
+"ex": "An honest person tells the truth."
+},
+{
+"en": "polite",
+"pos": "adjective",
+"km": "សុភាព",
+"ex": "Be polite when you speak to elders."
+},
+{
+"en": "rude",
+"pos": "adjective",
+"km": "អាក្រក់ / គ្មានសុជីវធម៌",
+"ex": "It is rude to interrupt people."
+},
+{
+"en": "shy",
+"pos": "adjective",
+"km": "ខ្មាស់អៀន",
+"ex": "The shy girl did not speak in class."
+},
+{
+"en": "brave",
+"pos": "adjective",
+"km": "ក្លាហាន",
+"ex": "The firefighter is very brave."
+},
+{
+"en": "careful",
+"pos": "adjective",
+"km": "ប្រយ័ត្ន",
+"ex": "Be careful when you cross the road."
+},
+{
+"en": "careless",
+"pos": "adjective",
+"km": "ចិត្តមិនប្រុងប្រយ័ត្ន",
+"ex": "Careless drivers cause many accidents."
+},
+{
+"en": "clever",
+"pos": "adjective",
+"km": "ឆ្លាត",
+"ex": "My son is clever at math."
+},
+{
+"en": "lazy",
+"pos": "adjective",
+"km": "ខ្ជិល",
+"ex": "Don't be lazy, do your homework."
+},
+{
+"en": "busy",
+"pos": "adjective",
+"km": "រវល់",
+"ex": "I am busy this afternoon."
+},
+{
+"en": "free",
+"pos": "adjective",
+"km": "ទំនេរ / ឥតគិតថ្លៃ",
+"ex": "Are you free after lunch?"
+},
+{
+"en": "funny",
+"pos": "adjective",
+"km": "ទំនុកចិត្ត / ស្អាតជាង",
+"ex": "The movie was very funny."
+},
+{
+"en": "serious",
+"pos": "adjective",
+"km": "ធ្ងន់ធ្ងរ",
+"ex": "The doctor said it is serious."
+},
+{
+"en": "calm person",
+"pos": "adjective",
+"km": "មនុស្សស្ងប់ស្ងាត់",
+"ex": "My father is a calm person."
+},
+{
+"en": "impatient",
+"pos": "adjective",
+"km": "គ្មានការអត់ធ្មត់",
+"ex": "He is impatient when he waits too long."
+},
+{
+"en": "confident",
+"pos": "adjective",
+"km": "មានទំនុកចិត្ត",
+"ex": "She speaks confidently in public."
+},
+{
+"en": "honest answer",
+"pos": "noun",
+"km": "ចម្លើយស្មោះត្រង់",
+"ex": "I want an honest answer."
+},
+{
+"en": "hard-working",
+"pos": "adjective",
+"km": "ខំប្រឹងធ្វើការ",
+"ex": "He is a hard-working student."
+},
+{
+"en": "friendly",
+"pos": "adjective",
+"km": "រាក់ទាក់",
+"ex": "The staff are very friendly here."
+},
+{
+"en": "cheerful",
+"pos": "adjective",
+"km": "រីករាយ",
+"ex": "She is cheerful every morning."
+},
+{
+"en": "gentle",
+"pos": "adjective",
+"km": "ទន់ភ្លន់",
+"ex": "The mother has a gentle voice."
+},
+{
+"en": "strict",
+"pos": "adjective",
+"km": "តឹងរ៉ឹង",
+"ex": "The teacher is strict about homework."
+},
+{
+"en": "tough",
+"pos": "adjective",
+"km": "រឹងមាំ / លំបាក",
+"ex": "It was a tough day at work."
+},
+{
+"en": "weak",
+"pos": "adjective",
+"km": "ខ្សោយ",
+"ex": "He felt weak after the fever."
+},
+{
+"en": "strong",
+"pos": "adjective",
+"km": "ខ្លាំង",
+"ex": "She is strong enough to carry the box."
+},
+{
+"en": "healthy",
+"pos": "adjective",
+"km": "មានសុខភាពល្អ",
+"ex": "Eat vegetables to stay healthy."
+},
+{
+"en": "sensitive",
+"pos": "adjective",
+"km": "ងាយនឹងអារម្មណ៍",
+"ex": "Some children are very sensitive."
+},
+{
+"en": "proud person",
+"pos": "noun",
+"km": "មនុស្សអួតអាង",
+"ex": "He is too proud to ask for help."
+},
+{
+"en": "humble",
+"pos": "adjective",
+"km": "សុភាពទន់ភ្លន់",
+"ex": "Even the rich man can be humble."
+},
+{
+"en": "selfish",
+"pos": "adjective",
+"km": "ចិត្តចង្អៀត",
+"ex": "It is selfish to keep all the food."
+},
+{
+"en": "jealous person",
+"pos": "noun",
+"km": "មនុស្សច្រណែន",
+"ex": "The jealous friend said bad things."
+},
+{
+"en": "curious",
+"pos": "adjective",
+"km": "ចង់ដឹង",
+"ex": "Children are curious about the world."
+},
+{
+"en": "creative",
+"pos": "adjective",
+"km": "បង្កើតថ្មី",
+"ex": "She is very creative with her designs."
+},
+{
+"en": "organized",
+"pos": "adjective",
+"km": "មានរៀបរៀប",
+"ex": "He is organized and always on time."
+},
+{
+"en": "messy",
+"pos": "adjective",
+"km": "អស់រលីង / ខ្ចោះ",
+"ex": "My room is messy today."
+},
+{
+"en": "neat",
+"pos": "adjective",
+"km": "ស្អាតរៀបរយ",
+"ex": "Keep your notebook neat."
+},
+{
+"en": "loud",
+"pos": "adjective",
+"km": "ខ្លាំង / ឮរំខាន",
+"ex": "The music is too loud."
+},
+{
+"en": "quiet person",
+"pos": "noun",
+"km": "មនុស្សស្ងាត់",
+"ex": "My brother is a quiet person."
+},
+{
+"en": "talkative",
+"pos": "adjective",
+"km": "ចូលចិត្តនិយាយ",
+"ex": "My sister is very talkative."
+},
+{
+"en": "active",
+"pos": "adjective",
+"km": "សកម្ម",
+"ex": "My grandfather is still very active."
+},
+{
+"en": "lazy student",
+"pos": "noun",
+"km": "សិស្សខ្ជិល",
+"ex": "He is a lazy student but smart."
+},
+{
+"en": "ambitious",
+"pos": "adjective",
+"km": "មានបំណង",
+"ex": "She is ambitious and works hard."
+},
+{
+"en": "optimistic",
+"pos": "adjective",
+"km": "ចូលចិត្តមើលផ្នែកល្អ",
+"ex": "He is optimistic about the future."
+},
+{
+"en": "pessimistic",
+"pos": "adjective",
+"km": "ចូលចិត្តមើលផ្នែកអាក្រក់",
+"ex": "Don't be so pessimistic about life."
+},
+{
+"en": "reliable",
+"pos": "adjective",
+"km": "អាចទុកចិត្តបាន",
+"ex": "He is a reliable friend."
+},
+{
+"en": "loyal",
+"pos": "adjective",
+"km": "ស្មោះ",
+"ex": "The dog is loyal to its owner."
+},
+{
+"en": "rich",
+"pos": "adjective",
+"km": "អ្នកមាន",
+"ex": "The rich man built a big house."
+},
+{
+"en": "poor",
+"pos": "adjective",
+"km": "ក្រីក្រ",
+"ex": "Many poor families live in the village."
+},
+{
+"en": "young",
+"pos": "adjective",
+"km": "វ័យក្មេង",
+"ex": "He is young but very smart."
+},
+{
+"en": "old",
+"pos": "adjective",
+"km": "ចាស់",
+"ex": "My grandmother is very old."
+},
+{
+"en": "tall person",
+"pos": "noun",
+"km": "មនុស្សខ្ពស់",
+"ex": "The tall man is my teacher."
+},
+{
+"en": "thin",
+"pos": "adjective",
+"km": "ស្គម",
+"ex": "He is thin after being sick."
+},
+{
+"en": "fat",
+"pos": "adjective",
+"km": "ធាត់",
+"ex": "Don't eat too much or you will get fat."
+},
+{
+"en": "beautiful person",
+"pos": "noun",
+"km": "មនុស្សស្អាត",
+"ex": "She is a beautiful person inside."
+},
+{
+"en": "handsome",
+"pos": "adjective",
+"km": "ស្អាត (ប្រុស)",
+"ex": "He is a handsome young man."
+},
+{
+"en": "ugly",
+"pos": "adjective",
+"km": "អាក្រក់ / ខ្ពើម",
+"ex": "The old building looks ugly."
+},
+{
+"en": "nice",
+"pos": "adjective",
+"km": "ល្អ / គាប់ចិត្ត",
+"ex": "You have a nice smile."
+},
+{
+"en": "terrible",
+"pos": "adjective",
+"km": "អាក្រក់ខ្លាំង",
+"ex": "The weather was terrible yesterday."
+},
+{
+"en": "wonderful",
+"pos": "adjective",
+"km": "អស្ចារ្យ",
+"ex": "We had a wonderful time at the beach."
+},
+{
+"en": "amazing",
+"pos": "adjective",
+"km": "គួរឱ្យភ្ញាក់ផ្អើល",
+"ex": "The view from the hill is amazing."
+},
+{
+"en": "boring",
+"pos": "adjective",
+"km": "ធុញ",
+"ex": "The lecture was very boring."
+},
+{
+"en": "interesting",
+"pos": "adjective",
+"km": "គួរឱ្យចាប់អារម្មណ៍",
+"ex": "This book is very interesting."
+},
+{
+"en": "exciting",
+"pos": "adjective",
+"km": "គួរឱ្យរំភើប",
+"ex": "The football match was exciting."
+},
+{
+"en": "difficult",
+"pos": "adjective",
+"km": "ពិបាក",
+"ex": "English grammar can be difficult."
+},
+{
+"en": "easy",
+"pos": "adjective",
+"km": "ងាយ",
+"ex": "This exercise is easy to do."
+},
+{
+"en": "important",
+"pos": "adjective",
+"km": "សំខាន់",
+"ex": "It is important to sleep well."
+},
+{
+"en": "useful",
+"pos": "adjective",
+"km": "មានប្រយោជន៍",
+"ex": "This app is very useful for learning."
+},
+{
+"en": "useless",
+"pos": "adjective",
+"km": "គ្មានប្រយោជន៍",
+"ex": "This old pen is useless now."
+},
+{
+"en": "special",
+"pos": "adjective",
+"km": "ពិសេស",
+"ex": "Today is a special day for us."
+},
+{
+"en": "ordinary",
+"pos": "adjective",
+"km": "ធម្មតា",
+"ex": "It was an ordinary day at school."
+},
+{
+"en": "unusual",
+"pos": "adjective",
+"km": "ខុសពីធម្មតា",
+"ex": "It is unusual to see snow here."
+},
+{
+"en": "common",
+"pos": "adjective",
+"km": "ធម្មតា / ទូទៅ",
+"ex": "Rice is a common food in Cambodia."
+},
+{
+"en": "rare",
+"pos": "adjective",
+"km": "កម្រ",
+"ex": "That bird is very rare."
+},
+{
+"en": "famous",
+"pos": "adjective",
+"km": "ល្បីល្បាញ",
+"ex": "Angkor Wat is famous around the world."
+},
+{
+"en": "popular",
+"pos": "adjective",
+"km": "ពេញនិយម",
+"ex": "This song is very popular."
+},
+{
+"en": "unknown",
+"pos": "adjective",
+"km": "មិនដឹង",
+"ex": "The writer is unknown to most people."
+},
+{
+"en": "public",
+"pos": "adjective",
+"km": "សាធារណៈ",
+"ex": "The public park is open all day."
+},
+{
+"en": "private",
+"pos": "adjective",
+"km": "ឯកជន",
+"ex": "This is a private room."
+},
+{
+"en": "local",
+"pos": "adjective",
+"km": "ក្នុងតំបន់",
+"ex": "We buy fruit from the local market."
+},
+{
+"en": "foreign",
+"pos": "adjective",
+"km": "បរទេស",
+"ex": "She speaks three foreign languages."
+},
+{
+"en": "modern",
+"pos": "adjective",
+"km": "ទំនើប",
+"ex": "The city has many modern buildings."
+},
+{
+"en": "traditional",
+"pos": "adjective",
+"km": "ប្រពៃណី",
+"ex": "We eat traditional food at the festival."
+},
+{
+"en": "natural",
+"pos": "adjective",
+"km": "ធម្មជាតិ",
+"ex": "This juice is natural, with no sugar."
+},
+{
+"en": "artificial",
+"pos": "adjective",
+"km": "សិប្បនិម្មិត",
+"ex": "Avoid artificial colors in food."
+},
+{
+"en": "clean water",
+"pos": "noun",
+"km": "ទឹកស្អាត",
+"ex": "Drink clean water every day."
+},
+{
+"en": "dangerous",
+"pos": "adjective",
+"km": "គ្រោះថ្នាក់",
+"ex": "The road is dangerous at night."
+},
+{
+"en": "safe place",
+"pos": "noun",
+"km": "កន្លែងសុវត្ថិភាព",
+"ex": "This is a safe place to play."
+},
+{
+"en": "expensive shop",
+"pos": "noun",
+"km": "ហាងថ្លៃ",
+"ex": "That shop is too expensive for me."
+},
+{
+"en": "cheap food",
+"pos": "noun",
+"km": "អាហារថោក",
+"ex": "The cheap food here is good."
+},
+{
+"en": "early morning",
+"pos": "noun",
+"km": "ព្រលឹម",
+"ex": "I go jogging early in the morning."
+},
+{
+"en": "late night",
+"pos": "noun",
+"km": "យប់ជ្រៅ",
+"ex": "She works late at night."
+},
+{
+"en": "full time",
+"pos": "noun",
+"km": "ពេញម៉ោង",
+"ex": "He works full time at the bank."
+},
+{
+"en": "part time",
+"pos": "noun",
+"km": "ក្រៅម៉ោង",
+"ex": "She has a part-time job after school."
+},
+{
+"en": "in charge",
+"pos": "adjective",
+"km": "ទទួលខុសត្រូវ",
+"ex": "Who is in charge of this class?"
+},
+{
+"en": "on time",
+"pos": "adverb",
+"km": "ទាន់ពេល",
+"ex": "Please arrive on time for the test."
+},
+{
+"en": "in fact",
+"pos": "adverb",
+"km": "តាមពិត",
+"ex": "In fact, I already finished the work."
+},
+{
+"en": "at least",
+"pos": "adverb",
+"km": "យ៉ាងតិច",
+"ex": "Drink at least two liters of water."
+},
+{
+"en": "for example",
+"pos": "adverb",
+"km": "ឧទាហរណ៍",
+"ex": "For example, rice and fish are common foods."
+},
+{
+"en": "of course",
+"pos": "adverb",
+"km": "ពិតណាស់",
+"ex": "Of course, I will help you."
+},
+{
+"en": "in general",
+"pos": "adverb",
+"km": "ជាទូទៅ",
+"ex": "In general, people here are friendly."
+},
+{
+"en": "by the way",
+"pos": "adverb",
+"km": "ខ្ញុំចង់និយាយថា",
+"ex": "By the way, where is the bathroom?"
+},
+{
+"en": "as well",
+"pos": "adverb",
+"km": "ដូចគ្នា / ផងដែរ",
+"ex": "I like coffee and tea as well."
+},
+{
+"en": "even",
+"pos": "adverb",
+"km": "សូម្បីតែ",
+"ex": "Even children can understand this."
+},
+{
+"en": "only",
+"pos": "adverb",
+"km": "តែប៉ុណ្ណោះ",
+"ex": "I have only one brother."
+},
+{
+"en": "almost",
+"pos": "adverb",
+"km": "ស្ទើរតែ",
+"ex": "We are almost at the station."
+},
+{
+"en": "sometimes",
+"pos": "adverb",
+"km": "ពេលខ្លះ",
+"ex": "Sometimes I walk to school."
+},
+{
+"en": "usually",
+"pos": "adverb",
+"km": "ជាធម្មតា",
+"ex": "I usually wake up at six."
+},
+{
+"en": "always",
+"pos": "adverb",
+"km": "តែងតែ",
+"ex": "She always smiles at her friends."
+},
+{
+"en": "never",
+"pos": "adverb",
+"km": "មិនដែល",
+"ex": "I have never been to Thailand."
+},
+{
+"en": "often",
+"pos": "adverb",
+"km": "ញឹកញាប់",
+"ex": "We often visit our grandparents."
+},
+{
+"en": "rarely",
+"pos": "adverb",
+"km": "កម្រ",
+"ex": "He rarely eats meat."
+},
+{
+"en": "again",
+"pos": "adverb",
+"km": "ម្តងទៀត",
+"ex": "Please say that again."
+},
+{
+"en": "already",
+"pos": "adverb",
+"km": "រួចហើយ",
+"ex": "I have already eaten lunch."
+},
+{
+"en": "yet",
+"pos": "adverb",
+"km": "នៅឡើយ",
+"ex": "Have you finished yet?"
+},
+{
+"en": "still",
+"pos": "adverb",
+"km": "នៅតែ",
+"ex": "He is still sleeping."
+},
+{
+"en": "just",
+"pos": "adverb",
+"km": "គ្រាន់តែ",
+"ex": "I just arrived at home."
+},
+{
+"en": "too",
+"pos": "adverb",
+"km": "ពេក",
+"ex": "This soup is too salty."
+},
+{
+"en": "very",
+"pos": "adverb",
+"km": "ណាស់",
+"ex": "The water is very cold today."
+}
+]
