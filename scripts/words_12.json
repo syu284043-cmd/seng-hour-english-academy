@@ -1,0 +1,1022 @@
+[
+{
+"en": "grandfather",
+"pos": "noun",
+"km": "ជីតា",
+"ex": "My grandfather tells us old stories."
+},
+{
+"en": "grandmother",
+"pos": "noun",
+"km": "ជីដូន",
+"ex": "My grandmother cooks the best soup."
+},
+{
+"en": "uncle",
+"pos": "noun",
+"km": "ពូ / ឪពុកធំ",
+"ex": "My uncle works in Battambang."
+},
+{
+"en": "aunt",
+"pos": "noun",
+"km": "មីង / មីងធំ",
+"ex": "My aunt sells vegetables at the market."
+},
+{
+"en": "cousin",
+"pos": "noun",
+"km": "បងប្អូនជីដូនមួយ",
+"ex": "My cousin studies in Siem Reap."
+},
+{
+"en": "nephew",
+"pos": "noun",
+"km": "ក្មួយប្រុស",
+"ex": "My nephew is five years old."
+},
+{
+"en": "niece",
+"pos": "noun",
+"km": "ក្មួយស្រី",
+"ex": "My niece loves to draw."
+},
+{
+"en": "husband",
+"pos": "noun",
+"km": "ប្ដី / ស្វាមី",
+"ex": "Her husband is a good cook."
+},
+{
+"en": "wife",
+"pos": "noun",
+"km": "ប្រពន្ធ / ភរិយា",
+"ex": "His wife works at the hospital."
+},
+{
+"en": "son",
+"pos": "noun",
+"km": "កូនប្រុស",
+"ex": "Our son goes to primary school."
+},
+{
+"en": "daughter",
+"pos": "noun",
+"km": "កូនស្រី",
+"ex": "Their daughter is very smart."
+},
+{
+"en": "twin",
+"pos": "noun",
+"km": "កូនភ្លោះ",
+"ex": "The twins look exactly alike."
+},
+{
+"en": "orphan",
+"pos": "noun",
+"km": "ក្មេងកំព្រា",
+"ex": "The orphan lives in a kind home."
+},
+{
+"en": "widow",
+"pos": "noun",
+"km": "ស្ត្រីមេម៉ាយ",
+"ex": "The widow raises her children alone."
+},
+{
+"en": "neighbour",
+"pos": "noun",
+"km": "អ្នកជិតខាង",
+"ex": "My neighbour helps me with the water."
+},
+{
+"en": "friendship",
+"pos": "noun",
+"km": "មិត្តភាព",
+"ex": "Friendship is very important in life."
+},
+{
+"en": "relationship",
+"pos": "noun",
+"km": "ទំនាក់ទំនង",
+"ex": "A good relationship needs trust."
+},
+{
+"en": "marriage",
+"pos": "noun",
+"km": "ការរៀបអាពាហ៍ពិពាហ៍",
+"ex": "Their marriage was in January."
+},
+{
+"en": "divorce",
+"pos": "noun",
+"km": "ការលែងលះ",
+"ex": "The divorce was very difficult for them."
+},
+{
+"en": "childhood",
+"pos": "noun",
+"km": "វ័យកុមារ",
+"ex": "I have happy memories of my childhood."
+},
+{
+"en": "adult",
+"pos": "noun",
+"km": "មនុស្សពេញវ័យ",
+"ex": "Children learn from adults."
+},
+{
+"en": "teenager",
+"pos": "noun",
+"km": "វ័យជំទង់",
+"ex": "Teenagers like to use social media."
+},
+{
+"en": "baby",
+"pos": "noun",
+"km": "ទារក",
+"ex": "The baby is sleeping quietly."
+},
+{
+"en": "toddler",
+"pos": "noun",
+"km": "កុមារតូច",
+"ex": "The toddler is learning to walk."
+},
+{
+"en": "elderly",
+"pos": "noun",
+"km": "មនុស្សចាស់",
+"ex": "The elderly need special care."
+},
+{
+"en": "generation",
+"pos": "noun",
+"km": "ជំនាន់",
+"ex": "Each generation has different ideas."
+},
+{
+"en": "ancestor",
+"pos": "noun",
+"km": "បុព្វបុរស",
+"ex": "We respect our ancestors."
+},
+{
+"en": "member",
+"pos": "noun",
+"km": "សមាជិក",
+"ex": "Every member of the family helps at home."
+},
+{
+"en": "guest",
+"pos": "noun",
+"km": "ភ្ញៀវ",
+"ex": "We have a guest from Japan today."
+},
+{
+"en": "host",
+"pos": "noun",
+"km": "ម្ចាស់ផ្ទះ",
+"ex": "The host welcomed everyone warmly."
+},
+{
+"en": "visitor",
+"pos": "noun",
+"km": "អ្នកទស្សនា",
+"ex": "The visitor took many photos."
+},
+{
+"en": "crowd",
+"pos": "noun",
+"km": "ហ្វូងមនុស្ស",
+"ex": "A big crowd gathered at the market."
+},
+{
+"en": "stranger",
+"pos": "noun",
+"km": "មនុស្សចម្លែក",
+"ex": "Do not talk to strangers on the street."
+},
+{
+"en": "partner",
+"pos": "noun",
+"km": "ដៃគូ",
+"ex": "My business partner is from Vietnam."
+},
+{
+"en": "classmate",
+"pos": "noun",
+"km": "មិត្តរួមថ្នាក់",
+"ex": "My classmate helped me with homework."
+},
+{
+"en": "roommate",
+"pos": "noun",
+"km": "មិត្តរួមបន្ទប់",
+"ex": "My roommate is very quiet."
+},
+{
+"en": "best friend",
+"pos": "noun",
+"km": "មិត្តភក្តិល្អបំផុត",
+"ex": "My best friend lives next door."
+},
+{
+"en": "hug",
+"pos": "noun",
+"km": "ការឱប",
+"ex": "She gave her mother a warm hug."
+},
+{
+"en": "kiss",
+"pos": "noun",
+"km": "ការថើប",
+"ex": "He gave a kiss to his child."
+},
+{
+"en": "handshake",
+"pos": "noun",
+"km": "ការចាប់ដៃ",
+"ex": "A firm handshake is polite."
+},
+{
+"en": "gift giving",
+"pos": "noun",
+"km": "ការផ្ដល់អំណោយ",
+"ex": "Gift giving is common at festivals."
+},
+{
+"en": "tradition",
+"pos": "noun",
+"km": "ប្រពៃណី",
+"ex": "Respecting elders is a Khmer tradition."
+},
+{
+"en": "custom",
+"pos": "noun",
+"km": "ទម្លាប់ / ប្រពៃណី",
+"ex": "It is our custom to take off shoes."
+},
+{
+"en": "culture",
+"pos": "noun",
+"km": "វប្បធម៌",
+"ex": "Cambodian culture is rich and old."
+},
+{
+"en": "religion",
+"pos": "noun",
+"km": "សាសនា",
+"ex": "Buddhism is the main religion in Cambodia."
+},
+{
+"en": "monk",
+"pos": "noun",
+"km": "ព្រះសង្ឃ",
+"ex": "The monk wakes up early to pray."
+},
+{
+"en": "ceremony",
+"pos": "noun",
+"km": "ពិធី",
+"ex": "The wedding ceremony was very beautiful."
+},
+{
+"en": "offering",
+"pos": "noun",
+"km": "ការថ្វាយ",
+"ex": "We make offerings at the temple."
+},
+{
+"en": "merit",
+"pos": "noun",
+"km": "បុណ្យ",
+"ex": "People make merit on Buddhist holidays."
+},
+{
+"en": "incense",
+"pos": "noun",
+"km": "ធូប",
+"ex": "The incense smells very nice."
+},
+{
+"en": "candle light",
+"pos": "noun",
+"km": "ពន្លឺទៀន",
+"ex": "The room was lit by candle light."
+},
+{
+"en": "prayer",
+"pos": "noun",
+"km": "ការអធិស្ឋាន",
+"ex": "Her prayer was very peaceful."
+},
+{
+"en": "holiday travel",
+"pos": "noun",
+"km": "ការធ្វើដំណើរកម្សាន្ត",
+"ex": "Holiday travel is busy in April."
+},
+{
+"en": "souvenir",
+"pos": "noun",
+"km": "វត្ថុអនុស្សាវរីយ៍",
+"ex": "I bought a souvenir at the market."
+},
+{
+"en": "camera bag",
+"pos": "noun",
+"km": "ថង់កាមេរ៉ា",
+"ex": "Keep the camera in the camera bag."
+},
+{
+"en": "map book",
+"pos": "noun",
+"km": "សៀវភៅផែនទី",
+"ex": "Carry a map book when you travel."
+},
+{
+"en": "sunglass case",
+"pos": "noun",
+"km": "ករណីវ៉ែនតា",
+"ex": "Put your sunglasses in the case."
+},
+{
+"en": "suitcase lock",
+"pos": "noun",
+"km": "សោឥវ៉ាន់",
+"ex": "The suitcase lock is broken."
+},
+{
+"en": "passport photo",
+"pos": "noun",
+"km": "រូបថតលិខិតឆ្លងដែន",
+"ex": "I need a passport photo for the visa."
+},
+{
+"en": "visa",
+"pos": "noun",
+"km": "វីសា",
+"ex": "You need a visa to enter the country."
+},
+{
+"en": "immigration",
+"pos": "noun",
+"km": "អន្តោប្រវេសន៍",
+"ex": "Go through immigration at the airport."
+},
+{
+"en": "customs",
+"pos": "noun",
+"km": "គយ",
+"ex": "Declare your goods at customs."
+},
+{
+"en": "boarding pass",
+"pos": "noun",
+"km": "សំបុត្រចូលយន្តហោះ",
+"ex": "Show your boarding pass at the gate."
+},
+{
+"en": "gate number",
+"pos": "noun",
+"km": "លេខច្រកចេញ",
+"ex": "Check the gate number on the screen."
+},
+{
+"en": "check-in",
+"pos": "noun",
+"km": "ការចុះឈ្មោះ",
+"ex": "Check-in opens two hours before the flight."
+},
+{
+"en": "security",
+"pos": "noun",
+"km": "សន្តិសុខ",
+"ex": "Airport security checked my bag."
+},
+{
+"en": "baggage claim",
+"pos": "noun",
+"km": "កន្លែងទទួលឥវ៉ាន់",
+"ex": "Meet me at the baggage claim."
+},
+{
+"en": "travel insurance",
+"pos": "noun",
+"km": "ធានារ៉ាប់រងការធ្វើដំណើរ",
+"ex": "Buy travel insurance before you go abroad."
+},
+{
+"en": "emergency exit",
+"pos": "noun",
+"km": "ច្រកចេញបន្ទាន់",
+"ex": "Find the emergency exit when you enter."
+},
+{
+"en": "life jacket",
+"pos": "noun",
+"km": "អាវសង្គ្រោះ",
+"ex": "Wear a life jacket on the boat."
+},
+{
+"en": "first aid",
+"pos": "noun",
+"km": "ថែទាំបឋម",
+"ex": "Keep first aid supplies at home."
+},
+{
+"en": "bandage",
+"pos": "noun",
+"km": "ក្រណាត់ពាក់ស្នាម",
+"ex": "Put a bandage on the small cut."
+},
+{
+"en": "plaster",
+"pos": "noun",
+"km": "ខ្សែពាក់ស្នាម",
+"ex": "I need a plaster for my finger."
+},
+{
+"en": "cough syrup",
+"pos": "noun",
+"km": "ថ្នាំក្អកសង្កាត់",
+"ex": "Take cough syrup before sleeping."
+},
+{
+"en": "painkiller",
+"pos": "noun",
+"km": "ថ្នាំបំបាត់ការឈឺ",
+"ex": "He took a painkiller for his headache."
+},
+{
+"en": "thermometer",
+"pos": "noun",
+"km": "ឧបករណ៍វាស់កម្ដៅ",
+"ex": "Check the fever with a thermometer."
+},
+{
+"en": "wheelchair",
+"pos": "noun",
+"km": "រទេះអង្គុយ",
+"ex": "The old man uses a wheelchair."
+},
+{
+"en": "crutch",
+"pos": "noun",
+"km": "ដំបងច្រត់",
+"ex": "He walks with crutches after the accident."
+},
+{
+"en": "ambulance",
+"pos": "noun",
+"km": "រថយន្តសង្គ្រោះ",
+"ex": "Call an ambulance quickly!"
+},
+{
+"en": "hospital bed",
+"pos": "noun",
+"km": "គ្រែមន្ទីរពេទ្យ",
+"ex": "She rests in a hospital bed."
+},
+{
+"en": "operation",
+"pos": "noun",
+"km": "ការវះកាត់",
+"ex": "The operation took two hours."
+},
+{
+"en": "injection",
+"pos": "noun",
+"km": "ការចាក់ថ្នាំ",
+"ex": "The injection did not hurt much."
+},
+{
+"en": "vaccine",
+"pos": "noun",
+"km": "វ៉ាក់សាំង",
+"ex": "Children need a vaccine every year."
+},
+{
+"en": "blood test",
+"pos": "noun",
+"km": "ការពិនិត្យឈាម",
+"ex": "The blood test shows I am healthy."
+},
+{
+"en": "X-ray",
+"pos": "noun",
+"km": "រូបថតកាំរស្មីអ៊ិច",
+"ex": "The X-ray shows the bone is not broken."
+},
+{
+"en": "symptom",
+"pos": "noun",
+"km": "រោគសញ្ញា",
+"ex": "Fever is a common symptom of illness."
+},
+{
+"en": "diagnosis",
+"pos": "noun",
+"km": "ការវិនិច្ឆ័យ",
+"ex": "The doctor made a quick diagnosis."
+},
+{
+"en": "treatment",
+"pos": "noun",
+"km": "ការព្យាបាល",
+"ex": "The treatment takes several weeks."
+},
+{
+"en": "recovery",
+"pos": "noun",
+"km": "ការងើបឡើងវិញ",
+"ex": "Her recovery is going well."
+},
+{
+"en": "allergic",
+"pos": "adjective",
+"km": "អាឡែហ្សី",
+"ex": "I am allergic to peanuts."
+},
+{
+"en": "pregnant",
+"pos": "adjective",
+"km": "មានផ្ទៃពោះ",
+"ex": "She is pregnant with her second child."
+},
+{
+"en": "disabled",
+"pos": "adjective",
+"km": "ពិការ",
+"ex": "The building has a ramp for disabled people."
+},
+{
+"en": "deaf",
+"pos": "adjective",
+"km": "ថ្លង់",
+"ex": "The deaf man reads lips well."
+},
+{
+"en": "blind",
+"pos": "adjective",
+"km": "ខ្វាក់",
+"ex": "A blind person uses a white cane."
+},
+{
+"en": "dizzy",
+"pos": "adjective",
+"km": "វិលមុខ",
+"ex": "I feel dizzy after standing up too fast."
+},
+{
+"en": "itchy",
+"pos": "adjective",
+"km": "រមាស់",
+"ex": "My skin feels itchy after the bite."
+},
+{
+"en": "painful",
+"pos": "adjective",
+"km": "ឈឺចាប់",
+"ex": "The cut is still painful."
+},
+{
+"en": "swollen",
+"pos": "adjective",
+"km": "ហើម",
+"ex": "My ankle is swollen after the fall."
+},
+{
+"en": "bleeding",
+"pos": "adjective",
+"km": "ហូរឈាម",
+"ex": "His finger is bleeding."
+},
+{
+"en": "broken",
+"pos": "adjective",
+"km": "បាក់ / ខូច",
+"ex": "My arm is broken."
+},
+{
+"en": "cracked",
+"pos": "adjective",
+"km": "ប្រេះ",
+"ex": "The glass is cracked."
+},
+{
+"en": "torn",
+"pos": "adjective",
+"km": "រហែក",
+"ex": "My shirt is torn at the sleeve."
+},
+{
+"en": "stained",
+"pos": "adjective",
+"km": "ប្រឡាក់",
+"ex": "The table is stained with coffee."
+},
+{
+"en": "wrinkled",
+"pos": "adjective",
+"km": "ជ្រួញ",
+"ex": "The shirt is wrinkled."
+},
+{
+"en": "soft",
+"pos": "adjective",
+"km": "ទន់",
+"ex": "The bread is soft and fresh."
+},
+{
+"en": "hard",
+"pos": "adjective",
+"km": "រឹង",
+"ex": "The rock is very hard."
+},
+{
+"en": "smooth",
+"pos": "adjective",
+"km": "រលោង",
+"ex": "The stone is smooth and cool."
+},
+{
+"en": "rough",
+"pos": "adjective",
+"km": "រដុប",
+"ex": "The road is rough and bumpy."
+},
+{
+"en": "sharp",
+"pos": "adjective",
+"km": "មុត",
+"ex": "The knife is very sharp."
+},
+{
+"en": "dull",
+"pos": "adjective",
+"km": "ទ្រុឌទ្រោម / ខ្សោយ",
+"ex": "The pencil is dull, please sharpen it."
+},
+{
+"en": "shiny",
+"pos": "adjective",
+"km": "ភ្លឺរលោង",
+"ex": "Her shoes are shiny and new."
+},
+{
+"en": "colorful",
+"pos": "adjective",
+"km": "ពណ៌ស្រស់",
+"ex": "The market is colorful in the morning."
+},
+{
+"en": "pale",
+"pos": "adjective",
+"km": "ស្លេក",
+"ex": "She looked pale after the fever."
+},
+{
+"en": "dark-skinned",
+"pos": "adjective",
+"km": "ស្បែកខ្មៅ",
+"ex": "Many people here have dark skin."
+},
+{
+"en": "slim",
+"pos": "adjective",
+"km": "ស្តើង / ស្រឡូន",
+"ex": "She is slim and very tall."
+},
+{
+"en": "heavy-set",
+"pos": "adjective",
+"km": "ធាត់ / ខ្ពស់",
+"ex": "He is a heavy-set man."
+},
+{
+"en": "bald",
+"pos": "adjective",
+"km": "ក្បាលគល់",
+"ex": "The old man is bald."
+},
+{
+"en": "curly hair",
+"pos": "noun",
+"km": "សក់ក្រចូច",
+"ex": "She has curly hair."
+},
+{
+"en": "straight hair",
+"pos": "noun",
+"km": "សក់ត្រង់",
+"ex": "I want straight hair like her."
+},
+{
+"en": "short hair",
+"pos": "noun",
+"km": "សក់ខ្លី",
+"ex": "He has short hair for work."
+},
+{
+"en": "long hair",
+"pos": "noun",
+"km": "សក់វែង",
+"ex": "Long hair needs regular care."
+},
+{
+"en": "beard",
+"pos": "noun",
+"km": "ពុកមាត់",
+"ex": "My father has a long beard."
+},
+{
+"en": "mustache",
+"pos": "noun",
+"km": "ពុកចង្កា",
+"ex": "He has a thin mustache."
+},
+{
+"en": "eyebrow",
+"pos": "noun",
+"km": "ចិញ្ចើម",
+"ex": "She raised her eyebrow in surprise."
+},
+{
+"en": "eyelash",
+"pos": "noun",
+"km": "ភ្នែកស្លាប",
+"ex": "Her eyelashes are long."
+},
+{
+"en": "cheek",
+"pos": "noun",
+"km": "ថ្ពាល់",
+"ex": "Her cheeks turned red."
+},
+{
+"en": "lip",
+"pos": "noun",
+"km": "បបូរមាត់",
+"ex": "Use lip balm when it is dry."
+},
+{
+"en": "chin",
+"pos": "noun",
+"km": "ចង្កា",
+"ex": "He rested his chin on his hand."
+},
+{
+"en": "forehead",
+"pos": "noun",
+"km": "ថ្ងាស",
+"ex": "Put a cool towel on your forehead."
+},
+{
+"en": "thumb",
+"pos": "noun",
+"km": "មេដៃ",
+"ex": "He hurt his thumb."
+},
+{
+"en": "palm",
+"pos": "noun",
+"km": "បាតដៃ",
+"ex": "Open your palm to receive the coin."
+},
+{
+"en": "wrist",
+"pos": "noun",
+"km": "កដៃ",
+"ex": "She wears a watch on her wrist."
+},
+{
+"en": "elbow",
+"pos": "noun",
+"km": "កែងដៃ",
+"ex": "I fell and hit my elbow."
+},
+{
+"en": "toe",
+"pos": "noun",
+"km": "ម្រាមជើង",
+"ex": "He stubbed his toe on the chair."
+},
+{
+"en": "waist",
+"pos": "noun",
+"km": "ចង្កេះ",
+"ex": "She has a belt around her waist."
+},
+{
+"en": "hip",
+"pos": "noun",
+"km": "ត្រគាក",
+"ex": "He put his hand on his hip."
+},
+{
+"en": "skull",
+"pos": "noun",
+"km": "លលាដ៍ក្បាល",
+"ex": "The skull protects the brain."
+},
+{
+"en": "spine",
+"pos": "noun",
+"km": "ឆ្អឹងកង",
+"ex": "Keep your spine straight when you sit."
+},
+{
+"en": "rib",
+"pos": "noun",
+"km": "ឆ្អឹងឆ្អែត",
+"ex": "He broke a rib in the accident."
+},
+{
+"en": "liver",
+"pos": "noun",
+"km": "ថ្លើម",
+"ex": "The liver cleans the blood."
+},
+{
+"en": "kidney",
+"pos": "noun",
+"km": "តម្រងនោម",
+"ex": "Drink water to keep your kidneys healthy."
+},
+{
+"en": "blood",
+"pos": "noun",
+"km": "ឈាម",
+"ex": "He lost a lot of blood."
+},
+{
+"en": "tear",
+"pos": "noun",
+"km": "ទឹកភ្នែក",
+"ex": "Tears rolled down her face."
+},
+{
+"en": "saliva",
+"pos": "noun",
+"km": "ទឹកមាត់",
+"ex": "Saliva helps you digest food."
+},
+{
+"en": "breath",
+"pos": "noun",
+"km": "ដង្ហើម",
+"ex": "Take a deep breath and relax."
+},
+{
+"en": "pulse",
+"pos": "noun",
+"km": "ជីពចរ",
+"ex": "Check your pulse after running."
+},
+{
+"en": "reflex",
+"pos": "noun",
+"km": "ប្រតិកម្មភ្លាមៗ",
+"ex": "Doctors test your reflex with a small hammer."
+},
+{
+"en": "muscle pain",
+"pos": "noun",
+"km": "ការឈឺសាច់ដុំ",
+"ex": "I have muscle pain after exercise."
+},
+{
+"en": "back pain",
+"pos": "noun",
+"km": "ឈឺខ្នង",
+"ex": "Back pain is common for office workers."
+},
+{
+"en": "stomach ache",
+"pos": "noun",
+"km": "ឈឺពោះ",
+"ex": "I have a stomach ache from the spicy food."
+},
+{
+"en": "sore throat",
+"pos": "noun",
+"km": "ឈឺបំពង់ក",
+"ex": "A sore throat makes swallowing hard."
+},
+{
+"en": "runny nose",
+"pos": "noun",
+"km": "ហៀរច្រមុះ",
+"ex": "A runny nose is a sign of a cold."
+},
+{
+"en": "hiccup",
+"pos": "noun",
+"km": "ការហិចកាស់",
+"ex": "Drink water to stop hiccups."
+},
+{
+"en": "cold",
+"pos": "noun",
+"km": "គ្រុនផ្តាសាយ / ត្រជាក់",
+"ex": "I caught a cold last week."
+},
+{
+"en": "flu",
+"pos": "noun",
+"km": "គ្រុនផ្តាសាយ",
+"ex": "The flu is spreading in the city."
+},
+{
+"en": "infection",
+"pos": "noun",
+"km": "ការឆ្លងមេរោគ",
+"ex": "The cut got an infection."
+},
+{
+"en": "virus",
+"pos": "noun",
+"km": "វីរុស",
+"ex": "A virus can spread quickly."
+},
+{
+"en": "bacteria",
+"pos": "noun",
+"km": "បាក់តេរី",
+"ex": "Wash your hands to remove bacteria."
+},
+{
+"en": "germ",
+"pos": "noun",
+"km": "មេរោគ",
+"ex": "Keep your hands clean to avoid germs."
+},
+{
+"en": "mask",
+"pos": "noun",
+"km": "ម៉ាស់",
+"ex": "Wear a mask in a crowded place."
+},
+{
+"en": "glove",
+"pos": "noun",
+"km": "ស្រោមដៃ",
+"ex": "Wear gloves when you clean the kitchen."
+},
+{
+"en": "sock",
+"pos": "noun",
+"km": "ស្រោមជើង",
+"ex": "Put on warm socks before bed."
+},
+{
+"en": "sleepwear",
+"pos": "noun",
+"km": "ខោអាវពាក់គេង",
+"ex": "She changed into her sleepwear."
+},
+{
+"en": "swimsuit",
+"pos": "noun",
+"km": "ខោអាវហែលទឹក",
+"ex": "She bought a new swimsuit."
+},
+{
+"en": "uniform shirt",
+"pos": "noun",
+"km": "អាវឯកសណ្ឋាន",
+"ex": "Students wear a white uniform shirt."
+},
+{
+"en": "stomach pain",
+"pos": "noun",
+"km": "ឈឺក្រពះ",
+"ex": "Stomach pain can come from hunger."
+},
+{
+"en": "fingernail",
+"pos": "noun",
+"km": "ក្រចកដៃ",
+"ex": "Cut your fingernails every week."
+},
+{
+"en": "toenail",
+"pos": "noun",
+"km": "ក្រចកជើង",
+"ex": "Her toenail turned black after the injury."
+},
+{
+"en": "waistband",
+"pos": "noun",
+"km": "ខ្សែក្រវាត់ខោ",
+"ex": "The waistband of my pants is too tight."
+},
+{
+"en": "shoulder bag",
+"pos": "noun",
+"km": "កាបូបពាក់ស្មា",
+"ex": "She carries a shoulder bag to school."
+}
+]
