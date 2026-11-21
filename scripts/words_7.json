@@ -1,0 +1,722 @@
+[
+{
+"en": "microwave",
+"pos": "noun",
+"km": "ម៉ាស៊ីនចម្អិនម៉ៃក្រូវ៉ែល",
+"ex": "Heat the soup in the microwave."
+},
+{
+"en": "blender",
+"pos": "noun",
+"km": "ម៉ាស៊ីនកិន",
+"ex": "Use the blender to make a smoothie."
+},
+{
+"en": "rice cooker",
+"pos": "noun",
+"km": "ឡចម្អិនបាយ",
+"ex": "The rice cooker keeps the rice warm."
+},
+{
+"en": "kettle",
+"pos": "noun",
+"km": "ឆ្នាំងទឹកក្តៅ",
+"ex": "Boil water in the kettle for tea."
+},
+{
+"en": "toaster",
+"pos": "noun",
+"km": "ម៉ាស៊ីនដុតនំប៉័ង",
+"ex": "Put the bread in the toaster."
+},
+{
+"en": "washing machine",
+"pos": "noun",
+"km": "ម៉ាស៊ីនបោកខោអាវ",
+"ex": "The washing machine is very loud."
+},
+{
+"en": "vacuum cleaner",
+"pos": "noun",
+"km": "ម៉ាស៊ីនបូមធូលី",
+"ex": "Use the vacuum cleaner on the carpet."
+},
+{
+"en": "air conditioner",
+"pos": "noun",
+"km": "ម៉ាស៊ីនត្រជាក់",
+"ex": "Turn on the air conditioner, it is hot."
+},
+{
+"en": "television",
+"pos": "noun",
+"km": "ទូរទស្សន៍",
+"ex": "We watch the news on television."
+},
+{
+"en": "remote control",
+"pos": "noun",
+"km": "ឧបករណ៍បញ្ជាពីចម្ងាយ",
+"ex": "Where is the remote control?"
+},
+{
+"en": "radio",
+"pos": "noun",
+"km": "វិទ្យុ",
+"ex": "My grandfather listens to the radio."
+},
+{
+"en": "speaker",
+"pos": "noun",
+"km": "ឧបករណ៍បំពងសំឡេង",
+"ex": "The speaker is very loud."
+},
+{
+"en": "headphones",
+"pos": "noun",
+"km": "កាស",
+"ex": "Wear headphones when you study."
+},
+{
+"en": "charger cable",
+"pos": "noun",
+"km": "ខ្សែសាក",
+"ex": "Bring your charger cable."
+},
+{
+"en": "battery pack",
+"pos": "noun",
+"km": "ថ្មបម្រុង",
+"ex": "Carry a battery pack when you travel."
+},
+{
+"en": "light bulb",
+"pos": "noun",
+"km": "បំពង់ភ្លើង",
+"ex": "The light bulb is broken."
+},
+{
+"en": "switch",
+"pos": "noun",
+"km": "ប៊ូតុងបើកបិទ",
+"ex": "Turn off the switch when you leave."
+},
+{
+"en": "socket",
+"pos": "noun",
+"km": "ប្រដាប់ឆ្លុះភ្លើង",
+"ex": "Plug the fan into the socket."
+},
+{
+"en": "extension cord",
+"pos": "noun",
+"km": "ខ្សែបន្ថែមភ្លើង",
+"ex": "Use an extension cord near the bed."
+},
+{
+"en": "fuse",
+"pos": "noun",
+"km": "ហ្វីហ្វ",
+"ex": "The fuse blew and the lights went out."
+},
+{
+"en": "hammer",
+"pos": "noun",
+"km": "ដំបងទះ / ញញួរ",
+"ex": "Use a hammer to hang the picture."
+},
+{
+"en": "nail",
+"pos": "noun",
+"km": "ដែក / ស្លាប់ដៃ",
+"ex": "Hit the nail into the wood."
+},
+{
+"en": "screw",
+"pos": "noun",
+"km": "ទាញ / ស្រូ",
+"ex": "Tighten the screw with a screwdriver."
+},
+{
+"en": "screwdriver",
+"pos": "noun",
+"km": "ដំបងខ្សែទាញ",
+"ex": "Get the screwdriver from the box."
+},
+{
+"en": "wrench",
+"pos": "noun",
+"km": "ដំបងចាប់ / វ៉ែនឈ្រែ",
+"ex": "The wrench fits the big bolt."
+},
+{
+"en": "pliers",
+"pos": "noun",
+"km": "វ៉ែន",
+"ex": "Cut the wire with the pliers."
+},
+{
+"en": "saw",
+"pos": "noun",
+"km": "ក្រចក / ករ",
+"ex": "The saw cuts the wood easily."
+},
+{
+"en": "axe",
+"pos": "noun",
+"km": "ពូថៅ",
+"ex": "He chopped the wood with an axe."
+},
+{
+"en": "shovel",
+"pos": "noun",
+"km": "ចបជីករ",
+"ex": "Dig the hole with a shovel."
+},
+{
+"en": "ladder",
+"pos": "noun",
+"km": "ជណ្តើរ",
+"ex": "Stand on the ladder to reach the roof."
+},
+{
+"en": "rake",
+"pos": "noun",
+"km": "ឈើគាស",
+"ex": "Use a rake to collect the leaves."
+},
+{
+"en": "bucket of water",
+"pos": "noun",
+"km": "ធុងទឹក",
+"ex": "Carry a bucket of water to the garden."
+},
+{
+"en": "hose",
+"pos": "noun",
+"km": "ខ្សែទឹក",
+"ex": "Water the plants with a hose."
+},
+{
+"en": "tap",
+"pos": "noun",
+"km": "ម៉ាស៊ីនទឹក / ក្បាលម៉ាស៊ីន",
+"ex": "Turn off the tap after washing."
+},
+{
+"en": "sink",
+"pos": "noun",
+"km": "ចានលាង",
+"ex": "Wash the plates in the sink."
+},
+{
+"en": "bathtub",
+"pos": "noun",
+"km": "អាងងូតទឹក",
+"ex": "The bathtub is full of warm water."
+},
+{
+"en": "shower head",
+"pos": "noun",
+"km": "ក្បាលហ្សាប",
+"ex": "The shower head is leaking."
+},
+{
+"en": "toilet paper",
+"pos": "noun",
+"km": "ក្រដាសបាន់ប្រើក្រោយ",
+"ex": "We ran out of toilet paper."
+},
+{
+"en": "trash can",
+"pos": "noun",
+"km": "ធុងសំរាម",
+"ex": "Put the paper in the trash can."
+},
+{
+"en": "broom handle",
+"pos": "noun",
+"km": "ដងប្រដាប់បោស",
+"ex": "Hold the broom handle firmly."
+},
+{
+"en": "dustpan",
+"pos": "noun",
+"km": "ចានសំរាម",
+"ex": "Use the dustpan to collect the dirt."
+},
+{
+"en": "sponge",
+"pos": "noun",
+"km": "ដុំស្ពុង",
+"ex": "Wash the cup with a sponge."
+},
+{
+"en": "detergent",
+"pos": "noun",
+"km": "ទឹកសាប៊ូលាងចាន",
+"ex": "Add detergent to the water."
+},
+{
+"en": "bleach",
+"pos": "noun",
+"km": "សារធាតុជូតសម្អាត",
+"ex": "Do not mix bleach with other cleaners."
+},
+{
+"en": "cleaning cloth",
+"pos": "noun",
+"km": "កន្សែងជូត",
+"ex": "Wipe the table with a cleaning cloth."
+},
+{
+"en": "hanger",
+"pos": "noun",
+"km": "ឈើព្យួរសម្លៀកបំពាក់",
+"ex": "Hang your shirt on a hanger."
+},
+{
+"en": "closet",
+"pos": "noun",
+"km": "ទូខោអាវ",
+"ex": "My clothes are in the closet."
+},
+{
+"en": "drawer",
+"pos": "noun",
+"km": "ថូ / ដប",
+"ex": "Put the spoons in the drawer."
+},
+{
+"en": "shelf",
+"pos": "noun",
+"km": "ធ្នើ",
+"ex": "The book is on the top shelf."
+},
+{
+"en": "cabinet",
+"pos": "noun",
+"km": "ទូ",
+"ex": "The plates are in the kitchen cabinet."
+},
+{
+"en": "bookshelf",
+"pos": "noun",
+"km": "ធ្នើសៀវភៅ",
+"ex": "Arrange the books on the bookshelf."
+},
+{
+"en": "wardrobe",
+"pos": "noun",
+"km": "ទូសម្លៀកបំពាក់ធំ",
+"ex": "The wardrobe is very big."
+},
+{
+"en": "mattress",
+"pos": "noun",
+"km": "ពូក / ផ្ទះពូក",
+"ex": "The mattress is soft and comfortable."
+},
+{
+"en": "curtain",
+"pos": "noun",
+"km": "វាំងនន",
+"ex": "Close the curtain, the sun is bright."
+},
+{
+"en": "carpet",
+"pos": "noun",
+"km": "កម្រាលព្រំ",
+"ex": "Please take off your shoes on the carpet."
+},
+{
+"en": "rug",
+"pos": "noun",
+"km": "កម្រាលតូច",
+"ex": "Put a rug in front of the sofa."
+},
+{
+"en": "pillowcase",
+"pos": "noun",
+"km": "ស្រោមខ្នើយ",
+"ex": "Wash the pillowcase every week."
+},
+{
+"en": "mosquito net",
+"pos": "noun",
+"km": "មុង",
+"ex": "Sleep under the mosquito net."
+},
+{
+"en": "coat hook",
+"pos": "noun",
+"km": "ដៃព្យួរអាវ",
+"ex": "Hang your bag on the coat hook."
+},
+{
+"en": "doormat",
+"pos": "noun",
+"km": "កម្រាលជើងមុនទ្វារ",
+"ex": "Wipe your feet on the doormat."
+},
+{
+"en": "key ring",
+"pos": "noun",
+"km": "ខ្សែចងកូនសោ",
+"ex": "Put the keys on the key ring."
+},
+{
+"en": "lighter",
+"pos": "noun",
+"km": "ទៀនដុត / ភ្លើងបង្កាត់",
+"ex": "Use the lighter to start the fire."
+},
+{
+"en": "matches",
+"pos": "noun",
+"km": "ស្ទីករ / ដំបងស្វាយ",
+"ex": "Do you have matches?"
+},
+{
+"en": "candle holder",
+"pos": "noun",
+"km": "ដៃទៀន",
+"ex": "Put the candle in the holder."
+},
+{
+"en": "glass bottle",
+"pos": "noun",
+"km": "ដបកែវ",
+"ex": "The glass bottle broke on the floor."
+},
+{
+"en": "plastic bag",
+"pos": "noun",
+"km": "ថង់ប្លាស្ទិក",
+"ex": "Please don't use too many plastic bags."
+},
+{
+"en": "paper bag",
+"pos": "noun",
+"km": "ថង់ក្រដាស",
+"ex": "She put the bread in a paper bag."
+},
+{
+"en": "cardboard box",
+"pos": "noun",
+"km": "ប្រអប់ក្រដាស",
+"ex": "Pack the books in a cardboard box."
+},
+{
+"en": "wooden table",
+"pos": "noun",
+"km": "តុឈើ",
+"ex": "We eat dinner at the wooden table."
+},
+{
+"en": "iron bed",
+"pos": "noun",
+"km": "គ្រែដែក",
+"ex": "The old iron bed is very strong."
+},
+{
+"en": "plastic chair",
+"pos": "noun",
+"km": "កៅអីប្លាស្ទិក",
+"ex": "There are ten plastic chairs in the room."
+},
+{
+"en": "rocking chair",
+"pos": "noun",
+"km": "កៅអីគ្រលួច",
+"ex": "Grandma sits in the rocking chair."
+},
+{
+"en": "bench",
+"pos": "noun",
+"km": "កៅអីវែង",
+"ex": "Let's rest on the bench under the tree."
+},
+{
+"en": "stool",
+"pos": "noun",
+"km": "ឃ្លីង / កៅអីតូច",
+"ex": "Sit on the stool near the kitchen."
+},
+{
+"en": "cushion",
+"pos": "noun",
+"km": "ខ្នើយតូច",
+"ex": "Put a cushion behind your back."
+},
+{
+"en": "umbrella stand",
+"pos": "noun",
+"km": "ដៃព្យួរឆ័ត្រ",
+"ex": "Leave your umbrella in the stand."
+},
+{
+"en": "mirror frame",
+"pos": "noun",
+"km": "ក្របកញ្ចក់",
+"ex": "The mirror frame is made of wood."
+},
+{
+"en": "picture frame",
+"pos": "noun",
+"km": "ក្របរូប",
+"ex": "Put the photo in a picture frame."
+},
+{
+"en": "calendar wall",
+"pos": "noun",
+"km": "ប្រតិទិនជញ្ជាំង",
+"ex": "Mark the date on the wall calendar."
+},
+{
+"en": "clock",
+"pos": "noun",
+"km": "នាឡិកា",
+"ex": "The clock on the wall shows nine."
+},
+{
+"en": "alarm clock",
+"pos": "noun",
+"km": "នាឡិកាប្រកាស",
+"ex": "Set the alarm clock for six o'clock."
+},
+{
+"en": "timer",
+"pos": "noun",
+"km": "ឧបករណ៍ប្រកាសពេលវេលា",
+"ex": "Set the timer for ten minutes."
+},
+{
+"en": "sunglasses",
+"pos": "noun",
+"km": "វ៉ែនតាពណ៌",
+"ex": "Wear sunglasses when it is bright."
+},
+{
+"en": "eyeglasses",
+"pos": "noun",
+"km": "វ៉ែនតា",
+"ex": "My grandmother needs eyeglasses to read."
+},
+{
+"en": "contact lens",
+"pos": "noun",
+"km": "កែវកញ្ចក់ភ្នែក",
+"ex": "She wears contact lenses at work."
+},
+{
+"en": "comb set",
+"pos": "noun",
+"km": "ឈុតប្រដាប់ទម្លាយសក់",
+"ex": "Buy a new comb set at the store."
+},
+{
+"en": "hair dryer",
+"pos": "noun",
+"km": "ម៉ាស៊ីនផ្តៅសក់",
+"ex": "Use the hair dryer after washing."
+},
+{
+"en": "razor",
+"pos": "noun",
+"km": "កាំបិតកោរ",
+"ex": "He uses a razor every morning."
+},
+{
+"en": "perfume",
+"pos": "noun",
+"km": "ទឹកអប់",
+"ex": "She put perfume on her neck."
+},
+{
+"en": "lotion",
+"pos": "noun",
+"km": "ទឹកលាបស្បែក",
+"ex": "Apply lotion after your shower."
+},
+{
+"en": "sunscreen",
+"pos": "noun",
+"km": "ថ្នាំការពារកម្ដៅថ្ងៃ",
+"ex": "Wear sunscreen at the beach."
+},
+{
+"en": "make-up",
+"pos": "noun",
+"km": "គ្រឿងសម្អាង",
+"ex": "She puts make-up on before going out."
+},
+{
+"en": "nail polish",
+"pos": "noun",
+"km": "ថ្នាំលាបក្រចក",
+"ex": "She chose a red nail polish."
+},
+{
+"en": "soap dish",
+"pos": "noun",
+"km": "ចានដាក់សាប៊ូ",
+"ex": "Put the soap back in the soap dish."
+},
+{
+"en": "toothpaste",
+"pos": "noun",
+"km": "ថ្នាំដុសធ្មេញ",
+"ex": "Use a small amount of toothpaste."
+},
+{
+"en": "mouthwash",
+"pos": "noun",
+"km": "ទឹកលាងមាត់",
+"ex": "Use mouthwash after brushing."
+},
+{
+"en": "spoon rack",
+"pos": "noun",
+"km": "ធ្នើស្លាបព្រា",
+"ex": "Hang the spoons on the spoon rack."
+},
+{
+"en": "dish rack",
+"pos": "noun",
+"km": "ធ្នើដាក់ចាន",
+"ex": "Dry the plates on the dish rack."
+},
+{
+"en": "chopping board",
+"pos": "noun",
+"km": "ក្តារកាត់ម្ហូប",
+"ex": "Cut the vegetables on the chopping board."
+},
+{
+"en": "cutting knife",
+"pos": "noun",
+"km": "កាំបិតកាត់",
+"ex": "Keep the cutting knife sharp."
+},
+{
+"en": "ladle",
+"pos": "noun",
+"km": "ស្លាបព្រាធំ",
+"ex": "Use a ladle to serve the soup."
+},
+{
+"en": "whisk",
+"pos": "noun",
+"km": "ដំបងកូរ",
+"ex": "Whisk the eggs until they are soft."
+},
+{
+"en": "grater",
+"pos": "noun",
+"km": "ឧបករណ៍ចាក់ឈីស",
+"ex": "Grate the cheese with the grater."
+},
+{
+"en": "strainer",
+"pos": "noun",
+"km": "ដំបងច្រោះ",
+"ex": "Pour the rice through the strainer."
+},
+{
+"en": "tongs",
+"pos": "noun",
+"km": "ម៉ាស៊ីនបើកដំបង",
+"ex": "Use tongs to pick up the hot food."
+},
+{
+"en": "lid",
+"pos": "noun",
+"km": "គំរប",
+"ex": "Put the lid on the pot."
+},
+{
+"en": "oven mitt",
+"pos": "noun",
+"km": "ស្រោមដៃការពារកម្ដៅ",
+"ex": "Wear an oven mitt before you touch the tray."
+},
+{
+"en": "apron",
+"pos": "noun",
+"km": "ក្រមាស្លៀក / ស្បៃម៉ុង",
+"ex": "Wear an apron while cooking."
+},
+{
+"en": "tablecloth",
+"pos": "noun",
+"km": "កន្សែងតុ",
+"ex": "Put a clean tablecloth on the table."
+},
+{
+"en": "napkin holder",
+"pos": "noun",
+"km": "ដៃដាក់កន្សែង",
+"ex": "The napkin holder is on the table."
+},
+{
+"en": "coaster",
+"pos": "noun",
+"km": "ចានរង",
+"ex": "Put your glass on a coaster."
+},
+{
+"en": "pitcher",
+"pos": "noun",
+"km": "ពែងធំ",
+"ex": "Fill the pitcher with cold water."
+},
+{
+"en": "teapot",
+"pos": "noun",
+"km": "ចង្កឹះតែ",
+"ex": "The teapot is still hot."
+},
+{
+"en": "saucer",
+"pos": "noun",
+"km": "ចានតូច",
+"ex": "Put the cup on the saucer."
+},
+{
+"en": "bowl of rice",
+"pos": "noun",
+"km": "ចានបាយ",
+"ex": "She served a bowl of rice."
+},
+{
+"en": "lunch box",
+"pos": "noun",
+"km": "ប្រអប់អាហារ",
+"ex": "Pack your lunch box for school."
+},
+{
+"en": "thermos",
+"pos": "noun",
+"km": "ថឺម៉ុស",
+"ex": "Fill the thermos with hot tea."
+},
+{
+"en": "ice tray",
+"pos": "noun",
+"km": "ថាសទឹកកក",
+"ex": "Put water in the ice tray."
+},
+{
+"en": "freezer",
+"pos": "noun",
+"km": "ទូកកក",
+"ex": "Keep the meat in the freezer."
+},
+{
+"en": "sink plug",
+"pos": "noun",
+"km": "កន្សែងបិទលូ",
+"ex": "Put the plug in the sink before filling it."
+}
+]
