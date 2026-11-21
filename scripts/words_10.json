@@ -1,0 +1,722 @@
+[
+{
+"en": "one",
+"pos": "noun",
+"km": "មួយ",
+"ex": "I have one brother."
+},
+{
+"en": "two",
+"pos": "noun",
+"km": "ពីរ",
+"ex": "We have two cats at home."
+},
+{
+"en": "three",
+"pos": "noun",
+"km": "បី",
+"ex": "Wait three minutes, please."
+},
+{
+"en": "four",
+"pos": "noun",
+"km": "បួន",
+"ex": "There are four people in my family."
+},
+{
+"en": "five",
+"pos": "noun",
+"km": "ប្រាំ",
+"ex": "The class starts at five o'clock."
+},
+{
+"en": "six",
+"pos": "noun",
+"km": "ប្រាំមួយ",
+"ex": "I wake up at six every day."
+},
+{
+"en": "seven",
+"pos": "noun",
+"km": "ប្រាំពីរ",
+"ex": "The shop opens at seven."
+},
+{
+"en": "eight",
+"pos": "noun",
+"km": "ប្រាំបី",
+"ex": "The meeting ends at eight."
+},
+{
+"en": "nine",
+"pos": "noun",
+"km": "ប្រាំបួន",
+"ex": "I sleep at nine o'clock."
+},
+{
+"en": "ten",
+"pos": "noun",
+"km": "ដប់",
+"ex": "I need ten minutes."
+},
+{
+"en": "eleven",
+"pos": "noun",
+"km": "ដប់មួយ",
+"ex": "She arrived at eleven."
+},
+{
+"en": "twelve",
+"pos": "noun",
+"km": "ដប់ពីរ",
+"ex": "Lunch is at twelve."
+},
+{
+"en": "twenty",
+"pos": "noun",
+"km": "ម្ភៃ",
+"ex": "The book costs twenty dollars."
+},
+{
+"en": "thirty",
+"pos": "noun",
+"km": "សាមសិប",
+"ex": "I am thirty years old."
+},
+{
+"en": "forty",
+"pos": "noun",
+"km": "សែសិប",
+"ex": "The bus has forty seats."
+},
+{
+"en": "fifty",
+"pos": "noun",
+"km": "ហាសិប",
+"ex": "Only fifty people came."
+},
+{
+"en": "hundred",
+"pos": "noun",
+"km": "មួយរយ",
+"ex": "There are one hundred students."
+},
+{
+"en": "thousand",
+"pos": "noun",
+"km": "មួយពាន់",
+"ex": "The ticket costs one thousand riel."
+},
+{
+"en": "million",
+"pos": "noun",
+"km": "មួយលាន",
+"ex": "The city has a million people."
+},
+{
+"en": "first",
+"pos": "adjective",
+"km": "ទីមួយ",
+"ex": "This is my first visit to Siem Reap."
+},
+{
+"en": "second",
+"pos": "adjective",
+"km": "ទីពីរ",
+"ex": "He finished in second place."
+},
+{
+"en": "third",
+"pos": "adjective",
+"km": "ទីបី",
+"ex": "She is in the third row."
+},
+{
+"en": "last",
+"pos": "adjective",
+"km": "ចុងក្រោយ",
+"ex": "This is the last bus tonight."
+},
+{
+"en": "next",
+"pos": "adjective",
+"km": "បន្ទាប់",
+"ex": "See you at the next meeting."
+},
+{
+"en": "half",
+"pos": "noun",
+"km": "ពាក់កណ្តាល",
+"ex": "Give me half of the cake."
+},
+{
+"en": "quarter",
+"pos": "noun",
+"km": "មួយភាគបួន",
+"ex": "It is a quarter past three."
+},
+{
+"en": "double",
+"pos": "adjective",
+"km": "ទ្វេ",
+"ex": "I want a double portion of rice."
+},
+{
+"en": "pair",
+"pos": "noun",
+"km": "គូ",
+"ex": "I bought a new pair of shoes."
+},
+{
+"en": "dozen",
+"pos": "noun",
+"km": "ដប់ពីរ",
+"ex": "I bought a dozen eggs."
+},
+{
+"en": "percent",
+"pos": "noun",
+"km": "ភាគរយ",
+"ex": "The shop gives ten percent off."
+},
+{
+"en": "total",
+"pos": "noun",
+"km": "សរុប",
+"ex": "The total cost is ten dollars."
+},
+{
+"en": "number",
+"pos": "noun",
+"km": "លេខ",
+"ex": "What is your phone number?"
+},
+{
+"en": "day",
+"pos": "noun",
+"km": "ថ្ងៃ",
+"ex": "Have a nice day."
+},
+{
+"en": "Monday",
+"pos": "noun",
+"km": "ថ្ងៃច័ន្ទ",
+"ex": "The school starts on Monday."
+},
+{
+"en": "Tuesday",
+"pos": "noun",
+"km": "ថ្ងៃអង្គារ",
+"ex": "We have English class on Tuesday."
+},
+{
+"en": "Wednesday",
+"pos": "noun",
+"km": "ថ្ងៃពុធ",
+"ex": "The market is busy on Wednesday."
+},
+{
+"en": "Thursday",
+"pos": "noun",
+"km": "ថ្ងៃព្រហស្បតិ៍",
+"ex": "I visit my grandmother on Thursday."
+},
+{
+"en": "Friday",
+"pos": "noun",
+"km": "ថ្ងៃសុក្រ",
+"ex": "Let's go out on Friday night."
+},
+{
+"en": "Saturday",
+"pos": "noun",
+"km": "ថ្ងៃសៅរ៍",
+"ex": "I do the laundry on Saturday."
+},
+{
+"en": "Sunday",
+"pos": "noun",
+"km": "ថ្ងៃអាទិត្យ",
+"ex": "We rest at home on Sunday."
+},
+{
+"en": "January",
+"pos": "noun",
+"km": "ខែមករា",
+"ex": "The new year starts in January."
+},
+{
+"en": "February",
+"pos": "noun",
+"km": "ខែកុម្ភៈ",
+"ex": "February is a short month."
+},
+{
+"en": "March",
+"pos": "noun",
+"km": "ខែមីនា",
+"ex": "The weather gets hot in March."
+},
+{
+"en": "April",
+"pos": "noun",
+"km": "ខែមេសា",
+"ex": "Khmer New Year is in April."
+},
+{
+"en": "May",
+"pos": "noun",
+"km": "ខែឧសភា",
+"ex": "The rainy season starts in May."
+},
+{
+"en": "June",
+"pos": "noun",
+"km": "ខែមិថុនា",
+"ex": "School holidays start in June."
+},
+{
+"en": "July",
+"pos": "noun",
+"km": "ខែកក្កដា",
+"ex": "It rains a lot in July."
+},
+{
+"en": "August",
+"pos": "noun",
+"km": "ខែសីហា",
+"ex": "Our trip is planned for August."
+},
+{
+"en": "September",
+"pos": "noun",
+"km": "ខែកញ្ញា",
+"ex": "My birthday is in September."
+},
+{
+"en": "October",
+"pos": "noun",
+"km": "ខែតុលា",
+"ex": "The water festival is in October."
+},
+{
+"en": "November",
+"pos": "noun",
+"km": "ខែវិច្ឆិកា",
+"ex": "It gets cooler in November."
+},
+{
+"en": "December",
+"pos": "noun",
+"km": "ខែធ្នូ",
+"ex": "We celebrate Christmas in December."
+},
+{
+"en": "century",
+"pos": "noun",
+"km": "សតវត្ស",
+"ex": "Angkor was built many centuries ago."
+},
+{
+"en": "decade",
+"pos": "noun",
+"km": "ទសវត្ស",
+"ex": "The city changed a lot in one decade."
+},
+{
+"en": "afternoon",
+"pos": "noun",
+"km": "ថ្ងៃរសៀល",
+"ex": "We went to the beach in the afternoon."
+},
+{
+"en": "midday",
+"pos": "noun",
+"km": "ថ្ងៃត្រង់",
+"ex": "We eat lunch at midday."
+},
+{
+"en": "half hour",
+"pos": "noun",
+"km": "កន្លះម៉ោង",
+"ex": "The bus comes every half hour."
+},
+{
+"en": "o'clock",
+"pos": "noun",
+"km": "ម៉ោងពេញ",
+"ex": "It is three o'clock in the afternoon."
+},
+{
+"en": "time zone",
+"pos": "noun",
+"km": "តំបន់ពេលវេលា",
+"ex": "Cambodia has its own time zone."
+},
+{
+"en": "schedule time",
+"pos": "noun",
+"km": "ម៉ោងកំណត់",
+"ex": "What time is our schedule?"
+},
+{
+"en": "yesterday morning",
+"pos": "noun",
+"km": "ព្រឹកម្សិលមិញ",
+"ex": "I saw him yesterday morning."
+},
+{
+"en": "tonight",
+"pos": "adverb",
+"km": "យប់នេះ",
+"ex": "I will call you tonight."
+},
+{
+"en": "this week",
+"pos": "noun",
+"km": "សប្តាហ៍នេះ",
+"ex": "I am very busy this week."
+},
+{
+"en": "next week",
+"pos": "noun",
+"km": "សប្តាហ៍ក្រោយ",
+"ex": "We travel next week."
+},
+{
+"en": "last week",
+"pos": "noun",
+"km": "សប្តាហ៍មុន",
+"ex": "I got sick last week."
+},
+{
+"en": "this year",
+"pos": "noun",
+"km": "ឆ្នាំនេះ",
+"ex": "I plan to learn more this year."
+},
+{
+"en": "next year",
+"pos": "noun",
+"km": "ឆ្នាំក្រោយ",
+"ex": "She will study abroad next year."
+},
+{
+"en": "last year",
+"pos": "noun",
+"km": "ឆ្នាំមុន",
+"ex": "We moved to Phnom Penh last year."
+},
+{
+"en": "this month",
+"pos": "noun",
+"km": "ខែនេះ",
+"ex": "This month is very hot."
+},
+{
+"en": "next month",
+"pos": "noun",
+"km": "ខែក្រោយ",
+"ex": "I will visit my family next month."
+},
+{
+"en": "last month",
+"pos": "noun",
+"km": "ខែមុន",
+"ex": "He bought a car last month."
+},
+{
+"en": "today's date",
+"pos": "noun",
+"km": "ថ្ងៃទីនេះ",
+"ex": "Today's date is November twenty-first."
+},
+{
+"en": "now",
+"pos": "adverb",
+"km": "ឥឡូវនេះ",
+"ex": "Let's start the lesson now."
+},
+{
+"en": "then",
+"pos": "adverb",
+"km": "បន្ទាប់មក",
+"ex": "First eat, then study."
+},
+{
+"en": "soon",
+"pos": "adverb",
+"km": "ឆាប់ៗ",
+"ex": "The train will arrive soon."
+},
+{
+"en": "later",
+"pos": "adverb",
+"km": "ពេលក្រោយ",
+"ex": "I will call you later."
+},
+{
+"en": "earlier",
+"pos": "adverb",
+"km": "មុនគេ",
+"ex": "I woke up earlier than usual."
+},
+{
+"en": "recently",
+"pos": "adverb",
+"km": "ថ្មីៗនេះ",
+"ex": "I started learning recently."
+},
+{
+"en": "temporary",
+"pos": "adjective",
+"km": "បណ្តោះអាសន្ន",
+"ex": "This is a temporary solution."
+},
+{
+"en": "permanent",
+"pos": "adjective",
+"km": "អចិន្ត្រៃយ៍",
+"ex": "He got a permanent job."
+},
+{
+"en": "daily",
+"pos": "adverb",
+"km": "រាល់ថ្ងៃ",
+"ex": "I read the news daily."
+},
+{
+"en": "weekly",
+"pos": "adverb",
+"km": "រាល់សប្តាហ៍",
+"ex": "We have a weekly meeting."
+},
+{
+"en": "monthly",
+"pos": "adverb",
+"km": "រាល់ខែ",
+"ex": "I pay the rent monthly."
+},
+{
+"en": "yearly",
+"pos": "adverb",
+"km": "រាល់ឆ្នាំ",
+"ex": "We celebrate the festival yearly."
+},
+{
+"en": "tomorrow morning",
+"pos": "noun",
+"km": "ព្រឹកស្អែក",
+"ex": "I will see you tomorrow morning."
+},
+{
+"en": "eleven o'clock",
+"pos": "noun",
+"km": "ម៉ោងដប់មួយ",
+"ex": "Meet me at eleven o'clock."
+},
+{
+"en": "quarter past",
+"pos": "noun",
+"km": "ម៉ោងកន្លះ / ដប់ប្រាំនាទី",
+"ex": "It is a quarter past seven."
+},
+{
+"en": "half past",
+"pos": "noun",
+"km": "កន្លះម៉ោង",
+"ex": "The class starts at half past eight."
+},
+{
+"en": "noon time",
+"pos": "noun",
+"km": "ពេលថ្ងៃត្រង់",
+"ex": "We eat at noon time."
+},
+{
+"en": "sunrise time",
+"pos": "noun",
+"km": "ពេលថ្ងៃរះ",
+"ex": "We start work at sunrise time."
+},
+{
+"en": "bedtime",
+"pos": "noun",
+"km": "ពេលចូលគេង",
+"ex": "It is already my bedtime."
+},
+{
+"en": "mealtime",
+"pos": "noun",
+"km": "ពេលញ៉ាំអាហារ",
+"ex": "Mealtime is at six in the evening."
+},
+{
+"en": "break time",
+"pos": "noun",
+"km": "ពេលសម្រាក",
+"ex": "Break time is at ten."
+},
+{
+"en": "free time",
+"pos": "noun",
+"km": "ពេលទំនេរ",
+"ex": "What do you do in your free time?"
+},
+{
+"en": "holiday time",
+"pos": "noun",
+"km": "ពេលឈប់សម្រាក",
+"ex": "The holiday time is very busy."
+},
+{
+"en": "first day",
+"pos": "noun",
+"km": "ថ្ងៃដំបូង",
+"ex": "Today is my first day at work."
+},
+{
+"en": "last day",
+"pos": "noun",
+"km": "ថ្ងៃចុងក្រោយ",
+"ex": "Today is the last day of the course."
+},
+{
+"en": "birthday day",
+"pos": "noun",
+"km": "ថ្ងៃកំណើត",
+"ex": "Her birthday day is in May."
+},
+{
+"en": "every day",
+"pos": "adverb",
+"km": "រាល់ថ្ងៃ",
+"ex": "I study English every day."
+},
+{
+"en": "every week",
+"pos": "adverb",
+"km": "រាល់សប្តាហ៍",
+"ex": "I visit the market every week."
+},
+{
+"en": "every month",
+"pos": "adverb",
+"km": "រាល់ខែ",
+"ex": "He sends money every month."
+},
+{
+"en": "every year",
+"pos": "adverb",
+"km": "រាល់ឆ្នាំ",
+"ex": "We travel home every year."
+},
+{
+"en": "once",
+"pos": "adverb",
+"km": "ម្តង",
+"ex": "I visit the temple once a month."
+},
+{
+"en": "twice",
+"pos": "adverb",
+"km": "ពីរដង",
+"ex": "I brush my teeth twice a day."
+},
+{
+"en": "three times",
+"pos": "adverb",
+"km": "បីដង",
+"ex": "She called me three times."
+},
+{
+"en": "in time",
+"pos": "adverb",
+"km": "ទាន់ពេល / ក្នុងពេល",
+"ex": "We arrived in time for the show."
+},
+{
+"en": "at night",
+"pos": "adverb",
+"km": "នៅពេលយប់",
+"ex": "Don't walk alone at night."
+},
+{
+"en": "in the morning",
+"pos": "adverb",
+"km": "នៅពេលព្រឹក",
+"ex": "I study in the morning."
+},
+{
+"en": "in the evening",
+"pos": "adverb",
+"km": "នៅពេលល្ងាច",
+"ex": "We cook dinner in the evening."
+},
+{
+"en": "on Monday",
+"pos": "adverb",
+"km": "នៅថ្ងៃច័ន្ទ",
+"ex": "I start work on Monday."
+},
+{
+"en": "in summer",
+"pos": "adverb",
+"km": "នៅរដូវក្តៅ",
+"ex": "It is very hot in summer."
+},
+{
+"en": "in winter",
+"pos": "adverb",
+"km": "នៅរដូវរងា",
+"ex": "It is cool in winter."
+},
+{
+"en": "in spring",
+"pos": "adverb",
+"km": "នៅរដូវផ្ការីក",
+"ex": "Flowers bloom in spring."
+},
+{
+"en": "in autumn",
+"pos": "adverb",
+"km": "នៅរដូវស្លឹកឈើជ្រុះ",
+"ex": "Leaves fall in autumn."
+},
+{
+"en": "until now",
+"pos": "adverb",
+"km": "រហូតដល់ឥឡូវ",
+"ex": "Until now, I have never been abroad."
+},
+{
+"en": "from time to time",
+"pos": "adverb",
+"km": "ម្តងម្កាល",
+"ex": "I visit my hometown from time to time."
+},
+{
+"en": "for a while",
+"pos": "adverb",
+"km": "ពេលមួយភ្លែត",
+"ex": "Please wait for a while."
+},
+{
+"en": "for a long time",
+"pos": "adverb",
+"km": "ជាយូរ",
+"ex": "I have known him for a long time."
+},
+{
+"en": "all day",
+"pos": "adverb",
+"km": "ពេញមួយថ្ងៃ",
+"ex": "It rained all day."
+},
+{
+"en": "all night",
+"pos": "adverb",
+"km": "ពេញមួយយប់",
+"ex": "The baby cried all night."
+}
+]
