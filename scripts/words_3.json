@@ -1,0 +1,722 @@
+[
+{
+"en": "rice",
+"pos": "noun",
+"km": "បាយ",
+"ex": "We eat rice with fish every day."
+},
+{
+"en": "noodle",
+"pos": "noun",
+"km": "នំបញ្ចុក / មីអាំង",
+"ex": "I like noodles for breakfast."
+},
+{
+"en": "breakfast",
+"pos": "noun",
+"km": "អាហារពេលព្រឹក",
+"ex": "Breakfast is the first meal of the day."
+},
+{
+"en": "lunch",
+"pos": "noun",
+"km": "អាហារថ្ងៃត្រង់",
+"ex": "Let's have lunch together at noon."
+},
+{
+"en": "dinner",
+"pos": "noun",
+"km": "អាហារពេលល្ងាច",
+"ex": "We eat dinner with the whole family."
+},
+{
+"en": "snack",
+"pos": "noun",
+"km": "អាហារសម្រន់",
+"ex": "Kids often eat a snack after school."
+},
+{
+"en": "sweet",
+"pos": "adjective",
+"km": "ផ្អែម",
+"ex": "This mango is very sweet."
+},
+{
+"en": "sour",
+"pos": "adjective",
+"km": "ជូរ",
+"ex": "Lemon juice tastes sour."
+},
+{
+"en": "spicy",
+"pos": "adjective",
+"km": "ហឹរ",
+"ex": "Khmer food can be very spicy."
+},
+{
+"en": "hungry",
+"pos": "adjective",
+"km": "ឃ្លាន / ឃ្លានបាយ",
+"ex": "I am hungry, let's eat now."
+},
+{
+"en": "thirsty",
+"pos": "adjective",
+"km": "ស្រេកទឹក",
+"ex": "It is hot, I am thirsty."
+},
+{
+"en": "bowl",
+"pos": "noun",
+"km": "ចានបាយ / ថូ",
+"ex": "Put the soup in a bowl."
+},
+{
+"en": "cook",
+"pos": "verb",
+"km": "ចម្អិន",
+"ex": "My grandmother likes to cook fish."
+},
+{
+"en": "bake",
+"pos": "verb",
+"km": "ដុតនំ",
+"ex": "She bakes bread every morning."
+},
+{
+"en": "fry",
+"pos": "verb",
+"km": "ចៀន",
+"ex": "Fry the eggs in a little oil."
+},
+{
+"en": "boil",
+"pos": "verb",
+"km": "ស្ងោរ",
+"ex": "Boil the water before drinking."
+},
+{
+"en": "wash",
+"pos": "verb",
+"km": "លាង",
+"ex": "Please wash your hands before eating."
+},
+{
+"en": "taste",
+"pos": "verb",
+"km": "ញ៉ាំ / មានរសជាតិ",
+"ex": "This food tastes delicious."
+},
+{
+"en": "refrigerator",
+"pos": "noun",
+"km": "ទូទឹកកក",
+"ex": "Keep the milk in the refrigerator."
+},
+{
+"en": "oven",
+"pos": "noun",
+"km": "ឡ",
+"ex": "Put the cake in the oven."
+},
+{
+"en": "stove",
+"pos": "noun",
+"km": "ចង្ក្រាន",
+"ex": "The stove is hot, do not touch it."
+},
+{
+"en": "plate",
+"pos": "noun",
+"km": "ចាន",
+"ex": "Put the rice on the plate."
+},
+{
+"en": "glass",
+"pos": "noun",
+"km": "កែវ",
+"ex": "Pour water into the glass."
+},
+{
+"en": "chopsticks",
+"pos": "noun",
+"km": "ដំបងចិន",
+"ex": "He eats noodles with chopsticks."
+},
+{
+"en": "spoon",
+"pos": "noun",
+"km": "ស្លាបព្រា",
+"ex": "Use a spoon to eat the soup."
+},
+{
+"en": "napkin",
+"pos": "noun",
+"km": "កន្សែងជូតមាត់",
+"ex": "Wipe your mouth with a napkin."
+},
+{
+"en": "recipe",
+"pos": "noun",
+"km": "រូបមន្តចម្អិន",
+"ex": "Follow the recipe to make the cake."
+},
+{
+"en": "ingredient",
+"pos": "noun",
+"km": "គ្រឿងផ្សំ",
+"ex": "The main ingredient is garlic."
+},
+{
+"en": "salt",
+"pos": "noun",
+"km": "អំបិល",
+"ex": "Add a little salt to the soup."
+},
+{
+"en": "pepper",
+"pos": "noun",
+"km": "ម្រេច",
+"ex": "Black pepper gives a strong flavor."
+},
+{
+"en": "garlic",
+"pos": "noun",
+"km": "ខ្ទឹមស",
+"ex": "Garlic makes the food smell good."
+},
+{
+"en": "onion",
+"pos": "noun",
+"km": "ខ្ទឹមបារាំង / ខ្ទឹមក្រហម",
+"ex": "Cut the onion into rings."
+},
+{
+"en": "tomato",
+"pos": "noun",
+"km": "ប៉ោម / ប៉េងប៉ោះ",
+"ex": "Tomato salad is fresh and healthy."
+},
+{
+"en": "potato",
+"pos": "noun",
+"km": "ដំឡូងបារាំង",
+"ex": "We fried potato for dinner."
+},
+{
+"en": "carrot",
+"pos": "noun",
+"km": "ការ៉ុត",
+"ex": "Carrot is good for your eyes."
+},
+{
+"en": "cucumber",
+"pos": "noun",
+"km": "ត្រសក់",
+"ex": "Add cucumber to the salad."
+},
+{
+"en": "cabbage",
+"pos": "noun",
+"km": "ស្ពៃក្តោប",
+"ex": "Cabbage is cheap at the market."
+},
+{
+"en": "corn",
+"pos": "noun",
+"km": "ពោត",
+"ex": "We ate roasted corn on the street."
+},
+{
+"en": "coconut",
+"pos": "noun",
+"km": "ដូង",
+"ex": "Fresh coconut water is refreshing."
+},
+{
+"en": "banana",
+"pos": "noun",
+"km": "ចេក",
+"ex": "I eat a banana every morning."
+},
+{
+"en": "orange",
+"pos": "noun",
+"km": "ក្រូចឆ្មារ",
+"ex": "This orange is very juicy."
+},
+{
+"en": "apple",
+"pos": "noun",
+"km": "ផ្លែប៉ោម",
+"ex": "An apple a day keeps the doctor away."
+},
+{
+"en": "mango",
+"pos": "noun",
+"km": "ស្វាយ",
+"ex": "Green mango with salt is delicious."
+},
+{
+"en": "papaya",
+"pos": "noun",
+"km": "ល្ហុង",
+"ex": "Papaya is good for digestion."
+},
+{
+"en": "watermelon",
+"pos": "noun",
+"km": "ឪឡឹក",
+"ex": "Watermelon is cold and sweet."
+},
+{
+"en": "chicken",
+"pos": "noun",
+"km": "សាច់មាន់",
+"ex": "Grilled chicken smells very good."
+},
+{
+"en": "pork",
+"pos": "noun",
+"km": "សាច់ជ្រូក",
+"ex": "She does not eat pork."
+},
+{
+"en": "beef",
+"pos": "noun",
+"km": "សាច់គោ",
+"ex": "Beef soup is popular in Cambodia."
+},
+{
+"en": "shrimp",
+"pos": "noun",
+"km": "បង្គា",
+"ex": "Fried shrimp with garlic is tasty."
+},
+{
+"en": "crab",
+"pos": "noun",
+"km": "ក្តាម",
+"ex": "Crab soup is very delicious."
+},
+{
+"en": "egg",
+"pos": "noun",
+"km": "ស៊ុត",
+"ex": "I eat two eggs for breakfast."
+},
+{
+"en": "cheese",
+"pos": "noun",
+"km": "ឈីស",
+"ex": "I put cheese on my bread."
+},
+{
+"en": "butter",
+"pos": "noun",
+"km": "ប៊ឺ",
+"ex": "Spread butter on the bread."
+},
+{
+"en": "honey",
+"pos": "noun",
+"km": "ទឹកឃ្មុំ",
+"ex": "Honey is natural and sweet."
+},
+{
+"en": "juice",
+"pos": "noun",
+"km": "ទឹកផ្លែឈើ",
+"ex": "Orange juice is good for the morning."
+},
+{
+"en": "water bottle",
+"pos": "noun",
+"km": "ដបទឹក",
+"ex": "Bring your water bottle to school."
+},
+{
+"en": "ice",
+"pos": "noun",
+"km": "ទឹកកក",
+"ex": "Put some ice in my drink."
+},
+{
+"en": "home",
+"pos": "noun",
+"km": "ផ្ទះ",
+"ex": "I go home after school."
+},
+{
+"en": "room",
+"pos": "noun",
+"km": "បន្ទប់",
+"ex": "My room is on the second floor."
+},
+{
+"en": "roof",
+"pos": "noun",
+"km": "ដំបូលផ្ទះ",
+"ex": "The roof is painted red."
+},
+{
+"en": "wall",
+"pos": "noun",
+"km": "ជញ្ជាំង",
+"ex": "Hang the picture on the wall."
+},
+{
+"en": "floor",
+"pos": "noun",
+"km": "ឥដ្ឋ / ជាន់",
+"ex": "Please sweep the floor."
+},
+{
+"en": "ceiling",
+"pos": "noun",
+"km": "ពិដាន",
+"ex": "The ceiling fan is very cool."
+},
+{
+"en": "stairs",
+"pos": "noun",
+"km": "ជណ្តើរ",
+"ex": "Walk up the stairs to the second floor."
+},
+{
+"en": "garden",
+"pos": "noun",
+"km": "សួនច្បារ",
+"ex": "There are many flowers in the garden."
+},
+{
+"en": "fence",
+"pos": "noun",
+"km": "របង",
+"ex": "The fence protects the house."
+},
+{
+"en": "bed",
+"pos": "noun",
+"km": "គ្រែ",
+"ex": "I go to bed at nine o'clock."
+},
+{
+"en": "pillow",
+"pos": "noun",
+"km": "ខ្នើយ",
+"ex": "Put your head on the pillow."
+},
+{
+"en": "blanket",
+"pos": "noun",
+"km": "ភួយ",
+"ex": "It is cold, bring a blanket."
+},
+{
+"en": "mirror",
+"pos": "noun",
+"km": "កញ្ចក់",
+"ex": "Look in the mirror before you go out."
+},
+{
+"en": "towel",
+"pos": "noun",
+"km": "កន្សែង / ក្រមា",
+"ex": "Hang the towel on the hook."
+},
+{
+"en": "soap",
+"pos": "noun",
+"km": "សាប៊ូ",
+"ex": "Use soap to wash your hands."
+},
+{
+"en": "toothbrush",
+"pos": "noun",
+"km": "ច្រាសដុសធ្មេញ",
+"ex": "Brush your teeth with a toothbrush."
+},
+{
+"en": "broom",
+"pos": "noun",
+"km": "ជ្រុយ",
+"ex": "Use the broom to clean the yard."
+},
+{
+"en": "lamp",
+"pos": "noun",
+"km": "ចង្កៀង",
+"ex": "Turn on the lamp, it is dark."
+},
+{
+"en": "candle",
+"pos": "noun",
+"km": "ទៀន",
+"ex": "The candle lights the room."
+},
+{
+"en": "fan",
+"pos": "noun",
+"km": "ខ្យល់ / កង្ហារ",
+"ex": "Turn on the fan, it is hot."
+},
+{
+"en": "door key",
+"pos": "noun",
+"km": "កូនសោ",
+"ex": "Don't forget your door key."
+},
+{
+"en": "lock",
+"pos": "noun",
+"km": "សោ",
+"ex": "Lock the door before sleep."
+},
+{
+"en": "window glass",
+"pos": "noun",
+"km": "កញ្ចក់បង្អួច",
+"ex": "The window glass is clean."
+},
+{
+"en": "sofa",
+"pos": "noun",
+"km": "សូហ្វា",
+"ex": "We sit on the sofa to watch TV."
+},
+{
+"en": "study",
+"pos": "verb",
+"km": "សិក្សា",
+"ex": "I study English every night."
+},
+{
+"en": "school",
+"pos": "noun",
+"km": "សាលារៀន",
+"ex": "School starts at seven o'clock."
+},
+{
+"en": "teacher",
+"pos": "noun",
+"km": "គ្រូបង្រៀន",
+"ex": "My teacher speaks slowly and clearly."
+},
+{
+"en": "student",
+"pos": "noun",
+"km": "និស្សិត / សិស្ស",
+"ex": "The student asked a good question."
+},
+{
+"en": "classroom",
+"pos": "noun",
+"km": "ថ្នាក់រៀន",
+"ex": "The classroom is very quiet."
+},
+{
+"en": "homework",
+"pos": "noun",
+"km": "កិច្ចការផ្ទះ",
+"ex": "Finish your homework before dinner."
+},
+{
+"en": "exam",
+"pos": "noun",
+"km": "ការប្រឡង",
+"ex": "The exam is next Monday."
+},
+{
+"en": "lesson",
+"pos": "noun",
+"km": "មេរៀន",
+"ex": "Today's lesson is about food."
+},
+{
+"en": "subject",
+"pos": "noun",
+"km": "មុខវិជ្ជា",
+"ex": "English is my favorite subject."
+},
+{
+"en": "library",
+"pos": "noun",
+"km": "បណ្ណាល័យ",
+"ex": "I borrow books at the library."
+},
+{
+"en": "pencil",
+"pos": "noun",
+"km": "ខ្មៅដៃ",
+"ex": "Sharpen your pencil before the test."
+},
+{
+"en": "eraser",
+"pos": "noun",
+"km": "ជ័រលុប",
+"ex": "Use an eraser to remove the mistake."
+},
+{
+"en": "notebook",
+"pos": "noun",
+"km": "សៀវភៅកត់ត្រា",
+"ex": "Write new words in your notebook."
+},
+{
+"en": "dictionary",
+"pos": "noun",
+"km": "វចនានុក្រម",
+"ex": "Check the word in a dictionary."
+},
+{
+"en": "grade",
+"pos": "noun",
+"km": "ថ្នាក់ / ពិន្ទុ",
+"ex": "She got a good grade in math."
+},
+{
+"en": "math",
+"pos": "noun",
+"km": "គណិតវិទ្យា",
+"ex": "Math is difficult but fun."
+},
+{
+"en": "science",
+"pos": "noun",
+"km": "វិទ្យាសាស្ត្រ",
+"ex": "Science helps us understand nature."
+},
+{
+"en": "history",
+"pos": "noun",
+"km": "ប្រវត្តិសាស្ត្រ",
+"ex": "We learn history at school."
+},
+{
+"en": "art",
+"pos": "noun",
+"km": "សិល្បៈ",
+"ex": "She is good at art and drawing."
+},
+{
+"en": "reading",
+"pos": "noun",
+"km": "ការអាន",
+"ex": "Reading every day improves your English."
+},
+{
+"en": "writing",
+"pos": "noun",
+"km": "ការសរសេរ",
+"ex": "Writing practice is important."
+},
+{
+"en": "speaking",
+"pos": "noun",
+"km": "ការនិយាយ",
+"ex": "Speaking English with friends helps a lot."
+},
+{
+"en": "listening",
+"pos": "noun",
+"km": "ការស្តាប់",
+"ex": "Listening to music is relaxing."
+},
+{
+"en": "answer key",
+"pos": "noun",
+"km": "ចម្លើយត្រឹមត្រូវ",
+"ex": "Check the answer key after the test."
+},
+{
+"en": "forest",
+"pos": "noun",
+"km": "ព្រៃ",
+"ex": "The forest is full of big trees."
+},
+{
+"en": "sea",
+"pos": "noun",
+"km": "សមុទ្រ",
+"ex": "We swim in the sea in summer."
+},
+{
+"en": "beach",
+"pos": "noun",
+"km": "ឆ្នេរ",
+"ex": "Kampot beach is very beautiful."
+},
+{
+"en": "island",
+"pos": "noun",
+"km": "កោះ",
+"ex": "Koh Rong is a famous island."
+},
+{
+"en": "cloud",
+"pos": "noun",
+"km": "ពពក",
+"ex": "There are white clouds in the sky."
+},
+{
+"en": "wind",
+"pos": "noun",
+"km": "ខ្យល់",
+"ex": "The wind is strong today."
+},
+{
+"en": "storm",
+"pos": "noun",
+"km": "ព្យុះ",
+"ex": "A storm came in the night."
+},
+{
+"en": "thunder",
+"pos": "noun",
+"km": "ផ្គរ",
+"ex": "I heard thunder during the rain."
+},
+{
+"en": "lightning",
+"pos": "noun",
+"km": "រន្ទះ",
+"ex": "Lightning flashed across the sky."
+},
+{
+"en": "flood",
+"pos": "noun",
+"km": "ទឹកជំនន់",
+"ex": "The flood covered the road."
+},
+{
+"en": "drought",
+"pos": "noun",
+"km": "រាំងស្ងួត",
+"ex": "The drought hurt the rice fields."
+},
+{
+"en": "rice field",
+"pos": "noun",
+"km": "ស្រែ",
+"ex": "Farmers work in the rice field."
+},
+{
+"en": "farmer",
+"pos": "noun",
+"km": "កសិករ",
+"ex": "The farmer grows rice and corn."
+},
+{
+"en": "soil",
+"pos": "noun",
+"km": "ដី",
+"ex": "This soil is good for plants."
+},
+{
+"en": "leaf",
+"pos": "noun",
+"km": "ស្លឹក",
+"ex": "The leaf turned yellow in the autumn."
+}
+]
