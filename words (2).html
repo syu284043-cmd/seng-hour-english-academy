@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="km">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ពាក្យទាំងអស់ · Seng Hour</title>
+<style>
+  :root { --bg:#f5f8fc; --card:#ffffff; --frame:#bcd7f2; --ink:#1d2b3a; --muted:#6b7b8c; --accent:#4f9ad9; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; background:var(--bg); color:var(--ink); font-family: system-ui, "Noto Sans Khmer", sans-serif; }
+  header { position:sticky; top:0; z-index:5; background:rgba(245,248,252,.95); backdrop-filter:blur(6px);
+           padding:14px 14px 10px; border-bottom:1px solid var(--frame); }
+  h1 { margin:0 0 8px; font-size:18px; }
+  .meta { color:var(--muted); font-size:13px; margin-bottom:8px; }
+  input { width:100%; padding:11px 14px; border-radius:14px; border:2px solid var(--frame); background:#fff;
+          font-size:16px; outline:none; }
+  input:focus { border-color:var(--accent); }
+  main { padding:12px; display:grid; gap:10px; grid-template-columns:1fr; max-width:900px; margin:0 auto; }
+  @media (min-width:640px){ main { grid-template-columns:1fr 1fr; } }
+  .card { background:var(--card); border:2px solid var(--frame); border-radius:18px; padding:12px 14px;
+          display:flex; gap:10px; align-items:flex-start; box-shadow:0 2px 8px rgba(79,154,217,.08); }
+  .txt { flex:1; min-width:0; }
+  .en { font-size:19px; font-weight:700; word-break:break-word; }
+  .pos { font-size:12px; color:var(--muted); font-style:italic; margin-left:4px; }
+  .km { font-size:15px; margin-top:4px; }
+  .ex { font-size:13px; color:var(--muted); margin-top:4px; font-style:italic; }
+  button.spk { border:2px solid var(--frame); background:#eaf4fd; border-radius:12px; padding:8px 10px;
+               font-size:16px; cursor:pointer; flex:none; }
+  button.spk:active { transform:scale(.96); }
+  .more { text-align:center; padding:14px; color:var(--muted); font-size:14px; }
+  .empty { text-align:center; padding:30px; color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>📚 ពាក្យទាំងអស់ · A–Z</h1>
+  <div class="meta" id="count">កំពុងផ្ទុក…</div>
+  <input id="q" type="search" placeholder="ស្វែងរកពាក្យអង់គ្លេស ឬខ្មែរ…" autocomplete="off">
+</header>
+<main id="list"></main>
+<div class="more" id="more"></div>
+
+<script>
+const BASE = "https://raw.githubusercontent.com/syu284043-cmd/seng-hour-english-academy/main/scripts/";
+const NAMES = ["words.json"];
+for (let i = 1; i <= 30; i++) NAMES.push("words_" + i + ".json");
+
+let all = [];
+let shown = 0;
+const STEP = 60;
+let filtered = [];
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s || "").replace(/[&<>"]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+async function load() {
+  const parts = await Promise.all(NAMES.map(n => fetch(BASE + n, {cache:"no-cache"})
+      .then(r => r.ok ? r.json() : []).catch(() => [])));
+  const seen = new Set();
+  all = parts.flat().filter(w => w && w.en && !seen.has(w.en.toLowerCase()) && seen.add(w.en.toLowerCase()));
+  all.sort((a, b) => a.en.toLowerCase().localeCompare(b.en.toLowerCase()));
+  $("count").textContent = "ពាក្យសរុប " + all.length + " · ស្វែងរកបាន " + all.length;
+  applyFilter();
+}
+
+function applyFilter() {
+  const q = $("q").value.trim().toLowerCase();
+  filtered = !q ? all : all.filter(w =>
+      w.en.toLowerCase().includes(q) || String(w.km || "").toLowerCase().includes(q));
+  $("count").textContent = "ពាក្យសរុប " + all.length + " · បង្ហាញ " + filtered.length;
+  shown = 0;
+  $("list").innerHTML = "";
+  if (!filtered.length) { $("list").innerHTML = '<div class="empty">រកមិនឃើញពាក្យនេះទេ</div>'; $("more").textContent = ""; return; }
+  renderMore();
+}
+
+function renderMore() {
+  const part = filtered.slice(shown, shown + STEP);
+  $("list").insertAdjacentHTML("beforeend", part.map((w, k) => `
+    <div class="card">
+      <div class="txt">
+        <div><span class="en">${esc(w.en)}</span><span class="pos">(${esc(w.pos || "word")})</span></div>
+        <div class="km">${esc(w.km || "-")}</div>
+        ${w.ex ? `<div class="ex">${esc(w.ex)}</div>` : ""}
+      </div>
+      <button class="spk" data-w="${esc(w.en)}" data-k="${esc(w.km || "")}" aria-label="ស្តាប់">🔊</button>
+    </div>`).join(""));
+  shown += part.length;
+  $("more").textContent = shown < filtered.length ? "អូសចុះក្រោមដើម្បីមើលបន្ថែម…" : "បានមើលគ្រប់ " + filtered.length + " ពាក្យ ✅";
+}
+
+function speak(text, lang) {
+  const a = new Audio("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=" + lang + "&q=" + encodeURIComponent(text));
+  a.play().catch(() => {});
+}
+
+$("list").addEventListener("click", (e) => {
+  const b = e.target.closest("button.spk");
+  if (!b) return;
+  speak(b.dataset.w, "en");
+  if (b.dataset.k) setTimeout(() => speak(b.dataset.k, "km"), 1400);
+});
+
+$("q").addEventListener("input", applyFilter);
+
+window.addEventListener("scroll", () => {
+  if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 300 && shown < filtered.length) renderMore();
+});
+
+load();
+</script>
+</body>
+</html>
