@@ -1,0 +1,722 @@
+[
+{
+"en": "reply",
+"pos": "verb",
+"km": "ឆ្លើយតប",
+"ex": "I will reply to your message tonight."
+},
+{
+"en": "ask",
+"pos": "verb",
+"km": "សួរ",
+"ex": "Can I ask you a question?"
+},
+{
+"en": "tell",
+"pos": "verb",
+"km": "ប្រាប់",
+"ex": "Tell me about your family."
+},
+{
+"en": "say",
+"pos": "verb",
+"km": "និយាយ",
+"ex": "What did she say to you?"
+},
+{
+"en": "mention",
+"pos": "verb",
+"km": "លើកឡើង",
+"ex": "He did not mention the price."
+},
+{
+"en": "explain",
+"pos": "verb",
+"km": "ពន្យល់",
+"ex": "Can you explain this word again?"
+},
+{
+"en": "describe",
+"pos": "verb",
+"km": "ពិពណ៌នា",
+"ex": "Describe your house in English."
+},
+{
+"en": "discuss",
+"pos": "verb",
+"km": "ពិភាក្សា",
+"ex": "Let's discuss the plan tomorrow."
+},
+{
+"en": "argue",
+"pos": "verb",
+"km": "ប្រកែក",
+"ex": "Don't argue with your friends."
+},
+{
+"en": "agree",
+"pos": "verb",
+"km": "យល់ស្រប",
+"ex": "I agree with your idea."
+},
+{
+"en": "disagree",
+"pos": "verb",
+"km": "មិនយល់ស្រប",
+"ex": "I disagree with that opinion."
+},
+{
+"en": "apologize",
+"pos": "verb",
+"km": "សុំទោស",
+"ex": "I apologize for the mistake."
+},
+{
+"en": "thank",
+"pos": "verb",
+"km": "អរគុណ",
+"ex": "Thank you for your help."
+},
+{
+"en": "welcome",
+"pos": "verb",
+"km": "ស្វាគមន៍",
+"ex": "We welcome our new students."
+},
+{
+"en": "invite",
+"pos": "verb",
+"km": "អញ្ជើញ",
+"ex": "I invite you to my party."
+},
+{
+"en": "stay",
+"pos": "verb",
+"km": "នៅ",
+"ex": "Please stay here until I come back."
+},
+{
+"en": "follow",
+"pos": "verb",
+"km": "ធ្វើតាម",
+"ex": "Follow the teacher's instructions."
+},
+{
+"en": "guide",
+"pos": "verb",
+"km": "ណែនាំ",
+"ex": "The guide showed us the temple."
+},
+{
+"en": "lead",
+"pos": "verb",
+"km": "នាំមុខ",
+"ex": "She leads the group to the market."
+},
+{
+"en": "push",
+"pos": "verb",
+"km": "រុញ",
+"ex": "Push the door to open it."
+},
+{
+"en": "pull",
+"pos": "verb",
+"km": "ទាញ",
+"ex": "Pull the rope tightly."
+},
+{
+"en": "lift",
+"pos": "verb",
+"km": "លើក",
+"ex": "Lift the box carefully."
+},
+{
+"en": "drop",
+"pos": "verb",
+"km": "ធ្លាក់ / ទម្លាក់",
+"ex": "Don't drop the glass."
+},
+{
+"en": "break",
+"pos": "verb",
+"km": "បែក / ខូច",
+"ex": "The cup broke when it fell."
+},
+{
+"en": "fix",
+"pos": "verb",
+"km": "ជួសជុល",
+"ex": "Can you fix my bicycle?"
+},
+{
+"en": "build",
+"pos": "verb",
+"km": "សាងសង់",
+"ex": "They build a new school here."
+},
+{
+"en": "destroy",
+"pos": "verb",
+"km": "បំផ្លាញ",
+"ex": "The storm destroyed many houses."
+},
+{
+"en": "protect",
+"pos": "verb",
+"km": "ការពារ",
+"ex": "Protect your eyes from the sun."
+},
+{
+"en": "rescue",
+"pos": "verb",
+"km": "សង្គ្រោះ",
+"ex": "The team rescued the fishermen."
+},
+{
+"en": "hurt",
+"pos": "verb",
+"km": "ឈឺ / ធ្វើឱ្យឈឺ",
+"ex": "Did you hurt your hand?"
+},
+{
+"en": "heal",
+"pos": "verb",
+"km": "ជាសះ",
+"ex": "The wound will heal in a week."
+},
+{
+"en": "recover",
+"pos": "verb",
+"km": "ងើបឡើងវិញ",
+"ex": "He is recovering from his illness."
+},
+{
+"en": "rest",
+"pos": "verb",
+"km": "សម្រាក",
+"ex": "You should rest after work."
+},
+{
+"en": "relax",
+"pos": "verb",
+"km": "ស្រួល / សម្រាកចិត្ត",
+"ex": "Relax and breathe slowly."
+},
+{
+"en": "pray",
+"pos": "verb",
+"km": "អធិស្ឋាន",
+"ex": "She prays at the temple every morning."
+},
+{
+"en": "bless",
+"pos": "verb",
+"km": "ឱ្យពរ",
+"ex": "The monk blessed the family."
+},
+{
+"en": "donate",
+"pos": "verb",
+"km": "បរិច្ចាគ",
+"ex": "They donated rice to the village."
+},
+{
+"en": "volunteer",
+"pos": "verb",
+"km": "ស្ម័គ្រចិត្ត",
+"ex": "He volunteers at the orphanage."
+},
+{
+"en": "celebrate",
+"pos": "verb",
+"km": "ប្រារព្ធ",
+"ex": "We celebrate the New Year with our family."
+},
+{
+"en": "enjoy",
+"pos": "verb",
+"km": "រីករាយ",
+"ex": "I enjoy listening to music."
+},
+{
+"en": "hate",
+"pos": "verb",
+"km": "ស្អប់",
+"ex": "I hate waiting in long lines."
+},
+{
+"en": "worry",
+"pos": "verb",
+"km": "បារម្ភ",
+"ex": "Don't worry, everything will be fine."
+},
+{
+"en": "fear",
+"pos": "verb",
+"km": "ភ័យ",
+"ex": "Many children fear the dark."
+},
+{
+"en": "hope",
+"pos": "verb",
+"km": "សង្ឃឹម",
+"ex": "I hope you feel better soon."
+},
+{
+"en": "wish",
+"pos": "verb",
+"km": "ប្រាថ្នា",
+"ex": "I wish you good luck."
+},
+{
+"en": "forgive",
+"pos": "verb",
+"km": "អភ័យទោស",
+"ex": "Please forgive me for being late."
+},
+{
+"en": "admit",
+"pos": "verb",
+"km": "ទទួលស្គាល់",
+"ex": "He admitted his mistake."
+},
+{
+"en": "refuse",
+"pos": "verb",
+"km": "បដិសេធ",
+"ex": "She refused the offer politely."
+},
+{
+"en": "accept",
+"pos": "verb",
+"km": "ទទួលយក",
+"ex": "I accept your invitation."
+},
+{
+"en": "reject",
+"pos": "verb",
+"km": "បដិសេធ",
+"ex": "The company rejected my application."
+},
+{
+"en": "complain",
+"pos": "verb",
+"km": "តវ៉ា",
+"ex": "Customers complained about the slow service."
+},
+{
+"en": "praise",
+"pos": "verb",
+"km": "សរសើរ",
+"ex": "The teacher praised the students."
+},
+{
+"en": "criticize",
+"pos": "verb",
+"km": "រិះគន់",
+"ex": "It is not kind to criticize others."
+},
+{
+"en": "warn",
+"pos": "verb",
+"km": "ព្រមាន",
+"ex": "I warn you, the road is slippery."
+},
+{
+"en": "remind",
+"pos": "verb",
+"km": "រំលឹក",
+"ex": "Remind me to call my mother."
+},
+{
+"en": "suggest",
+"pos": "verb",
+"km": "ស្នើ",
+"ex": "I suggest we take a taxi."
+},
+{
+"en": "recommend",
+"pos": "verb",
+"km": "ណែនាំ",
+"ex": "I recommend this restaurant."
+},
+{
+"en": "serve",
+"pos": "verb",
+"km": "បម្រើ",
+"ex": "The waiter serves the food quickly."
+},
+{
+"en": "chew",
+"pos": "verb",
+"km": "ទំពារ",
+"ex": "Chew your food slowly."
+},
+{
+"en": "swallow",
+"pos": "verb",
+"km": "លេប",
+"ex": "Swallow the pill with water."
+},
+{
+"en": "drink water",
+"pos": "verb",
+"km": "ផឹកទឹក",
+"ex": "Drink water when you are thirsty."
+},
+{
+"en": "boil water",
+"pos": "verb",
+"km": "ស្ងោរទឹក",
+"ex": "Boil the water before drinking."
+},
+{
+"en": "pour",
+"pos": "verb",
+"km": "ចាក់",
+"ex": "Pour the tea into the cup."
+},
+{
+"en": "mix",
+"pos": "verb",
+"km": "ផ្សំ",
+"ex": "Mix the flour with water."
+},
+{
+"en": "stir",
+"pos": "verb",
+"km": "កូរ",
+"ex": "Stir the soup gently."
+},
+{
+"en": "spread",
+"pos": "verb",
+"km": "លាប",
+"ex": "Spread butter on the bread."
+},
+{
+"en": "slice",
+"pos": "verb",
+"km": "កាត់ជាចំណិត",
+"ex": "Slice the mango into pieces."
+},
+{
+"en": "peel",
+"pos": "verb",
+"km": "ចោល / លូតស្បែក",
+"ex": "Peel the orange before you eat it."
+},
+{
+"en": "squeeze",
+"pos": "verb",
+"km": "ច្របាច់",
+"ex": "Squeeze the lemon into the water."
+},
+{
+"en": "chop",
+"pos": "verb",
+"km": "ចិតកាត់",
+"ex": "Chop the garlic finely."
+},
+{
+"en": "grill",
+"pos": "verb",
+"km": "អាំង",
+"ex": "We grill fish by the river."
+},
+{
+"en": "steam",
+"pos": "verb",
+"km": "ចំហាយ / ចំហុយ",
+"ex": "Steam the vegetables for ten minutes."
+},
+{
+"en": "roast",
+"pos": "verb",
+"km": "អាំង",
+"ex": "They roast chicken on Sunday."
+},
+{
+"en": "pick",
+"pos": "verb",
+"km": "ប្រមូល",
+"ex": "Pick some fresh mangoes from the tree."
+},
+{
+"en": "plant",
+"pos": "verb",
+"km": "ដាំ",
+"ex": "We plant trees in the garden."
+},
+{
+"en": "grow",
+"pos": "verb",
+"km": "ដុះ / លូត",
+"ex": "Vegetables grow well in the rainy season."
+},
+{
+"en": "cut",
+"pos": "verb",
+"km": "កាត់",
+"ex": "Cut the paper into small pieces."
+},
+{
+"en": "tie",
+"pos": "verb",
+"km": "ចងចង",
+"ex": "Tie the shoelace before you run."
+},
+{
+"en": "wrap",
+"pos": "verb",
+"km": "ខ្ចប់",
+"ex": "Wrap the gift in colorful paper."
+},
+{
+"en": "unlock",
+"pos": "verb",
+"km": "ដោះសោ",
+"ex": "Unlock the car, please."
+},
+{
+"en": "turn on",
+"pos": "verb",
+"km": "បើក (ភ្លើង)",
+"ex": "Turn on the light, it is dark."
+},
+{
+"en": "turn off",
+"pos": "verb",
+"km": "បិទ (ភ្លើង)",
+"ex": "Turn off the fan before you leave."
+},
+{
+"en": "hang",
+"pos": "verb",
+"km": "ព្យួរ",
+"ex": "Hang your clothes on the line."
+},
+{
+"en": "fold",
+"pos": "verb",
+"km": "បត់",
+"ex": "Fold the towels neatly."
+},
+{
+"en": "iron clothes",
+"pos": "verb",
+"km": "រលាយខោអាវ",
+"ex": "Iron the clothes before you wear them."
+},
+{
+"en": "wash clothes",
+"pos": "verb",
+"km": "បោកខោអាវ",
+"ex": "I wash clothes on Saturday."
+},
+{
+"en": "dry",
+"pos": "verb",
+"km": "ហាលស្ងួត",
+"ex": "Dry the clothes in the sun."
+},
+{
+"en": "pack",
+"pos": "verb",
+"km": "ខ្ចប់ឥវ៉ាន់",
+"ex": "Pack your bag for the trip."
+},
+{
+"en": "unpack",
+"pos": "verb",
+"km": "ដកឥវ៉ាន់ចេញ",
+"ex": "Unpack your suitcase when you arrive."
+},
+{
+"en": "hold",
+"pos": "verb",
+"km": "កាន់",
+"ex": "Hold my hand when we cross the road."
+},
+{
+"en": "grab",
+"pos": "verb",
+"km": "ចាប់ខ្លាំង",
+"ex": "Grab the rope before you fall."
+},
+{
+"en": "throw away",
+"pos": "verb",
+"km": "បោះចោល",
+"ex": "Throw away the old newspapers."
+},
+{
+"en": "collect",
+"pos": "verb",
+"km": "ប្រមូល",
+"ex": "Collect the plastic bottles for recycling."
+},
+{
+"en": "recycle",
+"pos": "verb",
+"km": "ប្រើឡើងវិញ",
+"ex": "Recycle paper and glass."
+},
+{
+"en": "measure",
+"pos": "verb",
+"km": "វាស់",
+"ex": "Measure the room before buying the table."
+},
+{
+"en": "weigh",
+"pos": "verb",
+"km": "ថ្លឹង",
+"ex": "Weigh the rice on the scale."
+},
+{
+"en": "calculate",
+"pos": "verb",
+"km": "គណនា",
+"ex": "Calculate the total price."
+},
+{
+"en": "compare",
+"pos": "verb",
+"km": "ប្រៀបធៀប",
+"ex": "Compare the prices in two shops."
+},
+{
+"en": "check",
+"pos": "verb",
+"km": "ពិនិត្យ",
+"ex": "Check your answers before you submit."
+},
+{
+"en": "search",
+"pos": "verb",
+"km": "ស្វែងរក",
+"ex": "Search for the word in the dictionary."
+},
+{
+"en": "find",
+"pos": "verb",
+"km": "រក",
+"ex": "I cannot find my keys."
+},
+{
+"en": "hide",
+"pos": "verb",
+"km": "លាក់",
+"ex": "The cat hides under the bed."
+},
+{
+"en": "reveal",
+"pos": "verb",
+"km": "បង្ហាញ",
+"ex": "The secret was finally revealed."
+},
+{
+"en": "notice",
+"pos": "verb",
+"km": "កត់សម្គាល់",
+"ex": "I did not notice the sign."
+},
+{
+"en": "observe",
+"pos": "verb",
+"km": "សង្កេត",
+"ex": "Scientists observe the birds."
+},
+{
+"en": "imagine",
+"pos": "verb",
+"km": "ស្រមៃ",
+"ex": "Imagine a city without cars."
+},
+{
+"en": "guess",
+"pos": "verb",
+"km": "ទាយ",
+"ex": "Guess the answer before you check."
+},
+{
+"en": "believe",
+"pos": "verb",
+"km": "ជឿ",
+"ex": "I believe you will succeed."
+},
+{
+"en": "doubt",
+"pos": "verb",
+"km": "សង្ស័យ",
+"ex": "I doubt that he will come today."
+},
+{
+"en": "prove",
+"pos": "verb",
+"km": "បញ្ជាក់",
+"ex": "Can you prove your statement?"
+},
+{
+"en": "choose a color",
+"pos": "verb",
+"km": "ជ្រើសពណ៌",
+"ex": "Choose a color for your bag."
+},
+{
+"en": "compete",
+"pos": "verb",
+"km": "ប្រកួត",
+"ex": "Students compete in the science fair."
+},
+{
+"en": "cheer",
+"pos": "verb",
+"km": "ឆ្លៀលឱកាស / ទះដៃ",
+"ex": "The crowd cheered for the team."
+},
+{
+"en": "applaud",
+"pos": "verb",
+"km": "ទះដៃ",
+"ex": "The audience applauded the singer."
+},
+{
+"en": "perform",
+"pos": "verb",
+"km": "សម្តែង",
+"ex": "The children performed a dance."
+},
+{
+"en": "teach",
+"pos": "verb",
+"km": "បង្រៀន",
+"ex": "She teaches English at the school."
+},
+{
+"en": "review",
+"pos": "verb",
+"km": "ពិនិត្យឡើងវិញ",
+"ex": "Review the lesson before the test."
+},
+{
+"en": "memorize",
+"pos": "verb",
+"km": "ទន្ទេញ",
+"ex": "Memorize five new words every day."
+},
+{
+"en": "translate",
+"pos": "verb",
+"km": "បកប្រែ",
+"ex": "Translate this sentence into Khmer."
+},
+{
+"en": "spell",
+"pos": "verb",
+"km": "ដាក់អក្សរ / សរសេរអក្សរ",
+"ex": "How do you spell this word?"
+}
+]
