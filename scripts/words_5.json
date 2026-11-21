@@ -1,0 +1,722 @@
+[
+{
+"en": "fisherman",
+"pos": "noun",
+"km": "អ្នកនេសាទ",
+"ex": "The fisherman caught a big fish."
+},
+{
+"en": "driver",
+"pos": "noun",
+"km": "អ្នកបើកបរ",
+"ex": "The driver takes us to the airport."
+},
+{
+"en": "cashier",
+"pos": "noun",
+"km": "អ្នកគិតលុយ",
+"ex": "The cashier gave me the change."
+},
+{
+"en": "waiter",
+"pos": "noun",
+"km": "អ្នកបម្រើ",
+"ex": "The waiter brought our food quickly."
+},
+{
+"en": "chef",
+"pos": "noun",
+"km": "ចុងភៅ",
+"ex": "The chef cooks very delicious food."
+},
+{
+"en": "police officer",
+"pos": "noun",
+"km": "មន្ត្រីនគរបាល",
+"ex": "The police officer helps people on the road."
+},
+{
+"en": "soldier",
+"pos": "noun",
+"km": "ទាហាន",
+"ex": "The soldier protects the country."
+},
+{
+"en": "pilot",
+"pos": "noun",
+"km": "អ្នកបើកយន្តហោះ",
+"ex": "The pilot spoke to the passengers."
+},
+{
+"en": "engineer",
+"pos": "noun",
+"km": "វិស្វករ",
+"ex": "The engineer built the new bridge."
+},
+{
+"en": "architect",
+"pos": "noun",
+"km": "ស្ថាបត្យករ",
+"ex": "The architect designed our house."
+},
+{
+"en": "mechanic",
+"pos": "noun",
+"km": "ជាងជួសជុលម៉ាស៊ីន",
+"ex": "The mechanic fixed my motorbike."
+},
+{
+"en": "electrician",
+"pos": "noun",
+"km": "ជាងអគ្គិសនី",
+"ex": "The electrician repaired the lights."
+},
+{
+"en": "plumber",
+"pos": "noun",
+"km": "ជាងទឹក",
+"ex": "The plumber fixed the broken pipe."
+},
+{
+"en": "carpenter",
+"pos": "noun",
+"km": "ជាងឈើ",
+"ex": "The carpenter made a new table."
+},
+{
+"en": "tailor",
+"pos": "noun",
+"km": "ជាងកាត់ដេរ",
+"ex": "The tailor sewed my new shirt."
+},
+{
+"en": "painter",
+"pos": "noun",
+"km": "អ្នកគូររូប / ជាងលាបពណ៌",
+"ex": "The painter painted the wall blue."
+},
+{
+"en": "photographer",
+"pos": "noun",
+"km": "អ្នកថតរូប",
+"ex": "The photographer took our wedding pictures."
+},
+{
+"en": "musician",
+"pos": "noun",
+"km": "តន្ត្រីករ",
+"ex": "The musician plays the guitar at the party."
+},
+{
+"en": "singer",
+"pos": "noun",
+"km": "អ្នកចម្រៀង",
+"ex": "The singer performed on stage tonight."
+},
+{
+"en": "actor",
+"pos": "noun",
+"km": "តួសម្តែង",
+"ex": "The actor was very good in the movie."
+},
+{
+"en": "writer",
+"pos": "noun",
+"km": "អ្នកនិពន្ធ",
+"ex": "The writer wrote a new book."
+},
+{
+"en": "journalist",
+"pos": "noun",
+"km": "អ្នកកាសែត",
+"ex": "The journalist asked the minister a question."
+},
+{
+"en": "lawyer",
+"pos": "noun",
+"km": "មេធាវី",
+"ex": "The lawyer explained the contract to me."
+},
+{
+"en": "judge",
+"pos": "noun",
+"km": "ចៅក្រម",
+"ex": "The judge listened to both sides."
+},
+{
+"en": "scientist",
+"pos": "noun",
+"km": "អ្នកវិទ្យាសាស្ត្រ",
+"ex": "The scientist works in the laboratory."
+},
+{
+"en": "pharmacist",
+"pos": "noun",
+"km": "អ្នកលក់ថ្នាំ",
+"ex": "The pharmacist gave me the right medicine."
+},
+{
+"en": "dentist",
+"pos": "noun",
+"km": "គ្រូពេទ្យធ្មេញ",
+"ex": "I visit the dentist every six months."
+},
+{
+"en": "midwife",
+"pos": "noun",
+"km": "អ្នកជំនួយកើត",
+"ex": "The midwife helped the mother give birth."
+},
+{
+"en": "accountant",
+"pos": "noun",
+"km": "គណនេយ្យករ",
+"ex": "The accountant checks the company money."
+},
+{
+"en": "secretary",
+"pos": "noun",
+"km": "លេខាធិការ",
+"ex": "The secretary answers all the phone calls."
+},
+{
+"en": "receptionist",
+"pos": "noun",
+"km": "អ្នកទទួលភ្ញៀវ",
+"ex": "The receptionist greeted us at the door."
+},
+{
+"en": "salesperson",
+"pos": "noun",
+"km": "អ្នកលក់",
+"ex": "The salesperson showed me many shoes."
+},
+{
+"en": "guard",
+"pos": "noun",
+"km": "យាម",
+"ex": "The guard stands at the gate all night."
+},
+{
+"en": "housekeeper",
+"pos": "noun",
+"km": "អ្នកបម្រើក្នុងផ្ទះ",
+"ex": "The housekeeper cleans the house every morning."
+},
+{
+"en": "babysitter",
+"pos": "noun",
+"km": "អ្នកមើលថែកុមារ",
+"ex": "The babysitter watches the children at night."
+},
+{
+"en": "tour guide",
+"pos": "noun",
+"km": "មគ្គុទ្ទេសក៍ទេសចរណ៍",
+"ex": "The tour guide told us about the temple."
+},
+{
+"en": "hairdresser",
+"pos": "noun",
+"km": "ជាងកាត់សក់",
+"ex": "The hairdresser cut my hair short."
+},
+{
+"en": "barber",
+"pos": "noun",
+"km": "ជាងកោរសក់",
+"ex": "My father goes to the barber on Sunday."
+},
+{
+"en": "baker",
+"pos": "noun",
+"km": "អ្នកដុតនំ",
+"ex": "The baker wakes up early to make bread."
+},
+{
+"en": "butcher",
+"pos": "noun",
+"km": "អ្នកលក់សាច់",
+"ex": "The butcher sells fresh meat at the market."
+},
+{
+"en": "vendor",
+"pos": "noun",
+"km": "អ្នកលក់ទំនិញ",
+"ex": "The vendor sells fruit on the street."
+},
+{
+"en": "merchant",
+"pos": "noun",
+"km": "ឈ្មួញ",
+"ex": "The merchant buys rice from the farmers."
+},
+{
+"en": "factory worker",
+"pos": "noun",
+"km": "កម្មកររោងចក្រ",
+"ex": "The factory worker starts work at seven."
+},
+{
+"en": "construction worker",
+"pos": "noun",
+"km": "កម្មករសំណង់",
+"ex": "The construction worker builds tall buildings."
+},
+{
+"en": "labor",
+"pos": "noun",
+"km": "កម្លាំងពលកម្ម",
+"ex": "Labor is important for the economy."
+},
+{
+"en": "bonus",
+"pos": "noun",
+"km": "រង្វាន់បន្ថែម",
+"ex": "He received a bonus for his good work."
+},
+{
+"en": "promotion",
+"pos": "noun",
+"km": "ការដំឡើងតំណែង",
+"ex": "She got a promotion this year."
+},
+{
+"en": "retirement",
+"pos": "noun",
+"km": "ការចូលនិវត្តន៍",
+"ex": "He is planning for his retirement."
+},
+{
+"en": "resume",
+"pos": "noun",
+"km": "ប្រវត្តិរូបសង្ខេប",
+"ex": "Send me your resume by email."
+},
+{
+"en": "career",
+"pos": "noun",
+"km": "អាជីព",
+"ex": "She wants a career in medicine."
+},
+{
+"en": "skill",
+"pos": "noun",
+"km": "ជំនាញ",
+"ex": "Speaking English is a useful skill."
+},
+{
+"en": "experience",
+"pos": "noun",
+"km": "បទពិសោធន៍",
+"ex": "She has five years of experience."
+},
+{
+"en": "training",
+"pos": "noun",
+"km": "ការបណ្តុះបណ្តាល",
+"ex": "The training starts next Monday."
+},
+{
+"en": "staff",
+"pos": "noun",
+"km": "បុគ្គលិក",
+"ex": "All staff must attend the meeting."
+},
+{
+"en": "team",
+"pos": "noun",
+"km": "ក្រុម",
+"ex": "Our team won the match."
+},
+{
+"en": "leader",
+"pos": "noun",
+"km": "មេដឹកនាំ",
+"ex": "A good leader listens to people."
+},
+{
+"en": "customer service",
+"pos": "noun",
+"km": "សេវាអតិថិជន",
+"ex": "Customer service is open all day."
+},
+{
+"en": "shift",
+"pos": "noun",
+"km": "វេន",
+"ex": "I work the night shift this week."
+},
+{
+"en": "overtime",
+"pos": "noun",
+"km": "ការធ្វើការលើសម៉ោង",
+"ex": "He worked overtime to finish the project."
+},
+{
+"en": "vacation",
+"pos": "noun",
+"km": "ថ្ងៃសម្រាក",
+"ex": "I need a vacation after this project."
+},
+{
+"en": "payment",
+"pos": "noun",
+"km": "ការបង់ប្រាក់",
+"ex": "The payment is due on Friday."
+},
+{
+"en": "invoice",
+"pos": "noun",
+"km": "វិក្កយបត្រ / ប្រាក់ត្រូវបង់",
+"ex": "Please check the invoice before you pay."
+},
+{
+"en": "bank account",
+"pos": "noun",
+"km": "គណនីធនាគារ",
+"ex": "I opened a bank account last year."
+},
+{
+"en": "loan",
+"pos": "noun",
+"km": "ប្រាក់កម្ចី",
+"ex": "He took a loan to buy a house."
+},
+{
+"en": "interest",
+"pos": "noun",
+"km": "ការប្រាក់ / ចំណាប់អារម្មណ៍",
+"ex": "The bank pays interest on savings."
+},
+{
+"en": "tax",
+"pos": "noun",
+"km": "ពន្ធ",
+"ex": "We pay tax on goods we buy."
+},
+{
+"en": "profit",
+"pos": "noun",
+"km": "ប្រាក់ចំណេញ",
+"ex": "The shop made a good profit this month."
+},
+{
+"en": "loss",
+"pos": "noun",
+"km": "ការខាតបង់",
+"ex": "The company had a loss last year."
+},
+{
+"en": "price tag",
+"pos": "noun",
+"km": "ស្លាកតម្លៃ",
+"ex": "Check the price tag before you buy."
+},
+{
+"en": "coin",
+"pos": "noun",
+"km": "ប្រាក់កាក់",
+"ex": "I found a coin on the road."
+},
+{
+"en": "note",
+"pos": "noun",
+"km": "ធនបត្រ / ក្រដាសប្រាក់",
+"ex": "Do you have a five-dollar note?"
+},
+{
+"en": "ATM",
+"pos": "noun",
+"km": "ម៉ាស៊ីនដកប្រាក់",
+"ex": "Use the ATM to get cash."
+},
+{
+"en": "safe",
+"pos": "noun",
+"km": "ទូមាស់ / សុវត្ថិភាព",
+"ex": "Keep your money in a safe place."
+},
+{
+"en": "bill",
+"pos": "noun",
+"km": "វិក្កយបត្រ / គិតលុយ",
+"ex": "Can I have the bill, please?"
+},
+{
+"en": "discount card",
+"pos": "noun",
+"km": "កាតបញ្ចុះតម្លៃ",
+"ex": "Show your discount card at the counter."
+},
+{
+"en": "store",
+"pos": "noun",
+"km": "ហាង",
+"ex": "The store closes at nine o'clock."
+},
+{
+"en": "supermarket",
+"pos": "noun",
+"km": "ផ្សារទំនើប",
+"ex": "We buy food at the supermarket."
+},
+{
+"en": "mall",
+"pos": "noun",
+"km": "មជ្ឈមណ្ឌលពាណិជ្ជកម្ម",
+"ex": "The mall has many shops and restaurants."
+},
+{
+"en": "convenience store",
+"pos": "noun",
+"km": "ហាងងាយស្រួល",
+"ex": "I bought water at the convenience store."
+},
+{
+"en": "grocery",
+"pos": "noun",
+"km": "ទំនិញផ្ទះបាយ",
+"ex": "I need to buy groceries for dinner."
+},
+{
+"en": "shopping cart",
+"pos": "noun",
+"km": "រទេះទិញទំនិញ",
+"ex": "Push the shopping cart carefully."
+},
+{
+"en": "shopping bag",
+"pos": "noun",
+"km": "ថង់ទិញទំនិញ",
+"ex": "Do you need a shopping bag?"
+},
+{
+"en": "brand",
+"pos": "noun",
+"km": "ម៉ាកយីហ្សេ",
+"ex": "This brand of shoes is very popular."
+},
+{
+"en": "quality",
+"pos": "noun",
+"km": "គុណភាព",
+"ex": "The quality of this shirt is very good."
+},
+{
+"en": "size chart",
+"pos": "noun",
+"km": "តារាងទំហំ",
+"ex": "Check the size chart before you order."
+},
+{
+"en": "refund",
+"pos": "noun",
+"km": "ការសងប្រាក់វិញ",
+"ex": "The shop gave me a refund."
+},
+{
+"en": "exchange",
+"pos": "noun",
+"km": "ការដូរ",
+"ex": "You can exchange the shoes within a week."
+},
+{
+"en": "warranty",
+"pos": "noun",
+"km": "ការធានា",
+"ex": "This phone has a one-year warranty."
+},
+{
+"en": "order",
+"pos": "noun",
+"km": "ការបញ្ជាទិញ",
+"ex": "My order will arrive tomorrow."
+},
+{
+"en": "delivery",
+"pos": "noun",
+"km": "ការដឹកជញ្ជូន",
+"ex": "The delivery is free for orders above ten dollars."
+},
+{
+"en": "package",
+"pos": "noun",
+"km": "កញ្ចប់",
+"ex": "A package arrived for you this morning."
+},
+{
+"en": "address",
+"pos": "noun",
+"km": "អាសយដ្ឋាន",
+"ex": "Please write your address on the form."
+},
+{
+"en": "postcard",
+"pos": "noun",
+"km": "ប៉ុស្តាល់",
+"ex": "She sent me a postcard from Siem Reap."
+},
+{
+"en": "stamp",
+"pos": "noun",
+"km": "តែមប៉ុស្តាល់",
+"ex": "Put a stamp on the envelope."
+},
+{
+"en": "envelope",
+"pos": "noun",
+"km": "ស្រោមសំបុត្រ",
+"ex": "Put the letter in the envelope."
+},
+{
+"en": "parcel",
+"pos": "noun",
+"km": "កញ្ចប់ប្រអប់",
+"ex": "The parcel is heavy."
+},
+{
+"en": "tip",
+"pos": "noun",
+"km": "ការផ្តល់ប្រាក់ពិសេស / គន្លឹះ",
+"ex": "Here is a useful tip for learning English."
+},
+{
+"en": "advice",
+"pos": "noun",
+"km": "ដំបូន្មាន",
+"ex": "Thank you for your good advice."
+},
+{
+"en": "opinion",
+"pos": "noun",
+"km": "ទស្សនៈ",
+"ex": "What is your opinion about this?"
+},
+{
+"en": "agreement",
+"pos": "noun",
+"km": "កិច្ចព្រមព្រៀង",
+"ex": "We reached an agreement after the talks."
+},
+{
+"en": "promise",
+"pos": "noun",
+"km": "ការសន្យា",
+"ex": "I promise to be on time."
+},
+{
+"en": "secret",
+"pos": "noun",
+"km": "អាថ៌កំបាំង",
+"ex": "Keep this secret between us."
+},
+{
+"en": "lie",
+"pos": "noun",
+"km": "ការកុហក",
+"ex": "Telling a lie is not good."
+},
+{
+"en": "truth",
+"pos": "noun",
+"km": "ការពិត",
+"ex": "Always tell the truth."
+},
+{
+"en": "rumor",
+"pos": "noun",
+"km": "ពាក្យចចាមអារាម",
+"ex": "Don't believe every rumor you hear."
+},
+{
+"en": "story",
+"pos": "noun",
+"km": "រឿង",
+"ex": "She told us a funny story."
+},
+{
+"en": "fairy tale",
+"pos": "noun",
+"km": "រឿងព្រេង",
+"ex": "The children love fairy tales."
+},
+{
+"en": "poem",
+"pos": "noun",
+"km": "កំណាព្យ",
+"ex": "He wrote a poem about the river."
+},
+{
+"en": "song lyrics",
+"pos": "noun",
+"km": "ពាក្យចម្រៀង",
+"ex": "I learn English from song lyrics."
+},
+{
+"en": "letter writing",
+"pos": "noun",
+"km": "ការសរសេរសំបុត្រ",
+"ex": "Letter writing is a lost art."
+},
+{
+"en": "quote",
+"pos": "noun",
+"km": "សម្តីដកស្រង់",
+"ex": "This quote is from a famous writer."
+},
+{
+"en": "title",
+"pos": "noun",
+"km": "ចំណងជើង",
+"ex": "What is the title of the book?"
+},
+{
+"en": "chapter",
+"pos": "noun",
+"km": "ជំពូក",
+"ex": "Read the first chapter tonight."
+},
+{
+"en": "page",
+"pos": "noun",
+"km": "ទំព័រ",
+"ex": "Turn to page ten, please."
+},
+{
+"en": "index",
+"pos": "noun",
+"km": "តារាងមាតិកា",
+"ex": "Look at the index to find the topic."
+},
+{
+"en": "paragraph",
+"pos": "noun",
+"km": "កថាខណ្ឌ",
+"ex": "Write one paragraph about your family."
+},
+{
+"en": "sentence",
+"pos": "noun",
+"km": "ប្រយោគ",
+"ex": "Make a sentence with this word."
+},
+{
+"en": "grammar",
+"pos": "noun",
+"km": "វេយ្យាករណ៍",
+"ex": "Grammar is important for speaking well."
+},
+{
+"en": "pronunciation",
+"pos": "noun",
+"km": "ការបញ្ចេញសំឡេង",
+"ex": "Good pronunciation helps people understand you."
+},
+{
+"en": "vocabulary",
+"pos": "noun",
+"km": "ពាក្យ / វាក្យសព្ទ",
+"ex": "Learn new vocabulary every day."
+}
+]
