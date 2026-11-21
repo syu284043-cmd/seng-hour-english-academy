@@ -1,0 +1,722 @@
+[
+{
+"en": "Phnom Penh",
+"pos": "noun",
+"km": "ភ្នំពេញ",
+"ex": "Phnom Penh is the capital of Cambodia."
+},
+{
+"en": "Siem Reap",
+"pos": "noun",
+"km": "សៀមរាប",
+"ex": "Siem Reap is famous for Angkor Wat."
+},
+{
+"en": "Battambang",
+"pos": "noun",
+"km": "បាត់ដំបង",
+"ex": "Battambang has beautiful old buildings."
+},
+{
+"en": "Sihanoukville",
+"pos": "noun",
+"km": "ព្រះសីហនុ",
+"ex": "Sihanoukville has long white beaches."
+},
+{
+"en": "Kampot",
+"pos": "noun",
+"km": "កំពត",
+"ex": "Kampot is known for its pepper."
+},
+{
+"en": "Kep",
+"pos": "noun",
+"km": "កែប",
+"ex": "Kep is famous for crabs."
+},
+{
+"en": "Kratie",
+"pos": "noun",
+"km": "ក្រចេះ",
+"ex": "Kratie is a good place to see dolphins."
+},
+{
+"en": "Mondulkiri",
+"pos": "noun",
+"km": "មណ្ឌលគិរី",
+"ex": "Mondulkiri has many forests and waterfalls."
+},
+{
+"en": "Ratanakiri",
+"pos": "noun",
+"km": "រតនគិរី",
+"ex": "Ratanakiri is in the northeast of Cambodia."
+},
+{
+"en": "Preah Vihear",
+"pos": "noun",
+"km": "ព្រះវិហារ",
+"ex": "Preah Vihear is a famous ancient temple."
+},
+{
+"en": "Angkor Wat",
+"pos": "noun",
+"km": "អង្គរវត្ត",
+"ex": "Angkor Wat is the biggest temple in the world."
+},
+{
+"en": "Ta Prohm",
+"pos": "noun",
+"km": "តាព្រហ្ម",
+"ex": "Tree roots cover the walls of Ta Prohm."
+},
+{
+"en": "Mekong River",
+"pos": "noun",
+"km": "ទន្លេមេគង្គ",
+"ex": "The Mekong River flows through Cambodia."
+},
+{
+"en": "Tonle Sap Lake",
+"pos": "noun",
+"km": "បឹងទន្លេសាប",
+"ex": "Tonle Sap Lake is the largest lake in Southeast Asia."
+},
+{
+"en": "Bokor Mountain",
+"pos": "noun",
+"km": "ភ្នំបូកគោ",
+"ex": "Bokor Mountain has an old hotel on top."
+},
+{
+"en": "capital city",
+"pos": "noun",
+"km": "ទីក្រុងធានី",
+"ex": "The capital city is busy all day."
+},
+{
+"en": "province",
+"pos": "noun",
+"km": "ខេត្ត",
+"ex": "There are many provinces in Cambodia."
+},
+{
+"en": "district",
+"pos": "noun",
+"km": "ស្រុក",
+"ex": "The district office is near the market."
+},
+{
+"en": "commune",
+"pos": "noun",
+"km": "ឃុំ",
+"ex": "The commune chief works in the village."
+},
+{
+"en": "village chief",
+"pos": "noun",
+"km": "ចៅស្រុក / ចៅភូមិ",
+"ex": "The village chief talks to the people."
+},
+{
+"en": "countryside",
+"pos": "noun",
+"km": "តំបន់ជនបទ",
+"ex": "Life in the countryside is peaceful."
+},
+{
+"en": "mountain range",
+"pos": "noun",
+"km": "ខ្សែភ្នំ",
+"ex": "The mountain range is covered with trees."
+},
+{
+"en": "valley",
+"pos": "noun",
+"km": "ជ្រលងភ្នំ",
+"ex": "The village is in a green valley."
+},
+{
+"en": "coast",
+"pos": "noun",
+"km": "ឆ្នេរសមុទ្រ",
+"ex": "The coast is windy in the afternoon."
+},
+{
+"en": "peninsula",
+"pos": "noun",
+"km": "ឧបទ្វីប",
+"ex": "The peninsula is very beautiful."
+},
+{
+"en": "border",
+"pos": "noun",
+"km": "ព្រំដែន",
+"ex": "The border is closed at night."
+},
+{
+"en": "neighbor country",
+"pos": "noun",
+"km": "ប្រទេសជិតខាង",
+"ex": "Our neighbor country is Thailand."
+},
+{
+"en": "population",
+"pos": "noun",
+"km": "ចំនួនប្រជាជន",
+"ex": "The population of the city is growing."
+},
+{
+"en": "citizen",
+"pos": "noun",
+"km": "ពលរដ្ឋ",
+"ex": "Every citizen has the right to vote."
+},
+{
+"en": "government",
+"pos": "noun",
+"km": "រដ្ឋាភិបាល",
+"ex": "The government built a new bridge."
+},
+{
+"en": "parliament",
+"pos": "noun",
+"km": "រដ្ឋសភា",
+"ex": "The parliament meets every month."
+},
+{
+"en": "king",
+"pos": "noun",
+"km": "ព្រះមហាក្សត្រ",
+"ex": "The king visited the temple."
+},
+{
+"en": "prime minister",
+"pos": "noun",
+"km": "នាយករដ្ឋមន្ត្រី",
+"ex": "The prime minister spoke on the radio."
+},
+{
+"en": "national anthem",
+"pos": "noun",
+"km": "បទភ្លេងជាតិ",
+"ex": "We sing the national anthem at school."
+},
+{
+"en": "flag",
+"pos": "noun",
+"km": "ទង់ជាតិ",
+"ex": "The national flag is red and blue."
+},
+{
+"en": "currency",
+"pos": "noun",
+"km": "រូបិយប័ណ្ណ",
+"ex": "The currency in Cambodia is the riel."
+},
+{
+"en": "riel",
+"pos": "noun",
+"km": "រៀល",
+"ex": "The price is four thousand riel."
+},
+{
+"en": "dollar",
+"pos": "noun",
+"km": "ដុល្លារ",
+"ex": "The hotel costs twenty dollars a night."
+},
+{
+"en": "economy",
+"pos": "noun",
+"km": "សេដ្ឋកិច្ច",
+"ex": "The economy grows every year."
+},
+{
+"en": "tourism",
+"pos": "noun",
+"km": "ទេសចរណ៍",
+"ex": "Tourism brings money to the country."
+},
+{
+"en": "export",
+"pos": "noun",
+"km": "ការនាំចេញ",
+"ex": "Rice is an important export."
+},
+{
+"en": "import",
+"pos": "noun",
+"km": "ការនាំចូល",
+"ex": "We import cars from other countries."
+},
+{
+"en": "trade",
+"pos": "noun",
+"km": "ពាណិជ្ជកម្ម",
+"ex": "Trade between countries helps the economy."
+},
+{
+"en": "factory",
+"pos": "noun",
+"km": "រោងចក្រ",
+"ex": "The factory makes shoes and clothes."
+},
+{
+"en": "industry",
+"pos": "noun",
+"km": "ឧស្សាហកម្ម",
+"ex": "The garment industry employs many people."
+},
+{
+"en": "agriculture",
+"pos": "noun",
+"km": "កសិកម្ម",
+"ex": "Agriculture is important for rural areas."
+},
+{
+"en": "harvest",
+"pos": "noun",
+"km": "ការប្រមូលផល",
+"ex": "The rice harvest is in November."
+},
+{
+"en": "paddy",
+"pos": "noun",
+"km": "ស្រូវ",
+"ex": "The paddy is green in the rainy season."
+},
+{
+"en": "crop",
+"pos": "noun",
+"km": "ដំណាំ",
+"ex": "The farmer grows many crops."
+},
+{
+"en": "plantation",
+"pos": "noun",
+"km": "ចម្ការ",
+"ex": "The rubber plantation is very large."
+},
+{
+"en": "rubber",
+"pos": "noun",
+"km": "កៅស៊ូ",
+"ex": "Rubber trees grow in the east."
+},
+{
+"en": "cassava",
+"pos": "noun",
+"km": "ដំឡូងមី",
+"ex": "Cassava is planted in many farms."
+},
+{
+"en": "sugar palm",
+"pos": "noun",
+"km": "ត្នោត",
+"ex": "Sugar palm trees are common in Cambodia."
+},
+{
+"en": "palm juice",
+"pos": "noun",
+"km": "ទឹកត្នោត",
+"ex": "Fresh palm juice is sweet and cold."
+},
+{
+"en": "water buffalo",
+"pos": "noun",
+"km": "ក្របី",
+"ex": "The water buffalo rests in the mud."
+},
+{
+"en": "ox",
+"pos": "noun",
+"km": "គោ / ងួរ",
+"ex": "The ox pulls the cart."
+},
+{
+"en": "donkey",
+"pos": "noun",
+"km": "លា",
+"ex": "The donkey carries the bags."
+},
+{
+"en": "horse",
+"pos": "noun",
+"km": "សេះ",
+"ex": "The horse runs fast in the field."
+},
+{
+"en": "deer",
+"pos": "noun",
+"km": "ក្តាន់",
+"ex": "Deer live in the forest."
+},
+{
+"en": "crocodile",
+"pos": "noun",
+"km": "ក្រពើ",
+"ex": "The crocodile hides in the river."
+},
+{
+"en": "turtle",
+"pos": "noun",
+"km": "អណ្តើក",
+"ex": "The turtle moves very slowly."
+},
+{
+"en": "frog",
+"pos": "noun",
+"km": "កង្កែប",
+"ex": "The frog jumps into the pond."
+},
+{
+"en": "butterfly",
+"pos": "noun",
+"km": "មេអំបៅ",
+"ex": "A butterfly sat on the flower."
+},
+{
+"en": "bee",
+"pos": "noun",
+"km": "ឃ្មុំ",
+"ex": "The bee collects honey from flowers."
+},
+{
+"en": "ant",
+"pos": "noun",
+"km": "មົດ",
+"ex": "Ants carry food to their nest."
+},
+{
+"en": "mosquito",
+"pos": "noun",
+"km": " មូស",
+"ex": "Mosquitoes bite at night."
+},
+{
+"en": "spider",
+"pos": "noun",
+"km": "ពពួកអារក្ខ",
+"ex": "The spider made a web in the corner."
+},
+{
+"en": "snail",
+"pos": "noun",
+"km": "ខ្យង",
+"ex": "The snail moves after the rain."
+},
+{
+"en": "shrimp farm",
+"pos": "noun",
+"km": "កសិដ្ឋានបង្គា",
+"ex": "The shrimp farm is near the coast."
+},
+{
+"en": "fish pond",
+"pos": "noun",
+"km": "អាងត្រី",
+"ex": "The fish pond is behind the house."
+},
+{
+"en": "hunting",
+"pos": "noun",
+"km": "ការប្រមាញ់",
+"ex": "Hunting animals is not allowed here."
+},
+{
+"en": "fishing boat",
+"pos": "noun",
+"km": "ទូកនេសាទ",
+"ex": "The fishing boat returned at dawn."
+},
+{
+"en": "sunrise",
+"pos": "noun",
+"km": "ថ្ងៃរះ",
+"ex": "We watched the sunrise over the lake."
+},
+{
+"en": "sunset",
+"pos": "noun",
+"km": "ថ្ងៃលិច",
+"ex": "The sunset was red and orange."
+},
+{
+"en": "dawn",
+"pos": "noun",
+"km": "ព្រឹកព្រលឹម",
+"ex": "The roosters crow at dawn."
+},
+{
+"en": "dusk",
+"pos": "noun",
+"km": "ល្ងាចងងឹត",
+"ex": "The birds fly home at dusk."
+},
+{
+"en": "midnight",
+"pos": "noun",
+"km": "ពាក់កណ្តាលអធ្រាត្រ",
+"ex": "The party ended at midnight."
+},
+{
+"en": "dry season",
+"pos": "noun",
+"km": "រដូវប្រាំង",
+"ex": "The dry season is hot and dusty."
+},
+{
+"en": "wet season",
+"pos": "noun",
+"km": "រដូវវស្សា",
+"ex": "The wet season brings heavy rain."
+},
+{
+"en": "monsoon",
+"pos": "noun",
+"km": "រដូវមូសុង",
+"ex": "The monsoon brings strong winds."
+},
+{
+"en": "temperature",
+"pos": "noun",
+"km": "សីតុណ្ហភាព",
+"ex": "The temperature today is thirty-five degrees."
+},
+{
+"en": "humidity",
+"pos": "noun",
+"km": "សំណើម",
+"ex": "The humidity makes me feel sticky."
+},
+{
+"en": "rainbow",
+"pos": "noun",
+"km": "មេឃល្អ",
+"ex": "A rainbow appeared after the rain."
+},
+{
+"en": "fog",
+"pos": "noun",
+"km": "អ័ព្ទ",
+"ex": "The morning fog covered the road."
+},
+{
+"en": "ice cube",
+"pos": "noun",
+"km": "គ្រាប់ទឹកកក",
+"ex": "Add an ice cube to the drink."
+},
+{
+"en": "snow",
+"pos": "noun",
+"km": "ព្រិល",
+"ex": "Snow is rare in Cambodia."
+},
+{
+"en": "hail",
+"pos": "noun",
+"km": "ព្រឹល",
+"ex": "Hail fell on the roof last night."
+},
+{
+"en": "earthquake",
+"pos": "noun",
+"km": "ការរញ្ជួយដី",
+"ex": "The earthquake shook the building."
+},
+{
+"en": "volcano",
+"pos": "noun",
+"km": "ភ្នំភ្លើង",
+"ex": "The volcano is not active now."
+},
+{
+"en": "desert",
+"pos": "noun",
+"km": "វាលខ្សាច់",
+"ex": "The desert is very hot during the day."
+},
+{
+"en": "jungle",
+"pos": "noun",
+"km": "ព្រៃស",
+"ex": "The jungle is full of wild animals."
+},
+{
+"en": "swamp",
+"pos": "noun",
+"km": "ព្រៃភក់",
+"ex": "The swamp is dangerous to walk in."
+},
+{
+"en": "pond",
+"pos": "noun",
+"km": "ស្រះ",
+"ex": "Ducks swim in the pond."
+},
+{
+"en": "stream",
+"pos": "noun",
+"km": "ស្ទឹង",
+"ex": "The stream is clear and cool."
+},
+{
+"en": "well",
+"pos": "noun",
+"km": "អណ្តូង",
+"ex": "We get water from the well."
+},
+{
+"en": "spring",
+"pos": "noun",
+"km": "ប្រភពទឹក",
+"ex": "Clean water comes from the spring."
+},
+{
+"en": "sand",
+"pos": "noun",
+"km": "ខ្សាច់",
+"ex": "Children play in the sand."
+},
+{
+"en": "stone",
+"pos": "noun",
+"km": "ថ្ម",
+"ex": "Put the stone on the paper to keep it flat."
+},
+{
+"en": "rock",
+"pos": "noun",
+"km": "ផ្ទាំងថ្ម",
+"ex": "The big rock is near the river."
+},
+{
+"en": "mud",
+"pos": "noun",
+"km": "ភក់",
+"ex": "My shoes are covered in mud."
+},
+{
+"en": "clay",
+"pos": "noun",
+"km": "ដីឥដ្ឋ",
+"ex": "They make pots from clay."
+},
+{
+"en": "iron ore",
+"pos": "noun",
+"km": "ដែកដុំ",
+"ex": "Iron ore is mined in the mountains."
+},
+{
+"en": "gold",
+"pos": "noun",
+"km": "មាស",
+"ex": "The ring is made of gold."
+},
+{
+"en": "silver",
+"pos": "noun",
+"km": "ប្រាក់ / ប្រាក់ក្រដាស",
+"ex": "The necklace is silver."
+},
+{
+"en": "diamond",
+"pos": "noun",
+"km": "ពេជ្រ",
+"ex": "The diamond shines in the light."
+},
+{
+"en": "jewelry",
+"pos": "noun",
+"km": "គ្រឿងអលង្ការ",
+"ex": "She wears gold jewelry at weddings."
+},
+{
+"en": "necklace",
+"pos": "noun",
+"km": "ខ្សែកកដៃ",
+"ex": "She wears a beautiful necklace."
+},
+{
+"en": "ring",
+"pos": "noun",
+"km": "ចិញ្ចៀន",
+"ex": "He gave her a gold ring."
+},
+{
+"en": "bracelet",
+"pos": "noun",
+"km": "ខ្សែដៃ",
+"ex": "She wears a silver bracelet."
+},
+{
+"en": "Koh Kong",
+"pos": "noun",
+"km": "កោះកុង",
+"ex": "Koh Kong is near the Thai border."
+},
+{
+"en": "Pailin",
+"pos": "noun",
+"km": "ប៉ៃលិន",
+"ex": "Pailin is famous for gems."
+},
+{
+"en": "Takeo",
+"pos": "noun",
+"km": "តាកែវ",
+"ex": "Takeo is a rice-growing province."
+},
+{
+"en": "Kampong Cham",
+"pos": "noun",
+"km": "កំពង់ចាម",
+"ex": "Kampong Cham has a long bridge over the river."
+},
+{
+"en": "Kampong Thom",
+"pos": "noun",
+"km": "កំពង់ធំ",
+"ex": "Kampong Thom has the famous Sambor temples."
+},
+{
+"en": "Stung Treng",
+"pos": "noun",
+"km": "ស្ទឹងត្រែង",
+"ex": "Stung Treng is on the Mekong River."
+},
+{
+"en": "Pursat",
+"pos": "noun",
+"km": "ពោធិ៍សាត់",
+"ex": "Pursat is known for fishing and salt."
+},
+{
+"en": "Prey Veng",
+"pos": "noun",
+"km": "ព្រៃវែង",
+"ex": "Prey Veng is a big farming province."
+},
+{
+"en": "Svay Rieng",
+"pos": "noun",
+"km": "ស្វាយរៀង",
+"ex": "Svay Rieng is near the Vietnam border."
+},
+{
+"en": "Kampong Speu",
+"pos": "noun",
+"km": "កំពង់ស្ពឺ",
+"ex": "Kampong Speu has many mountains."
+},
+{
+"en": "Oddar Meanchey",
+"pos": "noun",
+"km": "ឧត្តរមានជ័យ",
+"ex": "Oddar Meanchey has many ancient temples."
+}
+]
